@@ -418,13 +418,13 @@
       --boxcolor:skyblue;
   }
   body{
-      background-color: --bgcolor;
+      background-color: var(--bgcolor);
   }
   .box1{
-      background-color: --boxcolor;
+      background-color: var(--boxcolor);
   }
   .box2{
-      background-color: --boxcolor;
+      background-color: var(--boxcolor);
   }
   ```
   
