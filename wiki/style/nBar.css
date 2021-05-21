@@ -1,0 +1,292 @@
+:root{
+    /* 移动端css变量start */
+    --ph-nBar-height: 100px;/*移动端上方导航栏高度*/
+    --phnBar-bg: #f2f5f7;/*移动端上方导航栏背景*/
+    --phnBar-shadow: 0 10px 50px #ced0d3;/*移动端上方导航栏阴影*/
+    --phnBarButton-sidelen: 50px;/*移动端上方导航栏按钮边长*/
+    --phnBarButton-bdrd: 6px;/*移动端上方导航栏按钮圆角*/
+    --phnBarButton-border: 1px solid rgba(198, 217, 237, 0.3);/*移动端上方导航栏按钮边框*/
+    --phnBarButton-bg: #ffffff;/*移动端上方导航栏按钮背景*/
+    --phnBarButton-shadow: 5px 3px 6px 1px #f2f4f7,/*移动端上方导航栏按钮阴影*/
+                           -5px -3px 6px 1px #fff;
+    --phnBarButton-checked-shadow: 0 0 0 #fff,/*移动端上方导航栏按钮按下阴影*/
+                                   0 0 0 #fff,
+                                   5px 3px 6px 1px #c6d9ed inset,
+                                   -5px -3px 6px 1px #fff inset;
+    --phnBarButton-line-width: 40px;/*移动端上方导航栏按钮线段长度*/
+    --phnBarButton-line-height: 4px;/*移动端上方导航栏按钮线段宽度*/
+    --phnBarButton-line-bdrd: 4px;/*移动端上方导航栏按钮线段圆角*/
+    --phnBarButton-line-bg: #042a41;/*移动端上方导航栏按钮线段颜色*/
+    --ph-Menu-li-lineHeight: 66px;/*移动端一级导航行高*/
+    --ph-Menu-li-fontsize: 18px;/*移动端一级导航字体大小*/
+    --ph-Menu-li-fontweight: 700;/*移动端一级导航字体粗细*/
+    --ph-Menu-li-fontcolor: #042a41;/*移动端一级导航字体颜色*/
+    --ph-Menu-li-border: 1px solid rgba(198, 217, 237, 0.3);/*移动端一级导航边框*/
+    --ph-Menu-li-hover-shadow: 0 0 0 #fff,/*移动端一级导航鼠标悬浮阴影*/
+                               0 15px 20px #c6d9ed inset;
+    --ph-dropDown-li-lineHeight: 30px;/*移动端二级导航行高*/
+    --ph-dropDown-li-fontsize: 10px;/*移动端二级导航字体大小*/
+    --ph-dropDown-li-fontcolor: black;/*移动端二级导航字体颜色*/
+    --ph-dropDown-li-hover-bg: #c6deee;/*移动端二级导航鼠标悬浮背景*/
+    /* 移动端css变量end */
+    /* pc端css变量start */
+    --pc-nBar-bg: #f2f5f7;/*pc端导航栏背景*/
+    --pc-nBar-height: 50px;/*pc端导航栏高度*/
+    --pc-nBar-width:100%;/*pc端导航栏宽度*/
+    --pc-nBar-shadow: 0 10px 50px #ced0d3;/*pc端导航栏阴影*/
+    /* pc端css变量end */
+}
+
+.nBar {
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: var(--ph-nBar-height);
+    background: var(--phnBar-bg);
+    box-shadow: var(--phnBar-shadow);
+}
+
+.nBar input {
+    display: none;
+}
+
+.phnBarButton {
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    width: var(--phnBarButton-sidelen);
+    height: var(--phnBarButton-sidelen);
+    border-radius: var(--phnBarButton-bdrd);
+    border: var(--phnBarButton-border);
+    background: var(--phnBarButton-bg);
+    box-shadow: var(--phnBarButton-shadow);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.phnBarButton::before,
+.phnBarButton::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    width: var(--phnBarButton-line-width);
+    height: var(--phnBarButton-line-height);
+    border-radius: var(--phnBarButton-line-bdrd);
+    background: var(--phnBarButton-line-bg);
+    transition: transform 0.3s ease-out, top 0.3s ease-out 0.3s;
+}
+
+.phnBarButton::before {
+    top: calc(50% - 5px);
+}
+
+.phnBarButton::after {
+    top: calc(50% + 5px);
+}
+
+.Menu {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    opacity: 0;
+    background: inherit;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: all 0.5s ease-out;
+}
+
+.Menu li {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    line-height: var(--ph-Menu-li-lineHeight);
+}
+
+.nBara {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: var(--ph-Menu-li-lineHeight);
+    font-size: var(--ph-Menu-li-fontsize);
+    font-weight: var(--ph-Menu-li-fontweight);
+    text-decoration: none;
+    /* text-align: center;  */
+    color: var(--ph-Menu-li-fontcolor);
+    border : var(--ph-Menu-li-border);
+    /* box-shadow: 0 15px 20px #c6d9ed; */
+    transition: all 0.3s ease-out;
+}
+
+.Menu>li>label {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* left: 20px; */
+    line-height: var(--ph-Menu-li-lineHeight);
+    font-size: var(--ph-Menu-li-fontsize);
+    font-weight: var(--ph-Menu-li-fontweight);
+    color: var(--ph-Menu-li-fontcolor);
+    border: var(--ph-Menu-li-border);
+    /* box-shadow: 0 15px 20px #c6d9ed; */
+    transition: all 0.3s ease-out;
+}
+
+.Menu>li>label::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 20px;
+    top: calc(50% - 10px);
+    background: black;
+    transition: all 0.5s;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+}
+
+.Menu li a {
+    display: block;
+    width: 100%;
+}
+
+.Menu li label:hover {
+    cursor: pointer;
+    box-shadow: var(--ph-Menu-li-hover-shadow);
+}
+
+.nBara:hover {
+    box-shadow: var(--ph-Menu-li-hover-shadow);
+    text-decoration: none;
+}
+
+.dropDown {
+    position: relative;
+    display: none;
+    height: auto;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: all 0.5s;
+}
+
+.dropDown li {
+    position: relative;
+    display: inline;
+    width: 100%;
+    /* height: 0; */
+    /* background-color: gray; */
+    line-height: var(--ph-dropDown-li-lineHeight);
+}
+
+.dropDown li a {
+    text-decoration: none;
+    font-size: var(--ph-dropDown-li-fontsize);
+    color: var(--ph-dropDown-li-fontcolor);
+}
+
+.dropDown li>a:hover {
+    background: var(--ph-dropDown-li-hover-bg);
+}
+/*移动端*/
+@media (max-width: 992px) {
+    .nBar>input:checked+.phnBarButton {
+        box-shadow: var(--phnBarButton-checked-shadow);
+    }
+
+    .nBar>input:checked+.phnBarButton::before {
+        top: calc(50% - 2px);
+        transform: rotate(-45deg);
+        transition: top 0.3s ease-out, transform 0.3s ease-out 0.3s;
+    }
+
+    .nBar>input:checked+.phnBarButton::after {
+        top: calc(50% - 2px);
+        transform: rotate(45deg);
+        transition: top 0.3s ease-out, transform 0.3s ease-out 0.3s;
+    }
+
+    .Menu li>input:checked+label::after {
+        transform: rotate(-90deg);
+    }
+
+    .nBar>input:checked~ul {
+        display: block;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    .Menu li>input:checked~.dropDown {
+        display: block;
+        transform: scaleY(1);
+    }
+    
+}
+/*pc端*/
+@media (min-width: 992px) {
+    .nBar {
+        height: var(--pc-nBar-height);
+        width: var(--pc-nBar-width);
+        background: var(--pc-nBar-bg);
+        box-shadow: var(--pc-nBar-shadow);
+    }
+
+    .nBar>label {
+        display: none;
+    }
+
+    .Menu {
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    .Menu>li {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Menu>li>label {
+        text-align: center;
+        bottom: 0;
+        height: 100%;
+    }
+
+    .Menu>li>label::after {
+        display: none;
+    }
+
+    .nBara {
+        text-align: center;
+    }
+
+    .dropDown {
+        display: block;
+        line-height: 50px;
+        border: 1px solid #f2f5f7;
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: 50% 0;
+        transition: all 0.5s;
+    }
+
+    .dropDown li {
+        border-bottom: 1px solid #f2f5f7;
+    }
+
+    .Menu li>label:hover~.dropDown {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    .dropDown:hover {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}

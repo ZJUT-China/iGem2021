@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0.1vh;
+    box-sizing: border-box;
+}
+body{
+    width: 100vm;
+    position: relative;
+}
