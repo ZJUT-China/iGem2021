@@ -3,7 +3,7 @@
 
 - [1.ToDo](#1todo)
   - [1.1 pages](#11-pages)
-  - [1.2 component](#12-component)
+  - [1.2 components](#12-component)
 - [2.file structure](#2file-structure)
 - [3.member list](#3member-list)
 - [4.team norms](#4team-norms)
@@ -24,7 +24,7 @@
 
 ### 1.1 pages
 
-### 1.2 component
+### 1.2 components
 
 - [ ] landing
 - [ ] loading
