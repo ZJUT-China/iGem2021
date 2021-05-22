@@ -418,6 +418,7 @@
       --boxcolor:skyblue;
   }
   body{
+<<<<<<< HEAD
       background-color: --bgcolor;
   }
   .box1{
@@ -425,6 +426,15 @@
   }
   .box2{
       background-color: --boxcolor;
+=======
+      background-color: var(--bgcolor);
+  }
+  .box1{
+      background-color: var(--boxcolor);
+  }
+  .box2{
+      background-color: var(--boxcolor);
+>>>>>>> bd436fc374fbaf8a3b858fae0fafee2e1b2cbe8b
   }
   ```
   
