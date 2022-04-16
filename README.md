@@ -3,7 +3,11 @@
 
 - [1.ToDo](#1todo)
   - [1.1 pages](#11-pages)
+<<<<<<< HEAD
   - [1.2 components](#12-components)
+=======
+  - [1.2 components](#12-component)
+>>>>>>> 00f9d9056b902c95c2fc935f2fdd48aa854a0493
 - [2.file structure](#2file-structure)
 - [3.member list](#3member-list)
 - [4.team norms](#4team-norms)
