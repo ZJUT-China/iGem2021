@@ -1,0 +1,35 @@
+﻿Q1: Do you have an awareness of kidney transplantation?,,
+answer,quantity,proportion
+"A.    Yes, underwent a kidney transplant before. /Yes, friends or relatives of mine have undergone a kidney transplant in the past.",0,0%
+"B.    Yes, fully understand its principles and techniques.",21,16%
+"C.    Yes, only a little.",96,71%
+D.    Not at all.,18,13%
+,,
+Q2:How much do you know about the rejection reaction?,,
+answer,quantity,proportion
+"A.    Completely, and my career is related to it.",2,2%
+"B.    Very, and I have read relevant literatures.",15,11%
+"C.    A few, heard from TV programs or books",78,58%
+"D.    Not much, only know how to spell it.",29,21%
+E.    Not at all.,11,8%
+,,
+Q3: What is the major factor that may affect your choice of detection techniques?,,
+answer,quantity,proportion
+A.    price,19,14%
+B.convenience,7,5%
+C.accuracy,109,81%
+,,
+Q4: Do you realize how serious the rejection reaction is?,,
+answer,quantity,proportion
+A.    Nothing to worry about.,0,0%
+B.    It will do some harm to people’s health.,24,18%
+C.    It may be truly harmful to patients’ bodies.,34,25%
+D.    It can take people’s lives.,77,57%
+,,
+Q5: Are you looking forward to the technology of detecting whether there is rejection reaction from the patient's urine and blood?,,
+answer,quantity,proportion
+"A.    yes, and I will query relative information frequently and popularize it to others.",27,20%
+"B.    Yes, and I have an interest in it.",59,44%
+"C.    Yes, and I am looking forward to its launch.",44,32%
+"D.    No, nothing changes in my life without it.",4,3%
+"E.    No, please do not design such products.",1,1%

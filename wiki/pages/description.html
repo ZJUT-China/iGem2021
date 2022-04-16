@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Description</span>
+                <h2 class="text-littler text-gray view-x-80">ZJUT-CHINA aims to develop a cell-free biosensor as a new
+                    application for detecting mRNA associated with disease. The DESCRIPTION page mainly describes our
+                    motivation, the description of the whole project and the design of the biosensor.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">2</span>
+                            <span class="text-little text-gray">Why we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Insprition
+                        </div>
+                        <p class="mg-tb-1 text-little"> Biomarkers, or biological markers, are measurable indicators for
+                            certain diseases. By literature reviewing, we learned that the prognosis of some diseases
+                            such as specific cancers, infections resulting from inflammation are closely related with
+                            RNA biomarkers. These findings significantly evoke our interests.
+                        </p>
+                        <p class="mg-tb-1 text-little">Up to date, quantitative real-time PCR is one of the most widely
+                            used and well-established methods for RNA assay. Detection kits developed based on this
+                            method generally comprise of at least four units (RNA extraction, reverse transcription,
+                            amplification and signal output) and time-consuming (2-4 hours). For the development of
+                            detection kits for different diseases, design of primers and fluorescent probes for specific
+                            nucleic acid sequences are required. Due to its tedious, time-consuming and lack of
+                            universality, this technology could not meet the requirements for the rapid and accurate
+                            assay of disease during the COVID-19 pandemic.</p>
+                        <p class="mg-tb-1 text-little">Different from the requirement for rapid and accurate temperature
+                            changes of PCR , the isothermal amplification can be carried out at one temperature. This
+                            technology reduces the requirements of instruments for the detection, thus substantially
+                            increases its applicability. For example, project Rapidemic (Leiden University, 2020)
+                            provided a relatively rapid assay which consists three units: signal amplification with RPA,
+                            reporter generation with linear strand-displacement amplification (LSDA), output of
+                            visualized signal with GQ-catalyzed oxidation.</p>
+                        <p class="mg-tb-1 text-little">Moreover, combination of isothermal amplification with the CRISPR
+                            system will further reduce the assay time to less than 1 hour and further improve improve
+                            the sensitivity and accuracy of the amplification. For example, Project casx (MOSCOW, 2020)
+                            combined RPA with casx proteins. The results can be visualized with strips. However, the
+                            process is still quite complex.</p>
+                        <p class="mg-tb-1 text-little">Currently, low-cost, simple and universal assays for RNA are
+                            badly needed.</p>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">3</span>
+                            <span class="text-little text-gray">What we know</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Description
+                        </div>
+                        <p class="mg-tb-1 text-little">In this year, ZJUT_China team is aiming to develop a new method
+                            to solve the above problems. Through preliminary investigations and communication with
+                            doctors in related fields, we obtained some principles like "from invasive to non-invasive,
+                            from tedious to simple". Therefore, we used blood or urine as testing samples to establish a
+                            biosensor for rapid detection of RNA. Additionally，according to the literature, most RNA
+                            biomarkers are secreted in vitro as exosomes <sup><a class="sourse-order"
+                                    href="#">[1]</a></sup>,
+                            so we wanted to
+                            build a biosensor for
+                            rapid detection of RNA using a cell-free system<sup><a class="sourse-order"
+                                    href="">[2]</a></sup>.
+                        </p>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2">
+                                Cell-Free System
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="../images/description/description_1.svg" data-toggle="modal"
+                                    title="Click to see more clearly" data-target="#modal" alt="figure-1">
+                            </div>
+                            <p class="mg-tb-1 text-little"> Cell-free system based on extracts allow rapid protein
+                                expression. Due to its open reaction conditions, it provides a high degree of
+                                versatility and flexibility, while bypassing time-consuming processes such as bacterial
+                                transformation, clone selection and cell lysis. Simultaneously, it can be more precise
+                                to control the
+                                reaction substrate and reduce the influence of bacteria on protein production. Their
+                                extremely user-friendly and safe processing methods make them equally suitable for
+                                cutting-edge research and student education in academia and biotechnology industry.
+                            </p>
+                            <p class="mg-tb-1 text-little">The cell-free system is composed of three parts: <strong>the
+                                    cell
+                                    extract</strong>, <strong>a reaction mixture</strong>,
+                                and <strong>DNA templates</strong>.<sup><a class="sourse-order" href="">[3]</a></sup>
+                            </p>
+                            <p class="mg-tb-1 text-little"><strong>The cell extract</strong> contains ribosomes, RNA
+                                polymerase, and
+                                other
+                                transcription and translation
+                                accessory proteins.
+                            </p>
+                            <p class="mg-tb-1 text-little"><strong>Reaction mixture</strong> of supplemented cofactors
+                                for protein
+                                synthesis
+                                includes amino acids, nucleotides, salts, polyamines, an energy source, molecular
+                                crowding
+                                agents, metabolic cofactors, buffer, transfer RNAs, and other metabolic additives.
+                            </p>
+                            <p class="mg-tb-1 text-little"><strong>DNA template</strong> supplied to the reaction can be
+                                plasmid DNA or a
+                                linear expression template obtained from PCR.
+                            </p>
+                            <p class="mg-tb-1 text-little">In short, the choice of a cell-free system provides a
+                                suitable
+                                detection environment for our sensors, enabling rapid detection.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="../images/description/description_2.svg" data-toggle="modal"
+                                    title="Click to see more clearly" data-target="#modal" alt="figure-2">
+                            </div>
+                            <p class="mg-tb-1 text-little"> CFS entirely relies on the endogenous
+                                transcription-translation(TXTL) machinery of E. coli employing the core RNA polymerase
+                                and
+                                E. coli transcription factor sigma 70 (σ70). Therefore, we chose a promoter that is
+                                activated by transcriptional factor σ70 called "P70a" as the starting point in our gene
+                                circuits.
+                            </p>
+                            <p class="mg-tb-1 text-little"> Finally, we designed an incoherent feed-forward loop
+                                circuit<sup><a class="sourse-order" href="">[4]</a></sup>, which expresses the deGFP
+                                only when the CRISPR/Cas9 system combined with the
+                                target RNA.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2">
+                                gRNA
+                            </div>
+                            <p class="mg-tb-1 text-little">Based on this, we propose a method to detect different RNAs
+                                efficiently and cheaply by using CRISPR/Cas9 System in combination with the Cell-free
+                                System. In the CRISPR/CAS9 system, gRNA is made up of two parts: crRNA and tracrRNA.
+                                Through base pairing, crRNA binds to tracrRNA to form tracrRNA/crRNA complex, which can
+                                direct Cas9 protein to cut dsDNA at the sequence target site.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" data-toggle="modal" data-target="#modal"
+                                    src="../images/description/description_3.svg" title="Click to see more clearly"
+                                    alt="figure-3" style="width: 100% \9;">
+                            </div>
+                            <p class="mg-tb-1 text-little">In order to facilitate gene editing and related operations,
+                                crRNA and tracrRNA were connected and modified into single-guide RNA (sgRNA) to help
+                                Cas9 protein to cut DNA in a directional way<sup><a class="sourse-order"
+                                        href="">[5]</a></sup>. And on that
+                                basis,we're going to
+                                re-engineer sgRNA to be igRNA that can be responded to by target RNA, the concrete
+                                structure is shown in the design part (design a click here and jump to design).
+                            </p>
+                            <p class="mg-tb-1 text-little">In general, the crRNA of igRNA keeps the loop structure, and
+                                the spacer sequence can not
+                                bind to the target and thus does not have the function of guiding Cas9 protein cleavage.
+                                When igRNA is recognized by target RNA, the loop structure of igRNA opens and spacer
+                                sequence is released, the spacer sequence can be combined with the target to guide the
+                                directional cutting of CAS9 protein<sup><a class="sourse-order" href="">[6]</a></sup>.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-3">
+                            <div class="text-small text-green target-title-2">
+                                New application
+                            </div>
+                            <p class="mg-tb-1 text-little">By introducing the combined igRNA and cas9 into the cell-free
+                                system, the RNA in body fluids can be rapidly and accurately detected. Due to its easy
+                                operation (as simple as the one-pot method), low cost (less than $20 per test), extreme
+                                low RNA leaking risk, and readily design of igRNA for specific target RNA,this program
+                                provides a novel application which meets the urgent needs for non-invasive assays of
+                                current medical services. Intensive efforts have been made in the research diseases with
+                                RNA as Biomarker. Based on the above, this program aims to design specific igRNAs for
+                                various Biomarker with different methods and establish a database. With the database,
+                                auxiliary indexes for early detection or prognosis of numerous diseases can be readily
+                                provided by simply replacing the igRNAs.
+                            </p>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">4</span>
+                            <span class="text-little text-gray">How we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Design
+                        </div>
+                        <section class="target" id="target-2-4">
+                            <div class="text-small text-green target-title-2">
+                                Gene circuit
+                            </div>
+                            <p class="mg-tb-1 text-little">Our gene circuit is mainly composed of three parts: p70a-
+                                σ28, p28a-tetR-ssrA and p28a-tetO-degfp. At the same time, we also made a special
+                                design for sgRNA, which is called igRNA.
+                            </p>
+                            <section class="target" id="target-3-1">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Parts
+                                </div>
+                                <div class="row col-md-12">
+                                    <div class="col-md-4 pull-right col-sm-6 col-xs-6">
+                                        <img class="img-responsive center-block figure"
+                                            src="../images/description/description_4.svg" data-toggle="modal"
+                                            title="Click to see more clearly" data-target="#modal" alt="figure-4">
+                                    </div>
+                                    <p class="mg-b-1 mg-t-0 text-little"><strong>P70a-σ28:</strong> Regulated by the
+                                        transcriptional factor σ70, P70a
+                                        is regarded as a promoter which induces the expression of the transcriptional
+                                        factor
+                                        σ28.
+                                    </p>
+                                </div>
+                                <div class="row col-md-12">
+                                    <div class="col-md-4 pull-right col-sm-6 col-xs-6">
+                                        <img class="img-responsive center-block figure"
+                                            src="../images/description/description_5.svg" data-toggle="modal"
+                                            title="Click to see more clearly" data-target="#modal" alt="figure-5">
+                                    </div>
+                                    <p class="mg-tb-1 text-little"><strong>P28a-tetR-ssrA:</strong> The promoter P28a is
+                                        activated to express the
+                                        inhibitory protein tetR-ssrA under the regulation of the transcriptional factor
+                                        σ28.
+                                    </p>
+                                </div>
+                                <div class="row col-md-12">
+                                    <div class="col-md-4 pull-right col-sm-6 col-xs-6">
+                                        <img class="img-responsive center-block figure"
+                                            src="../images/description/description_6.svg" data-toggle="modal"
+                                            title="Click to see more clearly" data-target="#modal" alt="figure-6">
+                                    </div>
+                                    <p class="mg-tb-1 text-little"><strong>P28a-tetO-degfp:</strong> Under the
+                                        regulation of
+                                        the transcriptional
+                                        factor o28, the promoter P28a can induce the expression of deGFP, but once the
+                                        tetO
+                                        binding site binds to the tetR repressor protein, it will inhibit the expression
+                                        of
+                                        deGFP.
+                                    </p>
+                                </div>
+
+
+                            </section>
+                            <section class="target" id="target-3-2">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Circuit principle
+                                </div>
+                                <div>
+                                    <div class="col-md-8">
+                                        <img class="img-responsive center-block figure"
+                                            src="../images/description/description_2.svg" data-toggle="modal"
+                                            title="Click to see more clearly" data-target="#modal" alt="figure-7">
+                                    </div>
+                                </div>
+                                <p class="mg-tb-1 text-little">We designed an incoherent feedforward circuit <sup><a
+                                            class="sourse-order" href="">[4]</a></sup> in which the transcriptional
+                                    factor σ70 regulates the
+                                    expression of σ28 in a cell-free system,
+                                    and the activated promoter P28a represses tetR-ssrA under the regulation of the
+                                    transcriptional factor σ28, which binds to the tetO site in the downstream gene
+                                    circuit
+                                    to inhibit tetO expression. Therefore, the expression of deGFP gene was inhibited.
+                                </p>
+                                <p class="mg-tb-1 text-little">In addition, to detect RNA biomarkers, we incorporated
+                                    the
+                                    CRISPR/Cas9 system.Cas9 protein can combined with our designed igRNA to form
+                                    igRNA-Cas9
+                                    comple: When the RNA biomarker to be detected is present, igRNA-Cas9 is capable of
+                                    performing the cleavage function, cutting the target gene tetR-ssrA. Simultaneously,
+                                    proteins with ssrA degradation tags are degraded at a certain rate in the Cell-free
+                                    system. In this way, tetR-ssrA inhibition of tetO gene was relieved, deGFP gene
+                                    could be
+                                    expressed normally, and the positive test result was characterized.
+                                </p>
+                            </section>
+                        </section>
+                        <section class="target" id="target-2-5">
+                            <div class="text-small text-green target-title-2">
+                                igRNA
+                            </div>
+                            <p class="mg-tb-1 text-little">"igRNA" refers to the guide RNA that interacts with each
+                                other. When igRNA interacts with a particular small sequence of RNA or long RNA, it
+                                releases the original gRNA recognition sequence that binds to the Cas protein<sup><a
+                                        class="sourse-order" href="">[7]</a></sup>. The
+                                structure of igRNA is shown in the figure.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="../images/description/description_7.svg" data-toggle="modal"
+                                    title="Click to see more clearly" data-target="#modal" alt="figure-8">
+                            </div>
+                            <p class="mg-tb-1 text-little">IgRNA can be divided into four parts: recognition sequence A,
+                                cis-compressed sequence, recognition sequence B and spacer sequence.
+                            </p>
+                            <p class="mg-tb-1 text-little">Recognition sequence A and recognition sequence B are used to
+                                recognize Target RNA, and their sequences are complementary to front part of Target RNA,
+                                while cis-compressed sequence is complementary to a part of spacer sequence. Because of
+                                this design, it can maintain the structure of its loop structure without traget RNA and
+                                can not bind to Cas9 protein. When tragetRNA appears, the structure of the loop is
+                                destroyed, the spacer sequence is opened to bind to Cas9.
+                            </p>
+                            <p class="mg-tb-1 text-little">When the two combine, RNP then has a specific cutting
+                                function. The released spacer sequence can be complementary to one of the dsDNA strands
+                                which is to be cut and perform the cutting function.
+                            </p>
+                            <div class="col-md-8 col-md-offset-2">
+                                <img class="img-responsive center-block figure"
+                                    src="../images/description/description_10.svg" data-toggle="modal"
+                                    title="Click to see more clearly" data-target="#modal" alt="figure-10">
+                            </div>
+                        </section>
+                    </section>
+                    <section class="row footer target" id="target-1-4">
+                        <div class="col-md-12 bg-white">
+                            <div class="col-md-12 pd-0">
+                                <div class="reference mg-t-1 mg-b-4 mg-lr-0">
+                                    <div class="text-big title-big mg-b-1 target-title-1">Reference</div>
+                                    <p class="text-little">
+                                        [1]<span class="sourse">El Fekih R, Hurley J, Tadigotla V,Alghamdi
+                                            A,SrivastavaA, Coticchia C,Choi J, Allos H, Yatim K, Alhaddad J, Eskandari
+                                            S, Chu P, Mihali AB, LapeIT,
+                                            Lima Filho MP, Aoyama BT, Chandraker A, Safa K, Markmann JF, Riella
+                                            LV,FormicaRN, Skog J, Azzi JR. Discovery and Validation of a Urinary Exosome
+                                            mRNASignature for the Diagnosis of Human Kidney Transplant Rejection. J Am
+                                            Soc
+                                            Nephrol. 2021 Mar 3;32(4):994–1004.
+                                            <a class="view" target="_blank"
+                                                href="https://jasn.asnjournals.org/content/32/4/994"
+                                                title="Click to read">Link</a>
+                                        </span>
+
+                                    </p>
+                                    <p class="text-little">
+                                        [2]<span class="sourse">Garamella J, Marshall R, Rustad M,
+                                            Noireaux V. The
+                                            All E.
+                                            coli TX-TL Toolbox2.0: A Platform for Cell-Free Synthetic Biology. ACS Synth
+                                            Biol. 2016 Apr
+                                            15;5(4):344-55.
+                                            <a class="view" target="_blank"
+                                                href="https://pubs.acs.org/doi/10.1021/acssynbio.5b00296"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [3]<span class="sourse">Silverman AD, Karim AS, Jewett MC.
+                                            Cell-free gene
+                                            expression: an expanded
+                                            repertoire of applications. Nat Rev Genet. 2020 Mar;21(3):151-170.
+                                            <a class="view" target="_blank"
+                                                href="https://www.nature.com/articles/s41576-019-0186-3"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [4]<span class="sourse">Marshall R, Noireaux V. Synthetic
+                                            Biology with an
+                                            All E.
+                                            coli TXTL System:
+                                            Quantitative Characterization of Regulatory Elements and Gene Circuits.
+                                            Methods
+                                            Mol Biol. 2018;1772:61-93.
+                                            <a class="view" target="_blank"
+                                                href="https://pubmed.ncbi.nlm.nih.gov/29754223/"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [5]<span class="sourse">Engineered RNA-Interacting CRISPR
+                                            Guide RNAs for
+                                            Genetic
+                                            Sensing and
+                                            Diagnostics.[J]. The CRISPR journal,2020,3(5);
+                                            <a class="view" target="_blank"
+                                                href="https://www.liebertpub.com/doi/10.1089/crispr.2020.0029"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [6]<span class="sourse">Quentin R. V. Ferry,Radostina Lyutova,Tudor A.
+                                            Fulga.
+                                            Rational design of
+                                            inducible CRISPR guide RNAs for de novo assembly of transcriptional
+                                            programs[J].
+                                            Nature Communications,2017,8(1);
+                                            <a class="view" target="_blank"
+                                                href="https://www.nature.com/articles/ncomms14633"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [7]<span class="sourse">Ka-Hei Siu,Wilfred Chen. Riboregulated toehold-gated
+                                            gRNA
+                                            for programmable
+                                            CRISPR–Cas9 function[J]. Nature Chemical Biology,2019,15(3);
+                                            <a class="view" target="_blank"
+                                                href="https://www.nature.com/articles/s41589-018-0186-1"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog modal-lg" aria-hidden="true" role="document"
+                style="top: 50%;transform: translate(0,-50%);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

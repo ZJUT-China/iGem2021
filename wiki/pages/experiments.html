@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <link rel="stylesheet" type="" href="../style/experiments.css">
+    <title>Experiments</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Experiments</span>
+                <h2 class="text-little text-gray view-x-80">This page provides all standardized protocols used in our
+                    experiments, including Plasmid Construction, Transformation, Cas9&gRNA <em>in vitro</em> Experiment,
+                    Cell-free system, and Fluorescence-based Analysis.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 150vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-sm-8 col-md-offset-3 col-sm-offset-3">
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#experiments" aria-controls="experiments" role="tab" data-toggle="tab"
+                                    id="experiments_tab">Experiments</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#protocol" aria-controls="protocol" role="tab" data-toggle="tab"
+                                    id="protocol_tab">Protocol</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content pd-1">
+                            <div class="tab-pane active" role="tabpanel" id="experiments">
+                                <section class="target" id="target-1-1">
+                                    <div class="text-big text-green title-big target-title-1">
+                                        RNA-Biomarker
+                                    </div>
+                                    <section class="target" id="target-2-1">
+                                        <div class="text-small text-green target-title-2">
+                                            Construction of CXCL9 mRNA
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">We constructed a new plasmid which can
+                                            transcribe
+                                            CXCL9 mRNA by using two existing plasmids(igRNA-CXCL9 and pTargetF).We
+                                            designed primers CXCL9-F and CXCL9-R to conduct PCR，clean-up，and eliminate
+                                            templates experiments. Then transformed the plasmid into <em>E. coli</em> DH5α to make
+                                            it self-replication.Then we did a colony PCR using colonies grown on
+                                            resistant plates. We had fundamental success after agarose gel
+                                            electrophoresis and a final success after sequencing.
+                                        </p>
+                                    </section>
+                                </section>
+                                <section class="target" id="target-1-2">
+                                    <div class="text-big text-green title-big target-title-1">
+                                        Recognition Element
+                                    </div>
+                                    <section class="target" id="target-2-2">
+                                        <div class="text-small text-green target-title-2">
+                                            Design and screening of gRNA
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">Based on the target gene(tetR), we
+                                            chose <strong>PAM as CGG and AGG</strong>, then altered the original N20
+                                            (alterable) sequence
+                                            in plasmid pTargetF. We designed primers gRNA-R and gRNA-F(Figure 1) to
+                                            conduct PCR, clean-up, and eliminate templates experiments, then transformed
+                                            the segments into <em>E. coli</em> DH5α to make them self-connect. After that, we
+                                            gained 5 different gRNAs and measured their cleavage activity. In <em>E. coli</em>, we
+                                            electroporated gRNA into cells with spCas9 and tetR plasmids, obtained
+                                            high-activity gRNAs by resistence selection. Simultaneously, we transcripted
+                                            the gRNA <em>in vitro</em> to cut the target segment with cas9, obtained
+                                            high-activity gRNAs by agarose gel electrophoresis.
+                                        </p>
+                                        <div class="bg-yellow col-md-12 pd-1">
+                                            <h2 class=" mg-0"><span class="glyphicon glyphicon-book"></span>Note</h2>
+                                            <hr>
+                                            <section class="text-black">
+                                                <p class="text-little text-black text-left">spCas9(kanamycin
+                                                    resistence), gRNA(spectinomycin resistence), tetR(Ampicillin)</p>
+                                                <p class="text-little text-black">
+                                                    These plasmids have different replicons.</p>
+                                                <div class="">
+                                                    <img class="figure img-responsive center-block"
+                                                        src="../images/experiment_1.png" data-toggle="modal"
+                                                        title="Click to see more clearly" data-target="#modal"
+                                                        alt="figure-1">
+                                                    <span class="text-center center-block">Figure 1 The map of gRNA from
+                                                        SnapGene</span>
+                                                </div>
+                                                <div class="table-responsive text-black">
+                                                    <table class="table table-bordered table-hover mg-tb-1">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>electroporate</td>
+                                                                <td>gRNA+spCas9+tetR</td>
+                                                                <td>resistance screening：Ampicillin</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>electroporate</td>
+                                                                <td>spCas9+tetR</td>
+                                                                <td>resistance screening：Ampicillin</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                            </section>
+                                        </div>
+                                    </section>
+                                    <section class="target" id="target-2-3">
+                                        <div class="text-small text-green target-title-2">
+                                            Design and <em>in vitro</em> transcription of igRNA
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">On the basis of screening gRNA1 with
+                                            high cleavage activity, we added the sequence at the 3 'end to make it
+                                            complementary with the RNA biomarker, and sent the sequence to
+                                            TsingkeBiotechnology for synthesis. Primers with T7 promoters were designed,
+                                            and igRNA transcription templates with T7 promoters were obtained through
+                                            igRNA plasmids. <em>In vitro</em> transcription experiments were conducted according
+                                            to the kit, followed by purification with chloroform or RNA purification
+                                            kit, and the integrity of the bands was verified by agarose gel
+                                            electrophoresis. After confirming the integrity of the strips (no
+                                            degradation), the next step <em>in vitro</em> verification experiment can be carried
+                                            out and stored at -80℃.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">For details, please refer to Protocol:
+                                            <a href="javascript:void(0);" class="view-pdf" data-toggle="modal"
+                                                data-target="#modal"
+                                                data-href="https://2021.igem.org/wiki/images/d/d2/T--ZJUT-China--In_vitro_transcription.pdf">IVT</a>,
+                                            <a href="javascript:void(0);" class="view-pdf " data-toggle="modal"
+                                                data-target="#modal"
+                                                data-href="https://2021.igem.org/wiki/images/9/97/T--ZJUT-China--RNA_purification.pdf">RNA
+                                                purification</a>.</p>
+                                    </section>
+                                    <section class="target" id="target-2-4">
+                                        <div class="text-small text-green target-title-2">
+                                            <em>In vitro</em> validation of igRNA-CXCL9 mRNA Complex (EMSA)
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black"> In order to verify whether igRNA and
+                                            CXCL9 mRNA can have base complementary pairing and bind to Cas9, EMSA
+                                            experiment was carried out. First, the RNA in the -80℃ refrigerator was
+                                            taken out and added into the annealing buffer for annealing, so as to form
+                                            the correct secondary structure. Then，the experimental group and the control
+                                            group were set according to the table. After Cas9 protein was mixed on ice
+                                            for 30min, two pieces of 6% non-denatured polyacrylamide gel were loaded
+                                            samples, and 120V electrophoresis was performed in 4℃ ice storage for 1
+                                            hour. Finally, one was stained with GelRed for nucleic acid and the other
+                                            was stained with Coomash bright blue, and the binding was observed according
+                                            to the bands in the UV light.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">For details, please refer to Protocol:
+                                            <a href="javascript:void(0);" class="view-pdf" data-toggle="modal"
+                                                data-target="#modal"
+                                                data-href="https://2021.igem.org/wiki/images/7/71/T--ZJUT-China--EMSA%28Gel-shift_Assay%29.pdf">EMSA</a>.
+                                        </p>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-hover mg-tb-1">
+                                                <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td>ig</td>
+                                                        <td>CXCL9+ig</td>
+                                                        <td>CXCL9</td>
+                                                        <td>cas9</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Test(cxcl-ig-cas9)</td>
+                                                        <td>-</td>
+                                                        <td>+</td>
+                                                        <td>-</td>
+                                                        <td>+</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Control 1(ig-cas9)</td>
+                                                        <td>+</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td>+</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Control 2(ig)</td>
+                                                        <td>+</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Control 3(cxcl9)</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td>+</td>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Control 4(cas9)</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td>+</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </section>
+                                    <section class="target" id="target-2-5">
+                                        <div class="text-small text-green target-title-2">
+                                            Plasmid construction of a simplified version of spCas9
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">To make the spCas9 plasmid better for
+                                            expression in the cell-free system, we used one-step cloning technique to
+                                            discard unnecessary araC ,LacI and other genes and constructed a simplified
+                                            version of the pCas9 plasmid.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">Considering the difficulty of plasmid
+                                            ligation due to excessive plasmid assembly and low transformation
+                                            efficiency, we chose to synthesize a new plasmid P15A ori-CmR.Then we used
+                                            pCas9 plasmid from laboratory and P15A ori-CmR constructed plasmid spCas9.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">We first designed primers ori-F,
+                                            ori-R, pCas9-F, and pCas-R for the two plasmids to PCR , to conduct
+                                            PCR，clean-up，and eliminate templates experiments.Then,we measured the
+                                            concentration and converted it, using the enzymes cloned in one-step for
+                                            ligation of the fragments.Finally transformed the plasmid into <em>E. coli</em> DH5α
+                                            to culture overnight.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">After the colonies grew, we picked out
+                                            the colonies for colony PCR, and finally we succeeded.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">For details, please refer to Protocol:
+                                            <a href="javascript:void(0);" id="change_p">Plasmid construction</a>.
+                                        </p>
+                                    </section>
+                                    <section class="target" id="target-2-6">
+                                        <div class="text-small text-green target-title-2">
+                                            Electroporation
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">In order to verify whether our
+                                            components can operate normally, we first perform in-bacteria verification,
+                                            and mainly rely on electro-transmission for verification. First, we need to
+                                            prepare BW25113 competent cells with deionized water and store them at -80°C
+                                            for later use. Prepare the P70-σ28-P28-degfp, P70-σ28-P28-tetR and
+                                            P28-tetO-degfp required for our verification.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">Design four sets of
+                                            experiments, as follows.
+                                        </p>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-hover mg-tb-1">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Group</td>
+                                                        <td>design</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Control group</td>
+                                                        <td>BW25113</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>test group 1</td>
+                                                        <td>BW25113+P70-σ28-P28-degfp</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>test group 2</td>
+                                                        <td>BW25113+P28-tetO-degfp</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>test group 3</td>
+                                                        <td>BW25113+P28-tetO-degfp+P70-σ28-P28-tetR</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">Conduct the electroporation experiment
+                                            with a electroporator. After the electroporation is successful, add 970μL of
+                                            LB liquid medium to the electroporation cup, pipette it evenly, transfer it
+                                            to the EP tube, and culture with shaking for 1 hour. Centrifuge, discard 900
+                                            μL of supernatant, resuspend the cells, spread and culture. For details of
+                                            the results, please view the Result：Cas9 group.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">For details, please refer to Protocol:
+                                            <a href="javascript:void(0);" class="view-pdf" data-toggle="modal"
+                                                data-target="#modal"
+                                                data-href="https://2021.igem.org/wiki/images/0/0e/T--ZJUT-China--Electroporation-Transformation_E.coli_BW25113_cells.pdf">Electroporation-Transformation
+                                                <em>E. coli</em> BW25113 cells</a>.
+                                        </p>
+                                    </section>
+                                </section>
+                                <section class="target" id="target-1-3">
+                                    <div class="text-big text-green title-big target-title-1">
+                                        Transducer
+                                    </div>
+                                    <section class="target" id="target-2-7">
+                                        <div class="text-small text-green target-title-2">
+                                            Gene circuits validation
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">All of the plasmids were validated in
+                                            the cell-free system.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">Each cell-free reaction system was
+                                            12μL, including 9μL σ70 reagent and 3μL plasmid template. All experimental
+                                            groups were set up as follows:
+                                        </p>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-hover mg-tb-1">
+                                                <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td>P70-σ28</td>
+                                                        <td>P28-tetR</td>
+                                                        <td>P28-tetR-ssrA</td>
+                                                        <td>P28-tetO-degfp</td>
+                                                        <td>P70-Clpxp</td>
+                                                        <td>purpose</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Test 1</td>
+                                                        <td>2nM</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td>10nM</td>
+                                                        <td>-</td>
+                                                        <td>Verify the effect of σ28</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Test 2</td>
+                                                        <td>2nM</td>
+                                                        <td>5nM</td>
+                                                        <td>-</td>
+                                                        <td>10nM</td>
+                                                        <td>-</td>
+                                                        <td>Verify the effect of tetR</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Test 3</td>
+                                                        <td>2nM</td>
+                                                        <td>-</td>
+                                                        <td>5nM</td>
+                                                        <td>10nM</td>
+                                                        <td>1nM</td>
+                                                        <td>Verify the effect of Clpxp</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Test 4</td>
+                                                        <td>2nM</td>
+                                                        <td>-</td>
+                                                        <td>5nM</td>
+                                                        <td>10nM</td>
+                                                        <td>-</td>
+                                                        <td>Control group</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">Since the total volume of plasmid
+                                            template was only 3μL, the more kinds of plasmids added, the higher the
+                                            concentration of plasmids we needed. Through plasmid extraction, we obtained
+                                            plasmids with a concentration of about 500ng/μL.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">Then we calculated the concentration,
+                                            diluted and mixed each plasmid in equal volume, vortex gently, and add 3μL
+                                            template mixture to the cell-free system. After vortex again, we transfer
+                                            5μL to the two wells of the 96-well V plate preheated at 29℃ for 30 minutes
+                                            in advance. After sealing the film, put it into a microplate for
+                                            fluorescence dynamic detection.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">Detailed analysis of the results
+                                            obtained from the experiment is on the page of Engineering Success.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">For details, please refer to Protocol:
+                                            <a href="javascript:void(0);" class="view-pdf" data-toggle="modal"
+                                                data-target="#modal"
+                                                data-href="https://2021.igem.org/wiki/images/a/a5/T--ZJUT-China--cell-free_system.pdf">Cell-Free
+                                                system</a>.
+                                        </p>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="protocol">
+                                <div class="protocol_container">
+                                    <div class="protocol_item">
+                                        <span class="protocol_title protocol_title_1" data-low="#protocol_1">Plasmid
+                                            Construction</span>
+                                        <div id="protocol_1" class="protocol_list">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/b/b4/T--ZJUT-China--LB_Media.pdf">LB
+                                                        Media</span>
+                                                    <!-- <div class="protocol_list" id="protocol_2">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <span class="protocol_title view-pdf"
+                                                                    data-toggle="modal" data-target="#modal"
+                                                                    data-href="">LB solid Media</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="protocol_title view-pdf" data-toggle="modal"
+                                                                    data-target="#modal" data-href="">LB liquid
+                                                                    Media</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div> -->
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/3/32/T--ZJUT-China--PCR_and_Colony_PCR.pdf">Polymerase
+                                                        Chain Reaction（PCR）&Colony
+                                                        PCR</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/1/19/T--ZJUT-China--Elimination_template_and_PCR_Clean-up.pdf">Elimination
+                                                        template and PCR
+                                                        Clean-up</span>
+                                                    <!-- <div class="protocol_list" id="protocol_3">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <span class="protocol_title view-pdf"
+                                                                    data-toggle="modal" data-target="#modal"
+                                                                    data-href="">Elimination template</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="protocol_title view-pdf" data-toggle="modal"
+                                                                    data-target="#modal" data-href="">PCR
+                                                                    Clean-up</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div> -->
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/8/87/T--ZJUT-China--DNA_Gel_Extraction_.pdf">DNA
+                                                        Gel Extraction</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/2/29/T--ZJUT-China--Agrose_Gel_Electrophoresis.pdf">Agrose
+                                                        Gel Electrophoresis</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/f/f4/T--ZJUT-China--One-Step_Cloning.pdf">One-Step
+                                                        Cloning</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/6/6e/T--ZJUT-China--Preparation_of_chemo-competent_E.coli_KL740_cells.pdf">Preparation
+                                                        of chemo-competent <em>E. coli</em>
+                                                        KL740 cells</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/6/63/T--ZJUT-China--Transformation_of_chemo-competent_E.coli_KL740_cells.pdf">Transformation
+                                                        of
+                                                        chemo-competent
+                                                        <em>E. coli</em> KL740 cells</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/b/bb/T--ZJUT-China--Transformation_of_chemo-competent_E.coli_DH5%CE%B1_cells.pdf">Transformation
+                                                        of
+                                                        chemo-competent
+                                                        <em>E. coli</em> DH5α cells</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/5/56/T--ZJUT-China--Plasmid_microextraction.pdf">Plasmid
+                                                        microextraction</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/3/3a/T--ZJUT-China--The_mass_plasmid_DNA_extraction.pdf">Mass
+                                                        plasmid DNA
+                                                        extraction</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="protocol_item">
+                                        <span class="protocol_title protocol_title_1"
+                                            data-low="#protocol_4">Transformation</span>
+                                        <div id="protocol_4" class="protocol_list">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/4/4a/T--ZJUT-China--Chemical_Trandformation_E.coli_BW25113_cells.pdf">Preparation
+                                                        of chemo-competent
+                                                        <em>E. coli</em> BW25113 cells</span>
+                                                    <!-- <div id="protocol_5" class="protocol_list">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <span class="protocol_title view-pdf" data-toggle="modal" data-target="#modal"
+                                                                data-href="">Preparation of chemo-competent <em>E. coli</em> BW25113 cells </span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="protocol_title view-pdf" data-toggle="modal" data-target="#modal"
+                                                                data-href="">Electroporation</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div> -->
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/0/0e/T--ZJUT-China--Electroporation-Transformation_E.coli_BW25113_cells.pdf">Electroporation-Transformation
+                                                        <em>E. coli</em> BW25113 cells</span>
+                                                    <!-- <div id="protocol_6" class="protocol_list">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <span class="protocol_title view-pdf" data-toggle="modal" data-target="#modal"
+                                                                data-href="">Preparation of electroporational-competent <em>E. coli</em> BW25113 cells</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="protocol_title view-pdf" data-toggle="modal" data-target="#modal"
+                                                                data-href="">Electroporation</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div> -->
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="protocol_item">
+                                        <span class="protocol_title protocol_title_1" data-low="#protocol_7">Cas9&gRNA
+                                            <em>in vitro</em> experiment</span>
+                                        <div id="protocol_7" class="protocol_list">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/d/d2/T--ZJUT-China--In_vitro_transcription.pdf"><em>In
+                                                            vitro</em> transcription</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/9/97/T--ZJUT-China--RNA_purification.pdf">RNA
+                                                        purification</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/2/27/T--ZJUT-China--In_vitro_DNA_digestion_with_Cas9_Nuclease_.pdf"><em>In
+                                                            vitro</em> DNA digestion with
+                                                        Cas9 Nuclease</span>
+                                                </li>
+                                                <li>
+                                                    <span class="protocol_title view-pdf" data-toggle="modal"
+                                                        data-target="#modal"
+                                                        data-href="https://2021.igem.org/wiki/images/7/71/T--ZJUT-China--EMSA%28Gel-shift_Assay%29.pdf">EMSA(Gel-shift
+                                                        Assay)</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="protocol_item">
+                                        <span class="protocol_title view-pdf" data-toggle="modal" data-target="#modal"
+                                            data-href="https://2021.igem.org/wiki/images/a/a5/T--ZJUT-China--cell-free_system.pdf">cell-free
+                                            system</span>
+                                    </div>
+                                    <div class="protocol_item">
+                                        <span class="protocol_title view-pdf" data-toggle="modal" data-target="#modal"
+                                            data-href="https://2021.igem.org/wiki/images/4/4f/T--ZJUT-China--Fluorescence-based_Analysis.pdf">Fluorescence-based
+                                            Analysis</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../js/experiments.js"></script>
+</body>
+
+</html>

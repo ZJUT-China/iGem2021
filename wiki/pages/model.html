@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <link rel="stylesheet" type="" href="../style/proof.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Model</span>
+                <h2 class="text-littler text-gray view-x-80">We built a deterministic gene expression model, which takes
+                    into account the RNA polymerase (RNAp)/ribosome performing transcription/translation on DNA
+                    template/mRNA.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">2</span>
+                            <span class="text-little text-gray">Why we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Abstract
+                        </div>
+                        <p class="mg-tb-1 text-little">To better understand gene expression in a Cell-Free system and to
+                            assist in experimental design, we built a deterministic gene expression model. The model
+                            takes into account the RNA polymerase (RNAp)/ribosome performing transcription/translation
+                            on DNA template/mRNA.
+                        </p>
+                        <p class="mg-tb-1 text-little">Sensitivity analysis of different biochemical parameters was
+                            performed to find the key parameters that lead to saturation of the protein synthesis rate
+                            when the concentration of DNA template is increased. We then used the model to explore a
+                            two-stage transcriptional activation cascade that uses E. coli σ_28 as a transcription
+                            factor, which is a very important part of our gene circuit.
+                        </p>
+                        <p class="mg-tb-1 text-little">Values of the parameters for simulations were either assumed,
+                            derived from the literature or obtained by fitting model to experimental data.
+                        </p>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1 start">
+                            Model
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/c/cd/T--ZJUT-China--model--figure1.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-3">
+                            <span class="center-block"><strong>Figure 1.</strong> (a) Schematic of mRNA and
+                                protein synthesis in a Cell-Free system. Only the species included in the model are
+                                shown.<br>
+                                (b) Equations describing a single transcription unit regulated by
+                                σ<sup>N</sup>.</span>
+                        </div>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2 mg-t-1">
+                                Kinetics of mRNA and protein synthesis
+                            </div>
+                            <section class="target" id="target-3-1">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Reaction
+                                </div>
+                                <p class="mg-tb-1 text-little">The mRNA and protein synthesis in the model comprises
+                                    four basic reactions: DNA transcription, mRNA degradation, mRNA translation, protein
+                                    maturation. Except for protein maturation, all other reactions are described by
+                                    Michaelis-Menten kinetics.
+                                </p>
+                                <h4 class="text-weight-2">DNA transcription</h4>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/7/7c/T--ZJUT-China--model--Eq1.jpg"
+                                        alt="">
+                                </div>
+                                <h4 class="text-weight-2">mRNA degradation</h4>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/d/db/T--ZJUT-China--model--Eq2.jpg"
+                                        alt="">
+                                </div>
+                                <h4 class="text-weight-2">Protein maturation</h4>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/6/61/T--ZJUT-China--model--Eq3.jpg"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <td>Enzyme</td>
+                                                    <td>Substrate</td>
+                                                    <td>Product</td>
+                                                    <td>Michaelis-Menten constant</td>
+                                                    <td>Catalytic rate constant</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>RNA polymerase holoenzyme/ Eσ<sup>N</sup></td>
+                                                    <td>DNA template/ t</td>
+                                                    <td>mRNA/ m</td>
+                                                    <td>K<sub>M,N</sub></td>
+                                                    <td>k<sub>cat,N</sub></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RNase/ X</td>
+                                                    <td>mRNA/ m</td>
+                                                    <td>null</td>
+                                                    <td>k<sub>M,X</sub></td>
+                                                    <td>k<sub>deg,m</sub></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ribosome/ R</td>
+                                                    <td>mRNA/ m</td>
+                                                    <td>Protein/ p</td>
+                                                    <td>k<sub>M,R</sub></td>
+                                                    <td>k<sub>cat,p</sub></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <span class="center-block text-center"><strong>Table 1.</strong> Critical species
+                                        and parameters for DNA transcription, mRNA degradation and mRNA
+                                        translation.</span>
+                                </div>
+                                <h4 class="text-weight-2 mg-tb-1">Why don't we include protein degradation in the model?
+                                </h4>
+                                <p class="mg-tb-1 text-little">The degradation of protein in the Cell-Free system is
+                                    achieved by endogenous ClpXP protease, following a zeroth-order kinetics. CLXP
+                                    recognizes proteins with the degradation tag ssrA and hydrolyzes them. For proteins
+                                    without ssrA degradation tags, it is almost stable in the Cell-Free system. This was
+                                    confirmed by one of our experiments: we added purified eGFP to a Cell-Free system
+                                    and continuously measured its fluorescence intensity.
+                                </p>
+                                <div>
+                                    <div id="line_1"></div>
+                                </div>
+                            </section>
+                            <section class="target" id="target-3-2">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Assumptions and derivations
+                                </div>
+                                <div>
+                                    <ol style="list-style-position: inside;" class="text-green">
+                                        <li><span class="text-black">The Cell-Free system is under quasi-steady state
+                                                for Michaelis-Menten kinetics.</span></li>
+                                        <li><span class="text-black">The substances required for gene expression are in
+                                                unlimited supply.</span></li>
+                                        <li><span class="text-black">The only sigma factor present in the cell extract
+                                                is σ<sup>70</sup></span></li>
+                                        <li><span class="text-black">The concentration of DNA template (t) is lower than
+                                                the concentration of RNAp holoenzyme (Eσ<sup>N</sup>)</span></li>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/b/b1/T--ZJUT-China--model--Eq5.jpg"
+                                                alt="">
+                                        </div>
+                                        <li><span class="text-black">The concentration of synthesized mRNA (m) is larger
+                                                than the concentration of RNase (X).</span></li>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/4/46/T--ZJUT-China--model--Eq6.jpg"
+                                                alt="">
+                                            <span class="text-black">In the latter, k<sub>deg,m</sub>[X] is replaced by
+                                                k<sub>d,m</sub>.</span>
+                                        </div>
+                                        <li><span class="text-black">The concentration of synthesized mRNA (m) is lower
+                                                than the concentration of ribosomes (R<sub>free</sub>).</span></li>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/2/2b/T--ZJUT-China--model--Eq7.jpg"
+                                                alt="">
+                                        </div>
+                                        <li><span class="text-black">The maturation of protein (p<sub>unm</sub>) follows
+                                                a first-order kinetics.</span></li>
+                                    </ol>
+                                </div>
+                                <p class="mg-tb-1 text-little">The maturation time of deGFP has been well
+                                    determined<sup><a class="sourse-order" href="">[1]</a></sup>.
+                                    For simplicity, we assume that the maturation of the protein follows a first-order
+                                    kinetics.
+                                </p>
+                            </section>
+                            <section class="target" id="target-3-3">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Equations
+                                </div>
+                                <p class="mg-tb-1 text-little">With these assumptions, the kinetics of mRNA and protein
+                                    synthesis is described as following:
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/8/83/T--ZJUT-China--model--Eq8.jpg"
+                                        alt="">
+                                </div>
+                            </section>
+                        </section>
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Conservation of sigma factors, core RNAp and ribosome
+                            </div>
+                            <section class="target" id="target-3-4">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3 mg-tb-1">
+                                    Species
+                                </div>
+                                <h4 class="text-weight-2">Sigma factor</h4>
+                                <p class="mg-tb-1 text-little">Every sigma factor has two forms: free (\(σ_{free}^N\))
+                                    or complexed with core RNAp (\({E\sigma}^N\)).
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/9/9c/T--ZJUT-China--model--Eq10.jpg"
+                                        alt="">
+                                </div>
+                                <h4 class="text-weight-2">Core RNAp</h4>
+                                <p class="mg-tb-1 text-little">In the presence of a single sigma factor species, core
+                                    RNAp has three forms: free (\(E_{free}\)), complexed with sigma factor
+                                    (\({E\sigma}^N\)) or
+                                    performing transcription on DNA template (\(E_{tx}\)).
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/c/c8/T--ZJUT-China--model--Eq9.jpg"
+                                        alt="">
+                                </div>
+                                <h4 class="text-weight-2">Ribosome</h4>
+                                <p class="mg-tb-1 text-little">Ribosome exists in two forms: free (\(R_{free}\)) or
+                                    performing translation on mRNA (\(R_{tl}\)).
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/b/b2/T--ZJUT-China--model--Eq11.jpg"
+                                        alt="">
+                                </div>
+                            </section>
+                            <section class="target" id="target-3-5">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3 mg-tb-1">
+                                    Assumptions And Derivations
+                                </div>
+                                <div>
+                                    <ol style="list-style-position: inside;" class="text-green">
+                                        <li><span class="text-black">The concentrations of transcription and
+                                                translation machinery remain constant.</span></li>
+                                        <p class="mg-tb-1 text-little text-black">This is the prerequisite for building
+                                            conservation equations for sigma factor, core RNA polymerase and ribosome.
+                                        </p>
+                                        <li><span class="text-black">The binding between sigma factor and core RNAp
+                                                is a fast biochemical reaction.</span></li>
+                                        <p class="mg-tb-1 text-little text-black">This keeps the following biochemical
+                                            reaction in
+                                            equilibrium with the dissociation constant \(K_N\) all the time.
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/0/08/T--ZJUT-China--model--Eq12.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">Thus, the concentration of RNAp
+                                            holoenzyme is found to be
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/3/3d/T--ZJUT-China--model--Eq13.jpg"
+                                                alt="">
+                                        </div>
+                                        <li><span class="text-black">The length of the transcribed gene is \(L_m\).</li>
+                                        <li><span class="text-black">The core RNAp which performing transcription on DNA
+                                                template moves forward along the DNA template at a constant rate
+                                                (TX).</span></li>
+                                        <p class="mg-tb-1 text-little text-black">The rate of mRNA synthesis is given by
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/e/e2/T--ZJUT-China--model--Eq14.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">which indicates that the total number
+                                            of bases per second that core RNA polymerase moves along the DNA template is
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/c/cd/T--ZJUT-China--model--Eq15.jpg"
+                                                alt="">
+                                        </div>
+                                        <li><span class="text-black">Dividing this equation by the elongation rate
+                                                constant of core RNAp (TX), we obtain the concentration of the core RNA
+                                                polymerase that is synthesizing the mRNA:</span></li>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/7/7d/T--ZJUT-China--model--Eq16.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="mg-tb-1 text-little text-black">Considering the RNA polymerase bound
+                                            to the promoter, the concentration of core RNAp performing transcription on
+                                            DNA template (\(E_{tx}\)) is given by
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/a/ae/T--ZJUT-China--model--Eq17.jpg"
+                                                alt="">
+                                        </div>
+                                        <li><span class="text-black"> The ribosome which performing translation on mRNA
+                                                moves forward along the mRNA at a constant rate (TL).</span></li>
+                                        <p class="mg-tb-1 text-little text-black">Proceed in a similar manner, the
+                                            concentration of ribosome performing translation on mRNA (\(R_{tl}\)) is
+                                            given
+                                            by
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/e/e3/T--ZJUT-China--model--Eq18.jpg"
+                                                alt="">
+                                        </div>
+                                    </ol>
+                                </div>
+                                <h4 class="text-weight-2">Sigma factor</h4>
+                                <p class="mg-tb-1 text-little">Every sigma factor has two forms: free (\(σ_{free}^N\))
+                                    or complexed with core RNAp (\({E\sigma}^N\)).
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/9/9c/T--ZJUT-China--model--Eq10.jpg"
+                                        alt="">
+                                </div>
+                                <h4 class="text-weight-2">Core RNAp</h4>
+                                <p class="mg-tb-1 text-little">In the presence of a single sigma factor species, core
+                                    RNAp has three forms: free (\(E_{free}\)), complexed with sigma factor
+                                    (\({E\sigma}^N\)) or
+                                    performing transcription on DNA template (\(E_{tx}\)).
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/c/c8/T--ZJUT-China--model--Eq9.jpg"
+                                        alt="">
+                                </div>
+                                <h4 class="text-weight-2">Ribosome</h4>
+                                <p class="mg-tb-1 text-little">Ribosome exists in two forms: free (\(R_{free}\)) or
+                                    performing translation on mRNA (\(R_{tl}\)).
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/b/b2/T--ZJUT-China--model--Eq11.jpg"
+                                        alt="">
+                                </div>
+                            </section>
+                            <section class="target" id="target-3-6">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3 mg-tb-1">
+                                    Equations
+                                </div>
+                                <p class="mg-tb-1 text-little">Using these assumptions, we get the conservation
+                                    equations for core RNAp and ribosomes:
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block"
+                                        src="https://2021.igem.org/wiki/images/d/d8/T--ZJUT-China--model--Eq19.jpg"
+                                        alt="">
+                                </div>
+                            </section>
+                        </section>
+                        <section class="target" id="target-2-3">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Single transcription unit
+                            </div>
+                            <p class="mg-tb-1 text-little">Combining the above two parts of equations, we obtained
+                                the set of equations describing the gene expression of a single transcription unit:
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block"
+                                    src="https://2021.igem.org/wiki/images/4/40/T--ZJUT-China--model--Eq20.jpg" alt="">
+                            </div>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <div class="text-big text-green title-big target-title-1">
+                            Sensitivity analysis
+                        </div>
+                        <p class="mg-tb-1 text-little">Since the model takes into account the consumption of RNA
+                            polymerase and ribosomes during transcription and translation, there is a theoretical
+                            maximum for the rate of protein synthesis. To find the key parameters that limit the maximum
+                            rate of protein synthesis as the concentration of DNA template increases, we tested the
+                            sensitivity of the model by varying the value of each biochemical parameter. Values of
+                            biochemical parameters used in the simulations were obtained from literature.
+                        </p>
+                        <div>
+                            <select class="group" name="question" title="Click to choose"
+                                style="cursor: pointer;width: 100px;">
+                                <option value="0">σ<sup>N</sup></option>
+                                <option value="1">E<sub>total</sub></option>
+                                <option value="2">K<sub>M,N</sub></option>
+                                <option value="3">k<sub>cat,N</sub></option>
+                                <option value="4">k<sub>d,m</sub></option>
+                                <option value="5">R<sub>total</sub></option>
+                                <option value="6">K<sub>M,R</sub></option>
+                                <option value="7">k<sub>cat,p</sub></option>
+                                <option value="8">k<sub>mat,p</sub></option>
+                            </select>
+                            <div id="line-group"></div>
+                            <span class="center-block"><strong>Figure 3.</strong>Parameter sensitivity analysis of the
+                                model. The maximum rate of protein synthesis is almost linearly related to the
+                                concentration of DNA template before the Cell-Free system saturates for all the
+                                cases.</span>
+                        </div>
+                        <p class="mg-tb-1 text-little">In our simulations, high sensitivity is observed only when
+                            varying \(k_{cat,N}\), \(k_{d,m}\), \(R_{total}\), and \(k_{cat,p}\). However, changes in
+                            \(k_{cat,N}\) and
+                            \(k_{d,m}\) only affect how quickly the output saturates as the DNA template concentration
+                            increases, and do not increase or decrease the value at which the output saturates.
+                            Therefore, we consider \(R_{total}\) and \(k_{cat,p}\) as the key parameters that leading to
+                            the
+                            saturation of protein synthesis rate, especially \(R_{total}\).
+                        </p>
+                        <div>
+                            <img class="img-responsive center-block"
+                                src="https://2021.igem.org/wiki/images/1/1f/T--ZJUT-China--model--table2.jpg" alt="">
+                            <span class="center-block"><strong>Table 2.</strong>Values of biochemical
+                                parameters adopted for sensitivity analysis. <strong>The redetermination of</strong>
+                                \(k_{cat,p}\) and
+                                \(R_{total}\) will be discussed later.</span>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-4">
+                        <div class="text-big text-green title-big target-title-1">
+                            Two-stage transcriptional activation cascade
+                        </div>
+                        <p class="mg-tb-1 text-little">Based on the model of single transcription unit, we explored the
+                            performance of the two-stage transcriptional activation cascade. The two-stage
+                            transcriptional activation cascade consists of two transcription units, one of which encodes
+                            an alternative sigma factor required to activate the other.
+                        </p>
+                        <div class="mg-tb-1">
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/2/2d/T--ZJUT-China--model--figure4.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-4">
+                            <span class="center-block"><strong>Figure 4.</strong> Schematic of a two-stage
+                                transcriptional activation cascade using E. coli \(\sigma^{28}\). The untranslated
+                                region of both single transcription units is UTR1.
+                            </span>
+                        </div>
+                        <p class="mg-tb-1 text-little">The system of equations describing the cascade P70a
+                            -σ28\(\rightarrow\)P28-deGFP is as follows:
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-10 col-xs-10 col-xs-offset-1 col-md-offset-1">
+                                <img class="img-responsive center-block"
+                                    src="https://2021.igem.org/wiki/images/5/5a/T--ZJUT-China--model--Eq21.jpg"
+                                    alt="figure-6">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-5">
+                        <div class="text-big text-green title-big target-title-1">
+                            Parameter determination
+                        </div>
+                        <p class="text-little mg-tb-1">
+                            RNA biomarkers can be detected by our Cell-Free biosensor. The measurements, experiments,
+                            and hardware testing demonstrated that with no RNA biomarker, the fluorescence intensity was
+                            significantly lower than with the RNA biomarker that was present. As a result, we have
+                            demonstrated the feasibility of our concept. Moreover, the RNA biomarker concentration is
+                            related to the sensitivity of the biosensor, but we do not have much more time to test this
+                            attribute, so we put forward a plan for the next step.
+                        </p>
+                        <section class="target" id="target-2-4">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Single transcription unit
+                            </div>
+                            <p class="text-little mg-t-1">
+                                Currently, the strongest expression of single transcription unit in the Cell-Free system
+                                is delivered by combining the strongest promoter (P70a) with the strongest UTR (UTR1)
+                                reported so far. P70b and P70c are derived from the P70a mutation (strengths: P70a >
+                                P70b > P70c), and UTR2 and UTR3 are derived from the UTR1 mutation (strengths: UTR1 >
+                                UTR2 > UTR3)<sup><a class="sourse-order" href="#">[2]</a></sup>. By changing the
+                                combination of promoter and UTR, the expression of
+                                single transcription unit can be adjusted to appropriate strength. The catalytic rate
+                                constant of these promoters and UTRs has been well determined<sup><a
+                                        class="sourse-order" href="#">[1]</a></sup>.
+                            </p>
+                            <p class="text-little mg-t-1">
+                                Before characterizing P70a-deGFP in the laboratory, simulations were performed using the
+                                values of parameters from reference<sup><a class="sourse-order" href="#">[1]</a></sup>.
+                            </p>
+                            <div class="row col-md-12">
+                                <div id="line_2"></div>
+                                <span class="center-block"><strong>Figure 5.</strong>Simulation vs our data. By
+                                    refitting the model to our experimental data to redetermined \(k_{cat,p}\) and
+                                    \(R_{total}\), the simulations match to the data well. The concentration of plasmid
+                                    is
+                                    5nM</span>
+                            </div>
+                            <p class="text-little mg-t-1">
+                                However, a large deviation between experiments and simulations was observed. We
+                                attribute this deviation to differences in the concentrations of transcription and
+                                translation machinery in the Cell-Free system.
+                            </p>
+                            <p class="text-little mg-t-1">
+                                Sensitivity analysis showed that the model is most sensitive to \(k_{cat,p}\) and
+                                \(R_{total}\).
+                                So, we redetermined \(k_{cat,p}\) and \(R_{total}\) by fitting the model to our
+                                experimental
+                                data and the data from The all E. coli TXTL Toolbox 2.0<sup><a class="sourse-order"
+                                        href="#">[2]</a></sup>. We found that the total
+                                concentration of ribosomes and the catalytic rate constant of UTR1 were about twice as
+                                high as in the literature.
+                            </p>
+                            <p class="text-little mg-t-1">
+                                We also characterized the other eight combinations. We then fit the model to our
+                                experimental data and redetermined \(k_{cat,p}\) rates for UTR2 and UTR3, respectively.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block"
+                                    src="https://2021.igem.org/wiki/images/0/01/T--ZJUT-China--model--table3.jpg"
+                                    alt="figure-6">
+                                <span class="center-block"><strong>Table 3.</strong>Comparison of the best numerical fit
+                                    values of k_{cat,p} and R_{total}. The fit values were obtained by fitting the model
+                                    to different data.</span>
+                            </div>
+                            <div class="row">
+                                <div id="line_3"></div>
+                                <span class="center-block"><strong>Figure 6.</strong> Kinetics of nine combinations of
+                                    promoters and UTRs. The concentration of plasmid is 5nM.</span>
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-5">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Two-stage transcriptional activation cascade
+                            </div>
+                            <p class="text-little mg-tb-1">
+                                This transcriptional activation cascade consists of two single transcription units:
+                                P70a-σ28 encoding for the transcriptional factor and P28-deGFP encoding for the reporter
+                                protein.
+                                To explore the performance of the cascade, we made the following assumptions:
+                            </p>
+                            <div>
+                                <div>
+                                    <ol style="list-style-position: inside;" class="text-green">
+                                        <li><span class="text-black">\(K_{28}=0.74\ nM\)</span></li>
+                                        <p class="mg-tb-1 text-little text-black">The dissociation constant for
+                                            \(\sigma^{28}\) binding to core RNAp was obtained from reference<sup><a
+                                                    class="sourse-order" href="#">[3]</a></sup>.
+                                        </p>
+                                        <li><span class="text-black">\(K_{M,28}=1\ nM\)</span></li>
+                                        <p class="mg-tb-1 text-little text-black">Because the model is insensitive to
+                                            \(K_{M,28}\), we set the value of \(K_{M,28}\) to be the same as
+                                            \(K_{M,70}\).
+                                        </p>
+                                        <li><span class="text-black">\(L_{m_{\sigma^{28}}}=800\ bp\)</li>
+                                        <p class="mg-tb-1 text-little text-black">The length of transcribed gene of
+                                            \(\sigma^{28}\) is similar to that of deGFP, 800 bp was taken for
+                                            simplicity.
+                                        </p>
+                                        <li><span class="text-black">\(k_{cat,28}=0.021\ s^{-1}\)</li>
+                                        <p class="mg-tb-1 text-little text-black">For optimal expression, P70a-σ28 and
+                                            P28a-deGFP should be set at 0.5 nM and 15 nM, respectively. Due to the low
+                                            concentration, we assume that P70a-σ28 provides sufficient σ28 without
+                                            depleting the transcriptional and translational machinery. Thus, the maximum
+                                            protein synthesis rate of P28-deGFP saturates at 15 nM.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">P70-deGFP reaches its maximal protein
+                                            synthesis rate at 5 nM. So, we consider the value of \(k_{cat,28}\) to be
+                                            about
+                                            one-third of \(k_{cat,70}\):
+                                        </p>
+                                        <div>
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/0/08/T--ZJUT-China--model--Eq22.jpg"
+                                                alt="">
+                                        </div>
+                                        <li><span class="text-black">The value of \(k_{mat,\sigma^{28}}\) should be
+                                                significantly larger than \(k_{mat,deGFP}\).</span></li>
+                                        <p class="mg-tb-1 text-little text-black">The \(\sigma^{28}\) is necessary for
+                                            flagellar biosynthesis and chemotaxis in many bacteria. A slow maturation
+                                            rate will prevent efficient regulation of gene expression.
+                                        </p>
+                                        <p class="mg-tb-1 text-little text-black">By fitting the model to the data from
+                                            The all E. coli TXTL Toolbox 2.0, the protein maturation rate constant
+                                            \(k_{mat,\sigma^{28}}\) is found to be 0.16 s-1 (two hundred times faster
+                                            than
+                                            deGFP), which confirms our assumption.
+                                        </p>
+                                        <div class="mg-tb-1">
+                                            <img class="img-responsive center-block"
+                                                src="https://2021.igem.org/wiki/images/4/4e/T--ZJUT-China--model--table4.jpg"
+                                                alt="">
+                                            <span class="center-block text-black"><strong>Table 4.</strong>Values of
+                                                parameters
+                                                adopted in the simulation of two-stage transcriptional activation
+                                                cascade.</span>
+                                        </div>
+                                        <div class="mg-tb-1">
+                                            <div id="line_4"></div>
+                                            <span class="center-block text-black text-center"><strong>Figure 7.</strong>
+                                                Simulation
+                                                vs data.</span>
+                                        </div>
+                                </div>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-6">
+                        <div class="text-big text-green title-big target-title-1">
+                            Parameter determination
+                        </div>
+                        <p class="mg-tb-1 text-little">To ensure that our gene circuit function properly in a cell-free
+                            system, we need to set each plasmid at the appropriate concentration. The saturation
+                            concentration of P28-deGFP in the cell-free system is 15 nM. In our experiments, we set it
+                            to 10nM in order not to affect the expression effect of other plasmids. To achieve optimal
+                            deGFP expression, we need to redetermine the concentration of P70a-σ28. By varying the
+                            concentration of P70a-σ28, we simulated the expression of deGFP and found that deGFP could
+                            be maximally expressed when P70a-σ28 was at 2 nM. Eventually, we characterized this cascade
+                            in the laboratory and found that the data matched the simulation well.
+                        </p>
+                        <div>
+                            <div id="line_5"></div>
+                            <span class="center-block text-center"><strong>Figure 8.</strong>Expression of P28a-deGFP at
+                                different P70a-σ28 concentrations. deGFP had the highest expression when P70a-σ28 was 2
+                                nM.</span>
+                        </div>
+                        <div>
+                            <div id="line_6"></div>
+                            <span class="center-block text-center"><strong>Figure 9.</strong>Simulation vs data.
+                                P70a-σ28 was set at 2nM and P28a-deGFP was set at 10nM.</span>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-7">
+                        <div class="text-big text-green title-big target-title-1">
+                            Discussion
+                        </div>
+                        <p class="mg-tb-1 text-little">Our model describes gene expression of a single transcription
+                            unit in a Cell-Free system and explores the performance of a two-stage transcriptional
+                            activation cascade. By performing sensitivity analysis of the model and fitting the model to
+                            experimental data, we are convinced that the maximum rate of protein synthesis in Cell-Free
+                            systems is mainly limited by the translation process.
+                        </p>
+                        <p class="mg-tb-1 text-little">By fitting the model to our experimental data, we redetermined
+                            the strength of UTR1, UTR2 and UTR3. In addition, we provide reference values for the
+                            strength of P28 and the maturation rate of σ28. We hope that this model will provide
+                            experimental design considerations for future iGEM teams who will use Cell-Free system in
+                            their projects.
+                        </p>
+                    </section>
+                    <section class="row footer target" id="target-1-8">
+                        <div class="col-md-12 bg-white">
+                            <div class="col-md-12 pd-0">
+                                <div class="reference mg-t-1 mg-b-4 mg-lr-0">
+                                    <div class="text-big title-big mg-b-1 target-title-1">Reference</div>
+                                    <p class="text-little">
+                                        [1]<span class="sourse">Quantitative modeling of transcription and translation
+                                            of an all-E. coli Cell-Free system
+                                            <a class="view" target="_blank"
+                                                href="https://www.nature.com/articles/s41598-019-48468-8"
+                                                title="Click to read">Link</a>
+                                        </span>
+
+                                    </p>
+                                    <p class="text-little">
+                                        [2]<span class="sourse">The All E. coli TX-TL Toolbox 2.0: A Platform for
+                                            Cell-Free Synthetic Biology
+                                            <a class="view" target="_blank"
+                                                href="https://pubs.acs.org/doi/10.1021/acssynbio.5b00296"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [3]<span class="sourse">Mauri M, Klumpp S. A model for sigma factor competition
+                                            in bacterial cells[J]. PLoS computational biology, 2014, 10(10): e1003845.
+                                            <a class="view" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/25299042/
+                                                " title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog modal-lg" aria-hidden="true" role="document"
+                style="top: 50%;transform: translate(0,-50%);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts-more.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/offline-exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/export-data.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/data.js"></script>
+    <script src="../js//mainHighcharts.js"></script>
+    <script src="https://2021.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="../js/model.js"></script>
+</body>
+
+</html>

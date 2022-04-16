@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Collaboration</span>
+                <h2 class="text-littler text-gray view-x-80">We attach great importance to the communication with
+                    companies and iGEM teams. In this webpage, you can see that we have carried out in-depth cooperation
+                    in project installation, experimental design, wiki construction, etc. These cooperation have
+                    promoted and improved our projects.
+                </h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">3</span>
+                            <span class="text-little text-gray">What we know</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            BUCT
+                        </div>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Collective Course
+                            </div>
+                            <p class="mg-tb-1 text-little">To help team members better understand the iGEM, ZJUT-China
+                                and BUCT-China invited Xiaoling Tang, the director of the Zhejiang university of
+                                technology institute of college of biotechnology and bioengineering.
+                            </p>
+                            <div class="row mg-tb-1">
+                                <img class="img-responsive center-block figure col-md-6"
+                                    src="https://2021.igem.org/wiki/images/0/0c/T--ZJUT-China--collaboration_1.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <img class="img-responsive center-block figure col-md-6"
+                                    src="https://2021.igem.org/wiki/images/d/d1/T--ZJUT-China--collaboration_2.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                            <p class="mg-tb-1 text-little">Professor Tang has extensive coaching experience, who had led
+                                a team to be awarded the gold prize. She introduced us the composition of iGEM website
+                                and the competition schedule, highlighting the emphases of each group. We benefited a
+                                lot from this course.
+                            </p>
+                            <div class="row col-md-12 mg-b-1">
+                                <img class="img-responsive center-block figure col-md-4"
+                                    src="https://2021.igem.org/wiki/images/8/88/T--ZJUT-China--collaboration_3.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <img class="img-responsive center-block figure col-md-4"
+                                    src="https://2021.igem.org/wiki/images/5/58/T--ZJUT-China--collaboration_4.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <img class="img-responsive center-block figure col-md-4"
+                                    src="https://2021.igem.org/wiki/images/b/ba/T--ZJUT-China--collaboration_5.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Wiki Webinar
+                            </div>
+                            <p class="mg-tb-1 text-little">We conducted a wiki webinar together with BUCT-iGEM. The
+                                webinar covered HTML and CSS basics, and also invited Yi Fan (the dry lab leader of
+                                ZJUT_China_B 2020) to explain the official requirements for wiki pages. The content of
+                                this webinar is a guide for students who are trying to learn web code (HTML and CSS).
+                            </p>
+                            <p class="mg-tb-1 text-little">The webinar is available online.</p>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1">
+                            SYSU-China
+                        </div>
+                        <p class="mg-tb-1 text-little">This summer, we conducted online communication with SYSU-China
+                            team.
+                        </p>
+                        <p class="mg-tb-1 text-little">SYSU-CHINA use semi-rationally designed circRNA molecular
+                            scaffold to colocalize enzymes through the interaction between RNA binding proteins and RNA
+                            aptamers, for a higher rate of muti-enzyme reactions.
+                        </p>
+                        <div class="row col-md-6">
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/b/ba/T--ZJUT-China--collaboration_6.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                            <span class="center-block text-center">RNA designed by ZJUT-China</span>
+                        </div>
+                        <div class="col-md-6 pd-0">
+                            <div class="carousel slide pd-0" data-ride="carousel">
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img class="figure img-responsive"
+                                            src="https://2021.igem.org/wiki/images/b/b2/T--ZJUT-China--collaboration_7.jpg"
+                                            data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                            alt="figure-1">
+                                    </div>
+                                    <div class="item">
+                                        <img class="figure img-responsive"
+                                            src="https://2021.igem.org/wiki/images/7/74/T--ZJUT-China--collaboration_8.jpg"
+                                            data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                            alt="figure-2">
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="center-block text-center">Circrnas designed by SYSU-China </span>
+                        </div>
+                        <p class="mg-tb-1 text-little">Through communication, we found that both of our projects needed
+                            to transcribe RNA in vitro, which we had little experience in. SYSU-China gave us a lot of
+                            suggestions which helped us solved the problem of RNA degradation due to improper operation
+                            after in vitro transcription very well. Meanwhile, in our EMSA validation experiment,
+                            SYSU-China team suggested that we anneal the RNA to form its secondary structure which made
+                            it better to bind to cas9 protein. With their advice, our EMSA experiment was a success!
+                            Thanks for SYSU-China's help in our experiment.
+                        </p>
+                        <p class="mg-tb-1 text-little">We also made some suggestions for the SYSU-China team's RNA
+                            design. Initially, we hoped for more collaboration in the experiment and wanted to
+                            experimentally verify the RNA of SYSU-China. However, we found that the secondary structure
+                            obtained by NUPACK RNA prediction was too complex, and the stem-loop structure formed did
+                            not meet the requirements. In addition, through different software analysis, we found that
+                            SYSU-China RNA had a stem-loop structure that might affect subsequent experiments. In this
+                            regard, SYSU-China took our advice and improved its RNA sequence, and we also helped them
+                            complete the prediction of secondary structure.
+                        </p>
+                        <div class="row col-md-12 mg-tb-1">
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/e/e7/T--ZJUT-China--collaboration_9.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <span class="center-block text-center"> Predicted SYSU-China circRNA1 secondary
+                                    structure by
+                                    using Structure Editor </span>
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/d/d8/T--ZJUT-China--collaboration_11.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <span class="center-block text-center">Predicted circRNA2 secondary structure by using
+                                    RNAfold
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <div class="text-big text-green title-big target-title-1">
+                            Jiangnan Meetup
+                        </div>
+                        <div class="col-md-4 mg-t-1">
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/3/3e/T--ZJUT-China--collaboration_13.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                        </div>
+                        <p class="mg-tb-1 text-little">On May 29th and 30th, we joined in the 2021 China iGEM Online
+                            Meetup led by Jiangnan University, with 42 iGEM teams attended the conference. At the
+                            meeting, we listened to the project reports on four different topics. After the reports
+                            sharing, Jionglin Chen, secretary General of CCiC Executive Committee, gave a speech and
+                            predicted the 8th CCiC Conference to be held in Fudan University this year. Through this
+                            meeting, we had in-depth communication with other teams, and realized the general situation
+                            of CCiC and its development history, the status and role of CCiC in iGEM, and what kind of
+                            support and help each team can get from CCiC.
+                        </p>
+
+                    </section>
+                    <section class="target" id="target-1-4">
+                        <div class="text-big text-green title-big target-title-1">
+                            2021 Hangzhou Meetup
+                        </div>
+                        <p class="mg-tb-1 text-little">On May 29th and 30th, we joined in the 2021 China iGEM Online
+                            Meetup led by Jiangnan University, with 42 iGEM teams attended the conference. At the
+                            meeting, we listened to the project reports on four different topics. After the reports
+                            sharing, Jionglin Chen, secretary General of CCiC Executive Committee, gave a speech and
+                            predicted the 8th CCiC Conference to be held in Fudan University this year. Through this
+                            meeting, we had in-depth communication with other teams, and realized the general situation
+                            of CCiC and its development history, the status and role of CCiC in iGEM, and what kind of
+                            support and help each team can get from CCiC.
+                        </p>
+                        <div class="row col-md-12">
+                            <div class="col-md-4 mg-t-1">
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/c/cf/T--ZJUT-China--collaboration_14.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                            <div class="col-md-4 mg-tb-1">
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/2/2c/T--ZJUT-China--collaboration_15.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-5">
+                        <div class="text-big text-green title-big target-title-1 mg-tb-1">
+                            CRISPR Webinar
+                        </div>
+                        <p class="mg-tb-1 text-little">On September 11, the CRISPR conference led by Tianjin University
+                            was successfully held at Tencent Conference, with 11 iGEM teams from China participating in
+                            the conference. At the meeting, ZJUT - China team and each team had a deep and meaningful
+                            discussion, we also solve some problems of Northeast Forestry University, Lanzhou
+                            University, China Pharmaceutical University and the problems existing in the project for us
+                            put forward some suggestions, give us a profound revelation, and finally by the Tianjin
+                            University students sort out the CRISPR system application guide, to help the follow-up
+                            team.
+                        </p>
+                        <div class="col-md-6 mg-t-1">
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/5/5a/T--ZJUT-China--collaboration_16.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                        </div>
+                        <div class="col-md-6 mg-tb-1">
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/7/73/T--ZJUT-China--collaboration_17.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-6">
+                        <div class="text-big text-green title-big target-title-1">
+                            CCiC
+                        </div>
+                        <p class="mg-tb-1 text-little">From August 27 to 29, we participated in the 8th CCiC Conference
+                            on Synthetic Biology in Asia. The Conference of China iGEMer Community (CCiC) is a national
+                            summit independently initiated by iGEM teams in China. It aims to provide a platform for
+                            participating iGEM teams to share resources and promote mutual learning and communication.
+                            While listening to other excellent university programs, we also showed posters and
+                            promotional videos of our programs. According to the opinions of the judges and the project
+                            sharing of other universities, we received the affirmation of the project from many parties,
+                            and also identified the existing shortcomings of the project. Why cas9 proteins in
+                            CRISPR/Cas system are used instead of cas12 and Cas13 proteins, which are more suitable for
+                            detection, and how to solve the commonly missed target problems of Cas9.This will be the
+                            part we need to improve in the subsequent experimental design. During this conference, we
+                            were fortunate to communicate with other teams, such as BIT (Beijing Institute of Technology
+                            team), to solicit further cooperation.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 mg-t-1">
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/6/6a/T--ZJUT-China--collaboration_18.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                            <div class="col-md-6 mg-t-1">
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/5/59/T--ZJUT-China--collaboration_19.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="target" id="target-1-7">
+                        <div class="text-big text-green title-big target-title-1">
+                            Genscript
+                        </div>
+                        <p class="mg-tb-1 text-little">September 8th, we were lucky to invite a technical consultant
+                            from GenScript Company to guide our project on how to proceed better. We consulted on the
+                            cutting activity of Cas9 and gRNA. Also，we have a further understanding of Genscript's
+                            related products, several different cas9 proteins, and their related roles, as well as cas12
+                            and Cas13 proteins.
+                        </p>
+                        <div class="col-md-6 mg-b-1">
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/9/97/T--ZJUT-China--collaboration_20.jpg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog modal-lg" aria-hidden="true" role="document"
+                style="top: 50%;transform: translate(0,-50%);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

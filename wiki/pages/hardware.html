@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Hardware</span>
+                <h2 class="text-littler text-gray view-x-80">ZJUT-CHINA aims to develop a cell-free biosensor as a new
+                    application for detecting mRNA associated with disease. The DESCRIPTION page mainly describes our
+                    motivation, the description of the whole project and the design of the biosensor.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">2</span>
+                            <span class="text-little text-gray">Why we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Abstract
+                        </div>
+                        <p class="mg-tb-1 text-little"> Fluorescent reporters have enabled numerous novel applications
+                            in diagnostics and point-of-care testing over the past few years. However, most of them rely
+                            on laboratory instrumentation to visualize and quantify the fluorescence signal. To overcome
+                            this challenge, we have developed a handheld illuminator and a fluorescence detector to
+                            support field-applications of Cell-Free biosensors for diagnostics. Consisting of low-cost
+                            electronic components, light filters and 3D printed cases made of biodegradable polylactic
+                            acid, the handheld illuminator and fluorescence detector are designed to be affordable,
+                            portable and recyclable. Also, interchangeable LEDs and light filters allow illuminator and
+                            detector to be customized to match the fluorescence wavelength of interest.
+                        </p>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1">
+                            Handheld Illuminator
+                        </div>
+                        <p class="mg-tb-1 text-little">We developed a handheld illuminator that provides visualization
+                            of fluorescence using the naked eye.
+                        </p>
+                        <div>
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/6/63/T--ZJUT-China--hardware_1.png"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                            <span class="center-block text-center"><strong>Figure 1.</strong>(A) 3D model of handheld
+                                illuminator (simplified).<br> (B) All components of the handheld illuminator.</span>
+                        </div>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2">
+                                Detection and Application
+                            </div>
+                            <p class="mg-tb-1 text-little">The handheld illuminator combines LEDs and light filters as a
+                                simple, practical method to detect fluorescence qualitatively. In addition, detection
+                                can be quantitative by using imaging analysis software such as ImageJ. We believe that
+                                the handheld illuminator is suitable for all cell-free sensor-based diagnostic methods.
+                            </p>
+                            <p class="mg-tb-1 text-little">For many diagnostic applications aim simply to determine
+                                whether the reporter is present in the sample, providing a positive or negative result
+                                to the user.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/b/b4/T--ZJUT-China--hardware_2.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <span class="center-block text-center"><strong>Figure 2.</strong>(A) Working principle
+                                    of our fluorescence detector (our design uses a 470 nm LED and 510 nm filter). (B)
+                                    Visualization of eGFP by handheld illuminator under normal light. (C) Visualization
+                                    of eGFP by handheld illuminator under dark conditions. Both conditions have a
+                                    negative control on the right, followed by eGFP at concentrations of 0.55 μM, 1.09
+                                    μM, 2.19 μM, 4.38 μM, 8.75 μM, 17.5 μM, and 35 μM, respectively. Note that the
+                                    negative control also shows some degree of fluorescence. Since we did not set an
+                                    excitation filter between the light source and fluorescent substances, and the 470
+                                    nm LED also emits light at wavelengths above 525 nm, we assumed that the
+                                    fluorescence from the negative control was the result of reflection or
+                                    autofluorescence of the test tube.</span>
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2">
+                                Materials and Methods
+                            </div>
+                            <p class="mg-tb-1 text-little">The illuminator consists of inexpensive electronic components
+                                (e.g., LEDs, battery holder), 3D-printed cases and a light filter, for a total price of
+                                no more than $10. Furthermore, the illuminator can easily be assembled with glue or even
+                                double-sided tape.
+                            </p>
+                            <p class="mg-tb-1 text-little"><a href="">Handheld Illuminator Assembly Instructions</a></p>
+                            <p class="mg-tb-1 text-little"><a href="">STL Files for Handheld Illuminator</a></p>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">4</span>
+                            <span class="text-little text-gray">How we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Fluorescence detector
+                        </div>
+                        <p class="mg-tb-1 text-little">We also designed a fluorescence detector that can be used for
+                            quantitative fluorescence detection.
+                        </p>
+                        <div>
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/b/b4/T--ZJUT-China--hardware_3.png"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-3">
+                            <span class="center-block text-center"><strong>Figure 3.</strong>(A) Working principle of
+                                our fluorescence detector. (B) A 3D illustration of the fluorescence detector. </span>
+                        </div>
+                        <section class="target" id="target-2-3">
+                            <div class="text-small text-green target-title-2">
+                                Detection
+                            </div>
+                            <p class="mg-tb-1 text-little">Our fluorescence detector performs well in terms of accuracy
+                                and sensitivity, with a detection limit of approximately 0.3 μM (12 μL volume) for eGFP.
+                                We believe our fluorescence detector can meet the needs of Cell-Free biosensor-based
+                                diagnostics.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/f/fe/T--ZJUT-China--hardware_4.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-4">
+                                <span class="center-block text-center"><strong>Figure 4.</strong>(A) Standard curve of
+                                    eGFP using our fluorescence detector. (B) Our design of fluorescence
+                                    detector.</span>
+                            </div>
+                            <p class="mg-b-1 mg-t-0 text-little">A tutorial video was also created to apply this
+                                fluorescence detector to our project.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-4">
+                            <div class="text-small text-green target-title-2">
+                                Materials and Methods
+                            </div>
+                            <p class="mg-tb-1 text-little">For the fluorescence detector, we use a 470 nm LED as the
+                                light source, a photo-diode was used for measuring fluorescence intensity and converting
+                                it into specific voltage. To improve the accuracy of the detector, two light filters are
+                                used as excitation filter (470 nm) and emission filter (525nm) respectively. Arduino UNO
+                                R3 records data and transmits it to the mobile phone via bluetooth. By the way, we also
+                                built a software for analyzing and displaying the results. The flow chart for using the
+                                software is shown in the <a
+                                    href="https://2021.igem.org/Team:ZJUT-China/Software">Software</a>.
+                            </p>
+                            <p class="mg-tb-1 text-little">The characteristics of the photodiode and the circuit of the
+                                fluorescence detector are shown in the <a
+                                    href="https://2021.igem.org/Team:ZJUT-China/Software">Supporting Material</a>.
+                            </p>
+                            <p class="mg-tb-1 text-little">During the development of the fluorescence detector, we
+                                tested a variety of photosensitive elements. The process and conclusions of the device
+                                iteration are shown in the History.<a
+                                    href="https://2021.igem.org/Team:ZJUT-China/Software">History</a>.
+                            </p>
+                            <p class="mg-tb-1 text-little">STL files for fluorescence detector are available.
+                            </p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog modal-lg" aria-hidden="true" role="document"
+                style="top: 50%;transform: translate(0,-50%);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

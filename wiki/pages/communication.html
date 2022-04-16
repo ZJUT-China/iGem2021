@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Communication</span>
+                <h2 class="text-little text-gray view-x-80">As we moved forward with our project, we strove to promote
+                    our project and the iGEM competition to the community. We were committed to educating the public
+                    about professional biology and leading freshmen in the field of biology to get started.
+                </h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3 ">
+
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">3</span>
+                            <span class="text-little text-gray">What we know</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Summary
+                        </div>
+                        <p class="mg-tb-1 text-little">
+                            In science communication, we are not only spreader, but also receiver. We try our best to
+                            deliver what we have learned to people and students at various stages to acquire biological
+                            knowledge and technique. Meanwhile, we received academic help from professors, teachers, and
+                            colleges, which made the project more perfect. We also set up a favorable community. Here,
+                            we obtain advanced knowledge, and then 'deliver' them to wider population. Without doubt, we
+                            play an important role in science communication.
+                        </p>
+                    </section><br>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1">
+                            Communication
+                        </div>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Media Publicity
+                            </div>
+                            <p class="mg-tb-1 text-little pull-l">
+                                We promote our project through social media platforms like Wechat. We have accumulated
+                                16 tweets on ZJUT-China's WeChat official accounts, with a cumulative total of 461
+                                followers. Our tweets focused on the introduction of our team and knowledge of science.
+                                We also placed our promotion videos and vlogs on other social media platforms and
+                                achieved good results.
+                            </p>
+                            <p class="mg-tb-1 text-little pull-l">
+                                <strong>The right-down is one of our tweets!</strong>
+                            </p>
+                            <div class="col-md-9">
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/8/87/T--ZJUT-China--sciencecommunication--media_publicity.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/b/b1/T--ZJUT-China--sciencecommunication--media_publicity.gif"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2">
+                                BIO+ Innovation & Entrepreneurship
+                            </div>
+                            <p class="mg-tb-1 text-little pull-l">
+                                We assisted in the implementation of the BIO+ innovation & entrepreneurship, and
+                                actively communicated with the teachers of the organizing committee to contact a total
+                                of 65 university teams nationwide as the iGEM team to do our part in the implementation
+                                of the event.
+                            </p>
+                            <div class="row col-md-12">
+                                <img class="img-responsive center-block figure col-md-4"
+                                    src="https://2021.igem.org/wiki/images/6/69/T--ZJUT-China--bio_plus.jpg"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal" alt="">
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-3">
+                            <div class="text-small text-green target-title-2">
+                                Experts
+                            </div>
+                            <p class="mg-tb-1 text-little pull-l">
+                                We had some doubts while reviewing the literature and through emails we communicated
+                                with several experts. Their replies were of immense help to us. In addition to the
+                                online communication, we were honored to have Prof. Jiahuai Han, academician of the
+                                Chinese Academy of Sciences and vice president of Xiamen University. Prof. Han solved
+                                our problems on gene circuits, evaluated our project and gave us valuable suggestions.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-4">
+                            <div class="text-small text-green target-title-2">
+                                Project Promotion Meeting
+                            </div>
+                            <p class="mg-tb-1 text-little pull-l">
+                                In May and September, we hold the project promotion meeting, hoping to make the projecet
+                                have an accurately position and better promotion of the follow-up process. We invited
+                                Professor Jingyan Ge and Professor Feng Cheng from the bioengineering college of
+                                Zhejiang University of Technology to give valuable suggestions for the project.In the
+                                project promotion meeting in May, we reported the composition of team members and the
+                                division of tasks in the early stage, introduced the work progress of our project and
+                                some problems. The teachers made constructive comments to our project. The promotion
+                                meeting in September mainly focused on summarizing the contents of each group during the
+                                summer vacation, and discussed the final presentation ideas of the project.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-5">
+                            <div class="text-small text-green target-title-2">
+                                Lab Meeting
+                            </div>
+                            <p class="mg-tb-1 text-little pull-l">
+                                On August 9, we invited team advisor teacher Jingyan Ge and Dongchang Sun to our lab. We
+                                were helped to solve several experimental bottkeneck problem problems by the guidance of
+                                their professional knowledge.
+                            </p>
+                            <p class="mg-tb-1 text-little pull-l">
+                                After the lab meeting, we summarized experience of failure and consulted literature to
+                                innovate the experimental ideas, and completed the project targets.
+                            </p>
+                            <div class="row col-md-12 mg-tb-1">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <img class="img-responsive center-block figure"
+                                        src="https://2021.igem.org/wiki/images/b/b7/T--ZJUT-China--sciencecommunication--lab_meeting.jpg"
+                                        data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                        alt="figure-1">
+                                </div>
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-6">
+                            <div class="text-small text-green target-title-2 mg-tb-1">
+                                Acdamic Seminar
+                            </div>
+                            <p class="mg-tb-1 text-little pull-l">
+                                We are not lonely in iGEM. We have carried out close communication with iGEM teams from
+                                various universities and held online meetings with XJTLU-IGEM, OUC-China and
+                                ASTWS-China. The teams had a energetic discussion on the project and benefited a lot
+                                from mutual communication.
+                            </p>
+                            <p class="mg-tb-1 text-little pull-l">
+                                If you want to learn the detail of our seminar, please browse patnership.
+                            </p>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <div class="text-big text-green title-big target-title-1">
+                            Education
+                        </div>
+                        <div class="row col-md-12">
+                            <section class="target col-md-6" id="target-2-7">
+                                <div class="text-small text-green target-title-2 mg-tb-1">
+                                    Study Forum
+                                </div>
+                                <p class="mg-tb-1 text-littler pull-l">
+                                    On May 9th, our team participated in ZJUT Study Forum, giving a lecture to all the
+                                    freshmen on the Pingfeng campus. The lecture included the introduction of iGEM
+                                    competition, and the introduction of ZJUT-China team's current and previous project
+                                    mechanism.
+                                </p>
+                                <div class="row col-md-12">
+                                    <div>
+                                        <img class="img-responsive center-block figure"
+                                            src="https://2021.igem.org/wiki/images/4/44/T--ZJUT-China--sciencecommunication--study_forum.jpg"
+                                            data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                            alt="figure-1">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="target col-md-6" id="target-2-7">
+                                <div class="text-small text-green target-title-2 mg-tb-1">
+                                    High School Summer Camp
+                                </div>
+                                <p class="mg-tb-1 text-littler pull-l">
+                                    On August 29, we participated in summer camp for high school students to show them
+                                    the colorful college life and the mechanism of our project. Given that high school
+                                    students have been taught basic synthetic biology knowledge, we used the knowledge
+                                    contained in the high school textbook to explain the project mechanism in the PPT,
+                                    which was well received by the high school students.
+                                </p>
+                                <div class="row col-md-12">
+                                    <div>
+                                        <img class="img-responsive center-block figure"
+                                            src="https://2021.igem.org/wiki/images/d/d8/T--ZJUT-China--sciencecommunication--summercamp.jpg"
+                                            data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                            alt="figure-1">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="target col-md-6" id="target-2-7">
+                                <div class="text-small text-green target-title-2 mg-tb-1">
+                                    Lab Open Day
+                                </div>
+                                <p class="mg-tb-1 text-littler pull-l">
+                                    On September 12, we held a lab open day for freshmen. We prepared four separate
+                                    programs: lab tour, agarose gel electrophoresis, use of pipettes and Culture media
+                                    preparation. The open day aims to cultivate freshmen's interest in professional
+                                    knowledge through experiments and instrument explanations. So that they can obtain
+                                    the joint promotion of theory and practice, and integrate into the study of biology
+                                    more quickly. Total number of participants reached more than 140 people.
+                                </p>
+                                <div class="row col-md-12">
+                                    <div>
+                                        <img class="img-responsive center-block figure"
+                                            src="https://2021.igem.org/wiki/images/9/9b/T--ZJUT-China--sciencecommunication-lab_open_day.jpg"
+                                            data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                            alt="figure-1">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="target col-md-6" id="target-2-7">
+                                <div class="text-small text-green target-title-2 mg-tb-1">
+                                    Qiushan Primary School
+                                </div>
+                                <p class="mg-tb-1 text-littler pull-l">
+                                    On September 28, we prepared a special biology lesson for grade 4 students of
+                                    Qiushan Primary School. The basic concepts of DNA and variation are vividly
+                                    explained to children through the combination of PPT and performance. We answered
+                                    their childlike biology questions and made paper models of Zika virus with them, it
+                                    gave them a basic idea of the appearance of microorganisms.
+                                </p>
+                                <div class="row col-md-12">
+                                    <div>
+                                        <img class="img-responsive center-block figure"
+                                            src="https://2021.igem.org/wiki/images/2/29/T--ZJUT-China--sciencecommunication--qiushan_primary_school.jpg"
+                                            data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                            alt="figure-1">
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="col-md-12 mg-tb-1">
+                                <h4 class="text-weight-2">For more information, please browse <a href="https://2021.igem.org/Team:ZJUT-China/Education  
+                                ">education</a>.</h4>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../js/human_practice.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/offline-exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/export-data.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/data.js"></script>
+    <script src="../js/mainHighcharts.js"></script>
+    <script src="../js/human_practice.js"></script>
+</body>
+
+</html>

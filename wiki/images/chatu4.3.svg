@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F1C40F;}
+	.st1{fill:none;stroke:#29ABE2;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#A1DE93;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#A1DE93;stroke:#A1DE93;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{font-family:'OpenSans-Regular';}
+	.st5{font-size:38.7127px;}
+	.st6{font-size:46.4553px;}
+</style>
+<g>
+	<path class="st0" d="M1071.2,145.1c35.2,0,63.6,28.7,63.6,63.6v350.6c0,35.2-28.7,63.6-63.6,63.6H295c-35.2,0-63.6-28.7-63.6-63.6
+		V208.7c0-35.2,28.7-63.6,63.6-63.6L1071.2,145.1 M1071.2,142.6H295c-36.4,0-66.1,29.7-66.1,66.1v350.6c0,36.4,29.7,66.1,66.1,66.1
+		H1071c36.4,0,66.1-29.7,66.1-66.1V208.7C1137.3,172.2,1107.6,142.6,1071.2,142.6L1071.2,142.6z"/>
+</g>
+<path class="st1" d="M992.9,356.2"/>
+<path class="st1" d="M822,356.2"/>
+<path class="st1" d="M822,356.2"/>
+<g>
+	<g>
+		<line class="st2" x1="439.6" y1="404.4" x2="537" y2="404.4"/>
+		<polyline class="st2" points="439.6,404.4 439.6,306.8 523.1,306.8 		"/>
+		<polyline class="st2" points="495.3,279 523.1,306.8 495.3,334.6 		"/>
+	</g>
+	<g>
+		<line class="st2" x1="537" y1="404.4" x2="648.5" y2="404.4"/>
+	</g>
+	<g>
+		<line class="st2" x1="815.9" y1="404.4" x2="927.2" y2="404.4"/>
+		<line class="st2" x1="829.3" y1="364.7" x2="913" y2="364.7"/>
+		<line class="st2" x1="871.5" y1="364.7" x2="871.5" y2="404.4"/>
+	</g>
+	<g>
+		<path class="st3" d="M662.4,372.7v62.8c0,5.7,4.6,10.3,10.3,10.3h82.9c2.8,0,5.4-1,7.2-3.1l31.4-31.4c4.1-4.1,4.1-10.6,0-14.7
+			l-31.4-31.4c-2.1-2.1-4.6-3.1-7.2-3.1h-82.9C667,362.4,662.4,367.1,662.4,372.7z"/>
+		<line class="st2" x1="648.5" y1="404.4" x2="662.4" y2="404.4"/>
+		<line class="st2" x1="815.9" y1="404.4" x2="801.7" y2="404.4"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 662.492 418.2271)" class="st4 st5">deGFP</text>
+<text transform="matrix(1 0 0 1 428.6014 475.9517)" class="st4 st6">P28a-tetO</text>
+<path class="st3" d="M523.1,402.9c0-27,21.9-48.7,48.7-48.7s48.7,21.9,48.7,48.7"/>
+</svg>

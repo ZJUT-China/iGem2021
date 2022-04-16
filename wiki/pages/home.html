@@ -1,121 +1,518 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <script src="../jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style/nBar.css">
     <link rel="stylesheet" href="../style/common.css">
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
-    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+    <!-- <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+China/CSS/bootstrap.min.css&action=raw&ctype=text/css" /> -->
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/home.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/counter.css">
     <title>Home</title>
-</head> 
-<body>
+</head>
+
+<body data-page="home">
+    <style>
+        p {
+            font-size: 24px;
+        }
+    </style>
     <!-- 导航栏start -->
     <nav class="nBar">
-    <input type="checkbox" id="phnBar">
-    <label for="phnBar" class="phnBarButton"></label>
-    <ul class="Menu">
-        <li>
-            <a href="" class="nBara">Home</a>
-        </li>
-        <li>
-            <input type="radio" name="title" id="title1">
-            <label href="" for="title1">Team</label>
-            <ol class="dropDown">
-                <li>
-                    <a href="">Team</a>
-                </li>
-                <li>
-                    <a href="">Attributions</a>
-                </li>
-                <li>
-                    <a href="">Collaborations</a>
-                </li>
-            </ol>
-        </li>
-        <li>
-            <input type="radio" name="title" id="title2">
-            <label href="" for="title2">Project</label>
-            <ol class="dropDown">
-                <li>
-                    <a href="">Description</a>
-                </li>
-                <li>
-                    <a href="">Design</a>
-                </li>
-                <li>
-                    <a href="">Engineering</a>
-                </li>
-                <li>
-                    <a href="">Models</a>
-                </li>
-                <li>
-                    <a href="">Results</a>
-                </li>
-                <li>
-                    <a href="">Hardware</a>
-                </li>
-            </ol>
-        </li>
-        <li>
-            <input type="radio" name="title" id="title3">
-            <label href="" for="title3">Human Practices</label>
-            <ol class="dropDown">
-                <li>
-                    <a href="">Integrated human practice</a>
-                </li>
-                <li>
-                    <a href="">Education &public engagement</a>
-                </li>
-                <li>
-                    <a href="">Implementation</a>
-                </li>
-                <li>
-                    <a href="">Entrepreneurship</a>
-                </li>
-                <li>
-                    <a href="">Inclusion</a>
-                </li>
-            </ol>
-        </li>
-        <li>
-            <input type="radio" name="title" id="title4">
-            <label href="" for="title4">Lab</label>
-            <ol class="dropDown">
-                <li>
-                    <a href="">Experiments</a>
-                </li>
-                <li>
-                    <a href="">Parts</a>
-                </li>
-                <li>
-                    <a href="">Notebook</a>
-                </li>
-                <li>
-                    <a href="">Safety</a>
-                </li>
-            </ol>
-        </li>
-        <li>
-            <input type="radio" name="title" id="title5">
-            <label href="" for="title5">Awards</label>
-            <ol class="dropDown">
-                <li>
-                    <a href="">Prizes</a>
-                </li>
-                <li>
-                    <a href="">Medal criteria</a>
-                </li>
-            </ol>
-        </li>
-    </ul>
-</nav>
+        <div class="logo">
+            <img src="../images/T--ZJUT-China--logo.png" alt="logo" height="25">
+        </div>
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1" href="" id="">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1" id="">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="" id="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Contribution</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2" id="">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="" id="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Model</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3" id="">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="" id="">Integrated Human Practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4" id="">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="" id="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5" id="">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="" id="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="" id="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
     <!-- 导航栏end -->
-    <div class="container">
-        
+
+    <div class="view-xy-100 flex-center-xy head">
+        <div class="back fixed view-xy-100 head" id="back"></div>
+        <span class="text-big text-white text-weight-2 view-x-80 center-block relative text-center">CRISPR/Cas9-based
+            Cell-Free Biosensors For RNA Biomarkers
+        </span>
+        <p class="text-littler text-gray view-x-80 text-center" style="z-index: 10;">We hope our project will provide
+            patients with a simple, safe,
+            low-cost diagnostic method.
+        </p>
+        <div class="slidedown absolute" data-href="#maincontent">
+            <img class="block" src="../images/slidedown.svg" alt="slidedown">
+        </div>
     </div>
+    <div class="container-fluid bg-grass pd-t-1" id="maincontent">
+        <div class="col-md-10 col-md-offset-1">
+            <section>
+                <p class="mg-tb-1 float-top">According to literature, various RNA molecules in <strong
+                        class="text-yellow">urine</strong> or <strong class="text-danger">blood</strong> have proven to
+                    serve as biomarkers
+                    for the diagnosis and prognosis of various diseases.
+                </p>
+                <p class="mg-tb-1 float-top">Herein, we are developing a <strong>cell-free RNA biosensor</strong>
+                    which comprises a
+                    cell-free system, engineered DNA transcription templates and RNA-responsive CRISPR/Cas9 System.
+
+                </p>
+            </section>
+            <span class="text-center center-block text-bigless mg-tb-1 text-weight-2 float-top">As a biosensor, our
+                project
+                consists three principle
+                components:
+            </span>
+            <section class="col-md-12">
+                <h3>
+                    <strong>Recognition element</strong>
+                </h3>
+                <div class="col-md-4">
+                    <svg id="line-img-1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 378.32999 320">
+                        <defs>
+                            <style>
+                                .cls-1,
+                                .cls-2,
+                                .cls-3 {
+                                    fill: none;
+                                    stroke: #000;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                }
+
+                                .cls-1 {
+                                    stroke-width: 5px;
+                                }
+
+                                .cls-2 {
+                                    stroke-width: 5.00003px;
+                                }
+
+                                .cls-3 {
+                                    stroke-width: 4.99995px;
+                                }
+                            </style>
+                        </defs>
+                        <polygon class="cls-1"
+                            points="180.03 82.25 165.83 109.05 186.93 130.83 214.17 117.5 209.91 87.48 180.03 82.25" />
+                        <rect class="cls-2" x="1550.73145" y="1361.5585" width="46.67025" height="46.67027"
+                            transform="translate(-1759.65861 -506.57225) rotate(-26.0782)" />
+                        <polygon class="cls-1" points="355.34 60.83 305.83 82.11 349.01 114.35 355.34 60.83" />
+                        <polygon class="cls-1"
+                            points="101.25 107.5 74.3 107.5 60.83 130.83 74.3 154.17 101.25 154.17 114.72 130.83 101.25 107.5" />
+                        <path class="cls-1"
+                            d="M1686.94086,1634.51724v-112.98a51.32918,51.32918,0,0,0-51.18-51.18h-7.15l-13.47,23.33h-26.94l-13.47-23.33h-48.34l-13.47,23.33h-26.94l-13.47-23.33h-46.67l-13.47,23.33h-26.96l-13.47-23.33h-7.15a51.32917,51.32917,0,0,0-51.18,51.18v84.3a51.32917,51.32917,0,0,0,51.18,51.18h299.65"
+                            transform="translate(-1311.11087 -1339.51724)" />
+                        <polygon class="cls-1"
+                            points="136.46 2.5 119.17 23.16 128.42 48.47 154.96 53.11 172.25 32.45 163 7.14 136.46 2.5" />
+                        <rect class="cls-3" x="1334.94355" y="1386.67765" width="46.66955" height="46.66955"
+                            transform="translate(-1910.3097 33.91365) rotate(-45)" />
+                    </svg>
+                </div>
+                <p class="col-md-8 mg-tb-1 float-right">First, a recognition element is used to selectively recognize
+                    the analyte of
+                    interest. For our
+                    project, this requires a binding event to occur between the recognition element and target.
+                    The “igRNA” stand for RNA-interacting guide RNA, which switch to their active state only upon
+                    interaction with target RNAs.
+                </p>
+
+            </section>
+            <section class="col-md-12">
+                <h3>
+                    <strong>Transducer</strong>
+                </h3>
+                <p class="col-md-8 mg-tb-1 float-left">Second, the whole gene circuits function as a transducer.
+                    Once the sensor is exposed to specific RNA, the hybridization event will be converted into the
+                    production of deGFP.
+                </p>
+                <div class="col-md-4 pull-right">
+                    <svg id="line-img-2" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 365">
+                        <defs>
+                            <style>
+                                .cls-1,
+                                .cls-2 {
+                                    fill: none;
+                                }
+
+                                .cls-1,
+                                .cls-2,
+                                .cls-3 {
+                                    stroke: #000;
+                                    stroke-width: 5px;
+                                }
+
+                                .cls-1 {
+                                    stroke-miterlimit: 10;
+                                }
+
+                                .cls-2,
+                                .cls-3 {
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                }
+                            </style>
+                        </defs>
+                        <title>基因线路</title>
+                        <circle class="cls-1" cx="38.5" cy="182.5" r="36" />
+                        <circle class="cls-1" cx="326.5" cy="182.5" r="36" />
+                        <circle class="cls-1" cx="182.5" cy="326.5" r="36" />
+                        <polyline class="cls-2" points="146.5 74.5 74.5 146.5 74.5 119.5" />
+                        <polyline class="cls-2" points="218 74 290 146 263.5 146.5" />
+                        <line class="cls-3" x1="281" y1="182" x2="92.5" y2="182" />
+                        <path class="cls-3" d="M1535.77586,1608.01724" transform="translate(-1317.77586 -1317.01724)" />
+                        <line class="cls-3" x1="83.5" y1="169.27208" x2="83.5" y2="194.72792" />
+                        <line class="cls-3" x1="83.5" y1="146.5" x2="101.5" y2="146.5" />
+                        <line class="cls-3" x1="290.5" y1="137.5" x2="290.5" y2="119.5" />
+                        <line class="cls-3" x1="218.5" y1="290.5" x2="288.78963" y2="220.21037" />
+                        <line class="cls-3" x1="304.15359" y1="222.84641" x2="286.15359" y2="204.84641" />
+                        <circle class="cls-1" cx="182.5" cy="38.5" r="36" />
+                    </svg>
+                </div>
+            </section>
+            <section class="col-md-12">
+                <h3>
+                    <strong>Detection system</strong>
+                </h3>
+                <div class="col-md-4">
+                    <svg id="line-img-3" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 396.5 302">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: none;
+                                    stroke: #000;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-width: 5px;
+                                }
+                            </style>
+                        </defs>
+                        <path class="cls-1" d="M1588.02586,1445.51724a54,54,0,0,1,0,108"
+                            transform="translate(-1302.02586 -1348.51724)" />
+                        <path class="cls-1" d="M1588.02586,1418.51724a81,81,0,0,1,0,162"
+                            transform="translate(-1302.02586 -1348.51724)" />
+                        <path class="cls-1" d="M1588.02586,1391.51724a108,108,0,0,1,0,216"
+                            transform="translate(-1302.02586 -1348.51724)" />
+                        <polyline class="cls-1" points="2.5 151 97 151 124 2.5 164.5 299.5 191.5 70 205 151 259 151" />
+                        <circle class="cls-1" cx="286" cy="151" r="20.25" />
+                    </svg>
+                </div>
+                <div class="float-right">
+                    <p class="col-md-8 mg-tb-1">
+                        Consisting of LEDs, a light filter and a 3D printed case made of
+                        biodegradable polylactic acid, the illuminator is designed to be low-cost, recyclable and
+                        portable.
+                    </p>
+                    <p class="col-md-8 mg-tb-1">
+                        A photodiode was used for measuring fluorescence intensity and converting it into specific
+                        voltage.
+                        Single-Chip microcomputer records data and transmits it to the mobile phone via WiFi or
+                        bluetooth.
+                    </p>
+                </div>
+            </section>
+            <section class="col-md-12">
+                <h3>
+                    <strong>Human Practices</strong>
+                </h3>
+                <div class="col-md-8 float-left">
+                    <p class="mg-tb-1">
+                        A successful iGEM team follows HP's exploration 
+                        throughout its project lifecycle. In our project design, 
+                        HP clarified the project background and led the direction 
+                        of the project through multiple social surveys.
+                        While the project was going on,we had also carried out 
+                        various educational activities to teach synthetic biology 
+                        to people of different ages in our society.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <svg id="line-img-4" data-name="图层 1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 482 293.64205">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: none;
+                                    stroke: #000;
+                                    stroke-miterlimit: 10;
+                                    stroke-width: 5px;
+                                }
+                            </style>
+                        </defs>
+                        <path class="cls-1"
+                            d="M1355.60348,1395.94313l33.44-33.44a26.39983,26.39983,0,0,1,18.6675-7.73233h60.86751a3.4023,3.4023,0,0,1,2.21419,5.98553l-50.2941,43.10924a53.25245,53.25245,0,0,0-12.014,14.65509c-8.39727,15.215-19.42926,45.52961,6.29126,71.25014,32.32153,32.32153,69.99169,2.04493,84.191-11.86112a9.64612,9.64612,0,0,1,12.71523-.7126l101.67443,79.88706a29.58885,29.58885,0,0,1,9.19193,34.25528l0,.00005a30.145,30.145,0,0,1-35.30022,18.0494l-10.47231-2.61807-17.98745,22.48432a29.48036,29.48036,0,0,1-40.92186,5.00651l-7.82377-5.97955a10.9078,10.9078,0,0,0-10.92869-.6804l-23.47771,11.73886a38.56336,38.56336,0,0,1-44.51448-7.22371l-55.31211-55.3121a20.60113,20.60113,0,0,0-14.56719-6.03393h-84.46674a15,15,0,0,1-15-15v-141a15,15,0,0,1,15-15h69.58693A13.06829,13.06829,0,0,0,1355.60348,1395.94313Z"
+                            transform="translate(-1259.27586 -1352.27076)" />
+                        <path class="cls-1"
+                            d="M1495.08711,1364.45951l-66.51829,66.51829a23.48874,23.48874,0,0,0-6.971,18.13321c.4455,6.45975,3.078,14.55975,11.178,22.65975,18,18,36,0,36,0l63-54s9-9,18,0,0,18,0,18l-11.19791,11.19791a8.78476,8.78476,0,0,0,.5879,12.96041l90.01966,75.01638a48.45958,48.45958,0,0,1,14.94972,21.90341l1.16283,3.48847a15.25861,15.25861,0,0,0,14.47559,10.43342h64.00221a15,15,0,0,0,15-15v-141a15,15,0,0,0-15-15h-77.56642a15.532,15.532,0,0,1-10.9828-4.54923l-33.68781-33.6878a23.09019,23.09019,0,0,0-16.32725-6.763h-66.73375A33.07948,33.07948,0,0,0,1495.08711,1364.45951Z"
+                            transform="translate(-1259.27586 -1352.27076)" />
+                    </svg>
+                </div>
+            </section>
+        </div>
+        <div>
+            <span><strong>Table 1.</strong> Brief iteration of the detector.</span>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Version</td>
+                        <td>Detector</td>
+                        <td>Sensitivity</td>
+                        <td>Stability</td>
+                        <td>Complexity</td>
+                        <td>Reproducibility</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.0</td>
+                        <td>Photosensitive Resistance Sensor Module</td>
+                        <td>High</td>
+                        <td>Low</td>
+                        <td>Low</td>
+                        <td>Easy</td>
+                    </tr>
+                    <tr>
+                        <td>2.0</td>
+                        <td>Silicon Photovoltaic Cell Diode Amplifier Circuit Board</td>
+                        <td>Low</td>
+                        <td>High</td>
+                        <td>High</td>
+                        <td>Hard</td>
+                    </tr>
+                    <tr>
+                        <td>3.0</td>
+                        <td>Photodiode Module</td>
+                        <td>Medium</td>
+                        <td>High</td>
+                        <td>Low</td>
+                        <td>Easy</td>
+                    </tr>
+                    <tr>
+                        <td>4.0</td>
+                        <td>Photodiode Circuits (DIY)</td>
+                        <td>High</td>
+                        <td>High</td>
+                        <td>Low</td>
+                        <td>Easy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <div>
+        <style>
+            .sponsers img {
+                height: 50px;
+            }
+        </style>
+        <div class="col-md-12 pull-right footer bg-white">
+
+            <h4 class="text-weight-2">Sponsors</h4>
+            <hr>
+            <div class="row col-md-12 sponsers" style="width: 60%;right: 0;">
+                <section class="col-md-2">
+                    <img class=" img-responsive center-block"
+                        src="https://2021.igem.org/wiki/images/3/38/T--ZJUT-China--sponsor_1.jpg" alt="">
+                </section>
+                <section class="col-md-2">
+                    <img class=" img-responsive center-block"
+                        src="https://2021.igem.org/wiki/images/9/99/T--ZJUT-China--sponsor_2.png" alt="">
+                </section>
+                <section class="col-md-2">
+                    <img class=" img-responsive center-block"
+                        src="https://2021.igem.org/wiki/images/1/16/T--ZJUT-China--sponsor_3.jpg" alt="">
+                </section>
+                <section class="col-md-2">
+                    <img class=" img-responsive center-block"
+                        src="https://2021.igem.org/wiki/images/3/3c/T--ZJUT-China--sponsor_4.png" alt="">
+                </section>
+                <section class="col-md-2">
+                    <img class=" img-responsive center-block"
+                        src="https://2021.igem.org/wiki/images/a/af/T--ZJUT-China--sponsor_5.png" alt="">
+                </section>
+                <section class="col-md-2">
+                    <img class=" img-responsive center-block"
+                        src="https://2021.igem.org/wiki/images/4/46/T--ZJUT-China--sponsor_6.jpeg" alt="">
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-China/JS/nBar.js&action=raw&ctype=text/javascript"></script> -->
+    <!-- <script type="text/javascript"
+             src="https://2021.igem.org/Template:ZJUT-China/JS/nBar.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../node_modules/vivus/dist/vivus.js"></script>
+    <script>
+        var floatLeft = new ScrollReveal();
+        floatLeft.reveal(".float-left", {
+            reset: false,
+            origin: 'left',
+            duration: 2000,
+            delay: 0.5,
+            opacity: 0,
+            easing: 'ease-in-out',
+            distance: '200px'
+        });
+        var floatRight = new ScrollReveal();
+        floatRight.reveal(".float-right", {
+            reset: false,
+            origin: 'right',
+            duration: 2000,
+            delay: 0.5,
+            opacity: 0,
+            easing: 'ease-in-out',
+            distance: '200px'
+        });
+        var floatTop = new ScrollReveal();
+        floatRight.reveal(".float-top", {
+            reset: false,
+            origin: 'top',
+            duration: 2000,
+            delay: 0.5,
+            opacity: 0,
+            easing: 'ease-in-out',
+            distance: '200px'
+        });
+        new Vivus('line-img-1', {
+            type: 'scenario-sync',
+            duration: 20,
+            start: 'inViewport',
+            dashGap: 20,
+            forceRender: false
+        });
+        new Vivus('line-img-2', {
+            type: 'scenario-sync',
+            duration: 20,
+            start: 'inViewport',
+            dashGap: 20,
+            forceRender: false
+        });
+        new Vivus('line-img-3', {
+            type: 'scenario-sync',
+            duration: 20,
+            start: 'inViewport',
+            dashGap: 20,
+            forceRender: false
+        });
+        new Vivus('line-img-4', {
+            type: 'scenario-sync',
+            duration: 20,
+            start: 'inViewport',
+            dashGap: 20,
+            forceRender: false
+        });
+    </script>
 </body>
+
 </html>

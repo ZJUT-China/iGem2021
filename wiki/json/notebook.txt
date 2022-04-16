@@ -1,0 +1,2505 @@
+{
+    "key202151": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202151",
+                "time": "2021.5.1",
+                "name": "Mingwei Zhang&Lu Wang&Yixin Wang&Yetao Zhang",
+                "group": "HP",
+                "event": "Prepare the PPT of Study Forum",
+                "result": ""
+            }
+        ]
+    },
+    "key202159": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202159",
+                "time": "2021.5.9",
+                "name": "Xiaoqi Wang",
+                "group": "HP",
+                "event": "Participate in Study Forum",
+                "result": ""
+            }
+        ]
+    },
+    "key202164": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202164",
+                "time": "2021.6.4",
+                "name": "Xia Yao",
+                "group": "HP",
+                "event": "Interview Jiahuai Han",
+                "result": ""
+            }
+        ]
+    },
+    "key2021616": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021616",
+                "time": "2021.6.16",
+                "name": "Mingwei Zhang &Yuxuan Shen&Jia Luo&Xiaoqi Wang",
+                "group": "HP",
+                "event": "Interview with Lin Bo, the attending doctor of Zhejiang Provincial People's Hospital",
+                "result": ""
+            }
+        ]
+    },
+    "key202178": {
+        "wet": [],
+        "dry": [
+            {
+                "key": "key202178",
+                "time": "2021.7.8",
+                "name": "Xiaoyu Hu",
+                "group": "dry",
+                "event": "Sketch for wiki",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021710": {
+        "wet": [],
+        "dry": [
+            {
+                "key": "key2021710",
+                "time": "2021.7.10",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the first version of the wiki home page code",
+                "result": ""
+            },
+            {
+                "key": "key2021710",
+                "time": "2021.7.10",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Make lighting circuit",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021712": {
+        "wet": [
+            {
+                "key": "key2021712",
+                "time": "2021.7.12",
+                "name": "Xiaoqi Wang&Yetao Zhang",
+                "group": "wet",
+                "event": "plasmid P70&Puc-σ28 transfer intoTrans-T1",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021713": {
+        "wet": [
+            {
+                "key": "key2021713",
+                "time": "2021.7.13",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid p70-deGFP & puc-σ28 amplification",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021714": {
+        "wet": [
+            {
+                "key": "key2021714",
+                "time": "2021.7.14",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid (σ28) PCR",
+                "result": "success"
+            },
+            {
+                "key": "key2021714",
+                "time": "2021.7.14",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid(p70a) PCR, clean up, AGE, one-step cloning, transfer",
+                "result": "failure"
+            },
+            {
+                "key": "key2021714",
+                "time": "2021.7.14",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "amplificate pTargetF plasmid(gRNA), colony PCR(p70a)",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021714",
+                "time": "2021.7.14",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Assembled the first version of illuminator",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021715": {
+        "wet": [
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "plasmid (σ28) PCR",
+                "result": "success"
+            },
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "plasmid(p70a) PCR, clean up, AGE",
+                "result": "failure"
+            },
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "plasmid （P70a）PCR，clean up，AGE",
+                "result": "failure"
+            },
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "plasmid（gRNA1&gRNA2） PCR",
+                "result": "success"
+            },
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "plasmid(PCas9) PCR,clean up，AGE,plasmid transfer into Trans-T1,nanodrop:PCas9-1:74ng/μl,PCas9-2:102ng/μl",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Contributed to the promotion video (animation design)",
+                "result": ""
+            },
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Xiangyi Ren",
+                "group": "dry",
+                "event": "Contribute to the promotion video",
+                "result": ""
+            },
+            {
+                "key": "key2021715",
+                "time": "2021.7.15",
+                "name": "Xiaoyu Hu",
+                "group": "dry",
+                "event": "Contribute to the promotion video",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021716": {
+        "wet": [
+            {
+                "key": "key2021716",
+                "time": "2021.7.16",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "plasmid P70 1/2/3/4 pcr，plasmid extraction",
+                "result": "success"
+            },
+            {
+                "key": "key2021716",
+                "time": "2021.7.16",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "plasmid （P70a）PCR，AGE，clean up，nanodrop:45.0 ng/μl",
+                "result": "success"
+            },
+            {
+                "key": "key2021716",
+                "time": "2021.7.16",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "plasmid gRNA1&gRNA2 clean up，nanodrop； plasmid transfer into Trans-T1",
+                "result": "success"
+            },
+            {
+                "key": "key2021716",
+                "time": "2021.7.16",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "plasmid （UTR1）PCR，AGE，eliminate the template，clean up，nanodrop",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021717": {
+        "wet": [
+            {
+                "key": "key2021717",
+                "time": "2021.7.17",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid(P70a) and plasmid(tetO&tetR) PCR,eliminate the template,cleanup,nanodrop",
+                "result": "success"
+            },
+            {
+                "key": "key2021717",
+                "time": "2021.7.17",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "primer design,expand culture",
+                "result": "success"
+            },
+            {
+                "key": "key2021717",
+                "time": "2021.7.17",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "primer design(gRNA2); transfer plasmid(P70-1;P70-2;gRNA1); gRNA2 inculation",
+                "result": "success"
+            },
+            {
+                "key": "key2021717",
+                "time": "2021.7.17",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "plasmid （UTR1）PCR，AGE，clean up",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021718": {
+        "wet": [
+            {
+                "key": "key2021718",
+                "time": "2021.7.18",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "plasmid (TetO/TetR), plasmid extraction，plasmid (TetO/TetR) PCR，plasmid (P70-σ28) one step cloning，plasmid P70-σ28 transfer",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021719": {
+        "wet": [
+            {
+                "key": "key2021719",
+                "time": "2021.7.19",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid (TetO/TetR) one step cloning，transfer plasmid( TetO/TetR) into Trans1-T1",
+                "result": "success"
+            },
+            {
+                "key": "key2021719",
+                "time": "2021.7.19",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "Colony PCR plasmid (P70-σ28)",
+                "result": "failure"
+            },
+            {
+                "key": "key2021719",
+                "time": "2021.7.19",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "plasmid P70a and gRNA1 extraction；transformation：gRNA2",
+                "result": "failure"
+            },
+            {
+                "key": "key2021719",
+                "time": "2021.7.19",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "nanodrop:51.0 ng/μl",
+                "result": "success"
+            },
+            {
+                "key": "key2021719",
+                "time": "2021.7.19",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "plasmid transfer into DH5α",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021720": {
+        "wet": [
+            {
+                "key": "key2021720",
+                "time": "2021.7.20",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid P70-σ28 Bacteria Liquid PCR，plasmid TetO/TetR one step cloning ，transfer plasmid TetO/TetR into Trans1-T1",
+                "result": "failure"
+            },
+            {
+                "key": "key2021720",
+                "time": "2021.7.20",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "plasmid transfer into DH5α",
+                "result": "success"
+            },
+            {
+                "key": "key2021720",
+                "time": "2021.7.20",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "transformation：gRNA1、gRNA2、P70-DH5α",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021720",
+                "time": "2021.7.20",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the first version of the member page code",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021721": {
+        "wet": [
+            {
+                "key": "key2021721",
+                "time": "2021.7.21",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "Colony PCR plasmid P70-σ28 ，plasmid extraction",
+                "result": "success"
+            },
+            {
+                "key": "key2021721",
+                "time": "2021.7.21",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid TetO/TetR one step cloning ，transfer plasmid TetO/TetR into Trans1-T1",
+                "result": "failure"
+            },
+            {
+                "key": "key2021721",
+                "time": "2021.7.21",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "plasmid transfer into Trans-T1",
+                "result": "success"
+            },
+            {
+                "key": "key2021721",
+                "time": "2021.7.21",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "drop gRNA1 and gRNA2 off for evaluation",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021721",
+                "time": "2021.7.21",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "start to test photosensitive elements and understand measurement methods",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021722": {
+        "wet": [
+            {
+                "key": "key2021722",
+                "time": "2021.7.22",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "Colony PCR plasmid P70-σ28",
+                "result": "success"
+            },
+            {
+                "key": "key2021722",
+                "time": "2021.7.22",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "Colony PCR plasmid TetO/TetR",
+                "result": "failure"
+            },
+            {
+                "key": "key2021722",
+                "time": "2021.7.22",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Colony PCR ,AGE",
+                "result": "failure"
+            },
+            {
+                "key": "key2021722",
+                "time": "2021.7.22",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "amplification: gRNA1、UTR1-tetR",
+                "result": "success"
+            },
+            {
+                "key": "key2021722",
+                "time": "2021.7.22",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "amplification: gRNA1、UTR1-tetR（50ml X 3）；P70a plasmid extraction",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021726": {
+        "wet": [
+            {
+                "key": "key2021726",
+                "time": "2021.7.26",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "plasmid transfer into Trans-T1",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021727": {
+        "wet": [
+            {
+                "key": "key2021727",
+                "time": "2021.7.27",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Colony PCR plasmid PCas9",
+                "result": "failure"
+            },
+            {
+                "key": "key2021727",
+                "time": "2021.7.27",
+                "name": "Yifan Zheng",
+                "group": "wet",
+                "event": "Colony PCR",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021728": {
+        "wet": [
+            {
+                "key": "key2021728",
+                "time": "2021.7.28",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "transformation：P70-σ28-P28-gfp",
+                "result": "success"
+            },
+            {
+                "key": "key2021728",
+                "time": "2021.7.28",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "Colony PCR",
+                "result": "failure"
+            },
+            {
+                "key": "key2021728",
+                "time": "2021.7.28",
+                "name": "Jia Luo &Chunyi Yang",
+                "group": "wet",
+                "event": "PCR",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021728",
+                "time": "2021.7.28",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Contributed to the poster for the cell-free system webinar held by ZJUT-China and XJTLU-China",
+                "result": ""
+            }
+        ],
+        "hp": [
+            {
+                "key": "key2021728",
+                "time": "2021.7.28",
+                "name": "Mingwei Zhang",
+                "group": "HP",
+                "event": "Participate in online exchanges with XJTLU",
+                "result": ""
+            }
+        ]
+    },
+    "key2021729": {
+        "wet": [
+            {
+                "key": "key2021729",
+                "time": "2021.7.29",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Colony PCR plasmid PCas9,expand culture",
+                "result": "failure"
+            },
+            {
+                "key": "key2021729",
+                "time": "2021.7.29",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "clean up,AGE",
+                "result": "failure"
+            },
+            {
+                "key": "key2021729",
+                "time": "2021.7.29",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "plasmid （P70a）PCR，clean up，AGE",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021729",
+                "time": "2021.7.29",
+                "name": "Yuxuan Shen",
+                "group": "HP",
+                "event": "Publish the promotion video on the video account",
+                "result": ""
+            }
+        ]
+    },
+    "key2021730": {
+        "wet": [
+            {
+                "key": "key2021730",
+                "time": "2021.7.30",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "recombine deGFP and P70-P28-σ28,transformation：P70-σ28-P28-gfp",
+                "result": "success"
+            },
+            {
+                "key": "key2021730",
+                "time": "2021.7.30",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "plasmid(p28a-tetO-deGFP) PCR，AGE",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021730",
+                "time": "2021.7.30",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Starting to build model equations",
+                "result": ""
+            },
+            {
+                "key": "key2021730",
+                "time": "2021.7.30",
+                "name": "Xiangyi Ren",
+                "group": "dry",
+                "event": "Starting to build model equations",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021731": {
+        "wet": [
+            {
+                "key": "key2021731",
+                "time": "2021.7.31",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "Colony PCR plasmid P70-P28-σ28-gfp",
+                "result": "failure"
+            },
+            {
+                "key": "key2021731",
+                "time": "2021.7.31",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "eliminate the template，clean up，AGE",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202181": {
+        "wet": [
+            {
+                "key": "key202181",
+                "time": "2021.8.1",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid(tetR) PCR",
+                "result": "success"
+            },
+            {
+                "key": "key202181",
+                "time": "2021.8.1",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "plasmid （P70a）PCR，eliminate the template，clean up，AGE",
+                "result": "success"
+            },
+            {
+                "key": "key202181",
+                "time": "2021.8.1",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "Glue recovery",
+                "result": "failure"
+            },
+            {
+                "key": "key202181",
+                "time": "2021.8.1",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "recombine deGFP and P70-P28-σ28，transformation：P70-σ28-P28-gfp",
+                "result": "success"
+            },
+            {
+                "key": "key202181",
+                "time": "2021.8.1",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "electroporation of plasmid gRNA1、gRNA2，spread plate；express plasmid Cas9 in Cell-free system",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202182": {
+        "wet": [
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "plasmid(p28-tetR-ssrA) transfer",
+                "result": "success"
+            },
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "plasmid(tetR) PCR",
+                "result": "success"
+            },
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Xiaoqi Wang",
+                "group": "wet",
+                "event": "gel extraction",
+                "result": "success"
+            },
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Colony PCR plasmid Cas9,expand culture",
+                "result": "failure"
+            },
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "transformation(p28a-tetO-deGFP),PCR,AGE",
+                "result": "success"
+            },
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "plasmid（P70-P28-σ28）PCR,clean up,AGE",
+                "result": "success"
+            },
+            {
+                "key": "key202182",
+                "time": "2021.8.2",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "recombine deGFP and P70-P28-σ28",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202183": {
+        "wet": [
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "colony pcr",
+                "result": "failure"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid(σ28) PCR",
+                "result": "success"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "gel extraction",
+                "result": "success"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "recombination reaction， transformation p70-σ28 and p28-tetR-ssrA",
+                "result": "failure"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "plasmid Cas9 plasmid extraction",
+                "result": "failure"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "Receive bacteria in, send test ,Plasmid extraction, AGE, nanodrop",
+                "result": "success"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "plasmid Cas9 PCR,clean up,AGE,transfer into Cas9(Kan)",
+                "result": "success"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "make competent cell：BW25113+cas9+gRNA",
+                "result": "success"
+            },
+            {
+                "key": "key202183",
+                "time": "2021.8.3",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "colony PCR",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202184": {
+        "wet": [
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "PCR",
+                "result": "success"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "gel extraction",
+                "result": "success"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "recombination reaction, transformation P70-σ28, p28-tetR-ssrA",
+                "result": "failure"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "sequencing analysis",
+                "result": "failure"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "transformation(p28a-tetO-deGFP),PCR,AGE",
+                "result": "success"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "colony PCR",
+                "result": "failure"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "transformation：P70-σ28-P28-gfp",
+                "result": "success"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Cas9 PCR,AGE",
+                "result": "failure"
+            },
+            {
+                "key": "key202184",
+                "time": "2021.8.4",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "BW+cas9：electroporation tetR gene，verify plasmid incompatibility；BW+cas9+gRNA：electroporation tetR gene，verify 20nt spacer；egfp concentration determination",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202185": {
+        "wet": [
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "colony RCR P70-σ28, p28-tetR-ssrA",
+                "result": "failure"
+            },
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "sequencing analysis",
+                "result": "success"
+            },
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "AGE,nanodrop",
+                "result": "success"
+            },
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "expand culture,transformation of plasmid P70-P28-σ28-gfp:247.8ng/uL",
+                "result": "success"
+            },
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Cas9 PCR,eliminate the template",
+                "result": "failure"
+            },
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "No cells expressed Cas9, BW+ Cas9 +tetR were successfully transferred, and bacteria were preserved.",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key202185",
+                "time": "2021.8.5",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the first version of the landing page code",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key202186": {
+        "wet": [
+            {
+                "key": "key202186",
+                "time": "2021.8.6",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "colony PCR and AGE",
+                "result": "failure"
+            },
+            {
+                "key": "key202186",
+                "time": "2021.8.6",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "plasmid（P70-P28-σ28）PCR,eliminate the template,clean up,AGE",
+                "result": "success"
+            },
+            {
+                "key": "key202186",
+                "time": "2021.8.6",
+                "name": "Jia Luo &Chunyi Yang",
+                "group": "wet",
+                "event": "eliminate the template，clean up，AGE",
+                "result": "success"
+            },
+            {
+                "key": "key202186",
+                "time": "2021.8.6",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "recombine deGFP and P70-P28-σ28",
+                "result": "success"
+            },
+            {
+                "key": "key202186",
+                "time": "2021.8.6",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Cas9 PCR",
+                "result": "failure"
+            },
+            {
+                "key": "key202186",
+                "time": "2021.8.6",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "egfp concentration determination",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202187": {
+        "wet": [
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "plasmid extraction",
+                "result": "failure"
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "plasmid(tetR) PCR",
+                "result": "failure"
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "gel extraction",
+                "result": "failure"
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "colony RCR P70-P28-σ28",
+                "result": "failure"
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA 3/4/5 were transformed",
+                "result": "success"
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Cas9 PCR,eliminate the template",
+                "result": "failure"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Searching parameters for equations",
+                "result": ""
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the first version of the notebook",
+                "result": ""
+            },
+            {
+                "key": "key202187",
+                "time": "2021.8.7",
+                "name": "Xiangyi Ren",
+                "group": "dry",
+                "event": "Searching parameters for equations",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key202188": {
+        "wet": [
+            {
+                "key": "key202188",
+                "time": "2021.8.8",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "clean up of Cas9,AGE,transfer into DH5a,,nanodrop:Cas9-1：160ng/uL，Cas9-2：174ng/uL",
+                "result": "success"
+            },
+            {
+                "key": "key202188",
+                "time": "2021.8.8",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "fast pfu PCR Cas9",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202189": {
+        "wet": [
+            {
+                "key": "key202189",
+                "time": "2021.8.9",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Colony PCR plasmid Cas9",
+                "result": "failure"
+            },
+            {
+                "key": "key202189",
+                "time": "2021.8.9",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "plasmid（P70-P28-σ28-gfp）PCR, eliminate the template",
+                "result": "success"
+            },
+            {
+                "key": "key202189",
+                "time": "2021.8.9",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "sequencing analysis gRNA3 and gRNA4",
+                "result": "failure"
+            },
+            {
+                "key": "key202189",
+                "time": "2021.8.9",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "sequencing analysis gRNA 5",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202189",
+                "time": "2021.8.9",
+                "name": "Xiaoqi Wang&Xia Yao&Mingwei Zhang&Lianjie Sha",
+                "group": "HP",
+                "event": "Participate in a meeting with PI",
+                "result": ""
+            }
+        ]
+    },
+    "key2021810": {
+        "wet": [
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "PCR, eliminate the template, gel extraction, expand cultivation",
+                "result": "success"
+            },
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "eliminate the template，clean up，AGE",
+                "result": "success"
+            },
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "recombine P70-P28-σ28",
+                "result": "success"
+            },
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA3 and gRNA4 PCR,AEG,celiminate the template",
+                "result": "success"
+            },
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "recombineP70-P28-σ28TetR,transformation of plasmid P70-P28-σ28-TetR",
+                "result": "success"
+            },
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Cas9 one-step cloning,transfer into DH5a",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021810",
+                "time": "2021.8.10",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the underlying style library",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021811": {
+        "wet": [
+            {
+                "key": "key2021811",
+                "time": "2021.8.11",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "colony RCR P70-P28-TetR,expand culture",
+                "result": "success"
+            },
+            {
+                "key": "key2021811",
+                "time": "2021.8.11",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "KOD PCR Cas9；96 well plate reaction P70-gfp",
+                "result": "success"
+            },
+            {
+                "key": "key2021811",
+                "time": "2021.8.11",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA3 and gRNA4 clean up ,AEG,Coated plate for the night",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021812": {
+        "wet": [
+            {
+                "key": "key2021812",
+                "time": "2021.8.12",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "colony PCR",
+                "result": "failure"
+            },
+            {
+                "key": "key2021812",
+                "time": "2021.8.12",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Colony PCR plasmid Cas9",
+                "result": "failure"
+            },
+            {
+                "key": "key2021812",
+                "time": "2021.8.12",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA3 and gRNA4Pick up bacteria, send test,",
+                "result": "success"
+            },
+            {
+                "key": "key2021812",
+                "time": "2021.8.12",
+                "name": "Fangqian Huang",
+                "group": "wet",
+                "event": "sequencing analysis,plasmid extraction(P70-P28-σ28-gfp)",
+                "result": "success"
+            },
+            {
+                "key": "key2021812",
+                "time": "2021.8.12",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "lift plasmid, measure concentration, AEG.",
+                "result": "success"
+            },
+            {
+                "key": "key2021812",
+                "time": "2021.8.12",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "Gel Extraction",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021813": {
+        "wet": [
+            {
+                "key": "key2021813",
+                "time": "2021.8.13",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "expand cultivation,PCR",
+                "result": "success"
+            },
+            {
+                "key": "key2021813",
+                "time": "2021.8.13",
+                "name": "Xiaoqi Wang&Wenfeng Cai&Yuanhao Xu",
+                "group": "wet",
+                "event": "colony PCR,recombination reaction， transformation P70-σ28, P28a-tetR-ssrA",
+                "result": "failure"
+            },
+            {
+                "key": "key2021813",
+                "time": "2021.8.13",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "Cas9 fragment linking：T4 PNK and T4 ligase",
+                "result": "failure"
+            },
+            {
+                "key": "key2021813",
+                "time": "2021.8.13",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA3 and gRNA4,PCR,AEG, template elimination, purification,",
+                "result": "success"
+            },
+            {
+                "key": "key2021813",
+                "time": "2021.8.13",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "AEG, concentration measurement, re-extraction of gRNA5 plasmid ,AEG",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021813",
+                "time": "2021.8.13",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "release tweets about the progress of each group of experiments",
+                "result": ""
+            }
+        ]
+    },
+    "key2021814": {
+        "wet": [
+            {
+                "key": "key2021814",
+                "time": "2021.8.14",
+                "name": "Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid extraction, colony PCR",
+                "result": "success"
+            },
+            {
+                "key": "key2021814",
+                "time": "2021.8.14",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "transfer gRNA3 and gRNA4 ,Coated plate for the night",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021814",
+                "time": "2021.8.14",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Test microcontroller code",
+                "result": ""
+            },
+            {
+                "key": "key2021814",
+                "time": "2021.8.14",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the text animation library",
+                "result": ""
+            }
+        ],
+        "hp": [
+            {
+                "key": "key2021814",
+                "time": "2021.8.14",
+                "name": "Lu Wang&Xiangyi Ren&Xia Yao&Lianjie Sha&Weiwei Qian&Chunyi Yang&Jia Luo&Mingwei Zhang",
+                "group": "HP",
+                "event": "Participate in communication of CCiC",
+                "result": ""
+            }
+        ]
+    },
+    "key2021815": {
+        "wet": [
+            {
+                "key": "key2021815",
+                "time": "2021.8.15",
+                "name": "Wenfeng Cai",
+                "group": "wet",
+                "event": "expand cultivation, colony PCR",
+                "result": "success"
+            },
+            {
+                "key": "key2021815",
+                "time": "2021.8.15",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "plasmid extraction(P70-P28-σ28-TetR),expand culture",
+                "result": "success"
+            },
+            {
+                "key": "key2021815",
+                "time": "2021.8.15",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "PCR gRNA1、gRNA2 template",
+                "result": "success"
+            },
+            {
+                "key": "key2021815",
+                "time": "2021.8.15",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "Cas9 PCR,AGE,clean up",
+                "result": "success"
+            },
+            {
+                "key": "key2021815",
+                "time": "2021.8.15",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "Morning inoculation afternoon test, gRNA5 bacteria, gRNA5 inoculation",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021815",
+                "time": "2021.8.15",
+                "name": "Mingwei Zhang&Xiaoqi Wang&Yixing Wang&Yetao Zhang",
+                "group": "HP",
+                "event": "Participate in work of BIO+ innovation&entrepreneurship",
+                "result": ""
+            }
+        ]
+    },
+    "key2021816": {
+        "wet": [
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "gRNA1、gRNA2 template clean up",
+                "result": "success"
+            },
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Li Xue",
+                "group": "wet",
+                "event": "T4 PNK and T4 ligase",
+                "result": "success"
+            },
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA5Large plasmid, To measure the concentration",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Contribute to the CCiC poster",
+                "result": ""
+            },
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Xiaoyu Hu",
+                "group": "dry",
+                "event": "Contribute to CCIC communication content",
+                "result": ""
+            },
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Participate in communication of CCiC",
+                "result": ""
+            },
+            {
+                "key": "key2021816",
+                "time": "2021.8.16",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Participate in communication of CCiC",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021817": {
+        "wet": [
+            {
+                "key": "key2021817",
+                "time": "2021.8.17",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "actication of culture BW25113strain",
+                "result": "success"
+            },
+            {
+                "key": "key2021817",
+                "time": "2021.8.17",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "gRNA1 gRNA2 IVT；actication of culture KL740 strain",
+                "result": "success"
+            },
+            {
+                "key": "key2021817",
+                "time": "2021.8.17",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA5Large plasmid, To measure the concentration",
+                "result": "success"
+            },
+            {
+                "key": "key2021817",
+                "time": "2021.8.17",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "plasmid Cas9 transfer into Dh5a",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021817",
+                "time": "2021.8.17",
+                "name": "Xiaoyu Hu",
+                "group": "dry",
+                "event": "Draw several push covers",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021818": {
+        "wet": [
+            {
+                "key": "key2021818",
+                "time": "2021.8.18",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid extraction",
+                "result": "success"
+            },
+            {
+                "key": "key2021818",
+                "time": "2021.8.18",
+                "name": "Yang Chunyi&Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "electroporation of plasmid 3A 3B 3C",
+                "result": "success"
+            },
+            {
+                "key": "key2021818",
+                "time": "2021.8.18",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "Bacterial solution preservation of gRNA3 and gRNA4",
+                "result": "success"
+            },
+            {
+                "key": "key2021818",
+                "time": "2021.8.18",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "gRNA1、gRNA2 chloroform purification",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021819": {
+        "wet": [
+            {
+                "key": "key2021819",
+                "time": "2021.8.19",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "actication of culture BW25113+3B strain",
+                "result": "success"
+            },
+            {
+                "key": "key2021819",
+                "time": "2021.8.19",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "Inoculation of gRNA3 and gRNA4 returned to the bacterial fluid",
+                "result": "success"
+            },
+            {
+                "key": "key2021819",
+                "time": "2021.8.19",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "In Vitro Enzymology of Cas9，running gel",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021820": {
+        "wet": [
+            {
+                "key": "key2021820",
+                "time": "2021.8.20",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "plasmid extraction",
+                "result": "success"
+            },
+            {
+                "key": "key2021820",
+                "time": "2021.8.20",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "expand cultivation",
+                "result": "success"
+            },
+            {
+                "key": "key2021820",
+                "time": "2021.8.20",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "gRNA3 and gRNA4 were inoculated into conical vials",
+                "result": "success"
+            },
+            {
+                "key": "key2021820",
+                "time": "2021.8.20",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "P70-gfp transformed to KL740 strain",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021820",
+                "time": "2021.8.20",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the WeChat mini program user login and Bluetooth module search, connection function",
+                "result": ""
+            }
+        ],
+        "hp": [
+            {
+                "key": "key2021820",
+                "time": "2021.8.20",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Publish popular science tweets and push manuscripts on the progress of each group",
+                "result": ""
+            }
+        ]
+    },
+    "key2021821": {
+        "wet": [
+            {
+                "key": "key2021821",
+                "time": "2021.8.21",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "measure fluorescence:BW+3A(32738)、BW+3C(8868)",
+                "result": "success"
+            },
+            {
+                "key": "key2021821",
+                "time": "2021.8.21",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "PCR gRNA3、4、5 template；",
+                "result": "failure"
+            },
+            {
+                "key": "key2021821",
+                "time": "2021.8.21",
+                "name": "Jia Luo &Chunyi Yang",
+                "group": "wet",
+                "event": "the mass distill of the plasmid（gRNA3/4）",
+                "result": "success"
+            },
+            {
+                "key": "key2021821",
+                "time": "2021.8.21",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "P70-gfp：expand culture",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021822": {
+        "wet": [
+            {
+                "key": "key2021822",
+                "time": "2021.8.22",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "measure fluorescence",
+                "result": "success"
+            },
+            {
+                "key": "key2021822",
+                "time": "2021.8.22",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "PCR gRNA3、4、5 template；in vitro transformation；P70-degfp plasmid extraction",
+                "result": "success"
+            },
+            {
+                "key": "key2021822",
+                "time": "2021.8.22",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "Cas9 plasmid extraction",
+                "result": "failure"
+            },
+            {
+                "key": "key2021822",
+                "time": "2021.8.22",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "Cas9-2 PCR",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021822",
+                "time": "2021.8.22",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "start to design, manufacture and debug amplifier circuit",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021823": {
+        "wet": [
+            {
+                "key": "key2021823",
+                "time": "2021.8.23",
+                "name": "Xiaoqi Wang&Wenfeng Cai",
+                "group": "wet",
+                "event": "verify recombinant plasmid in txtl system",
+                "result": "failure"
+            },
+            {
+                "key": "key2021823",
+                "time": "2021.8.23",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "actication of culture BW25113+3C strain",
+                "result": "success"
+            },
+            {
+                "key": "key2021823",
+                "time": "2021.8.23",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "electroporation of plasmid 3B",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021823",
+                "time": "2021.8.23",
+                "name": "Mingwei Zhang&Yuxuan Shen&Lu Wang",
+                "group": "HP",
+                "event": "Participate in the meeting of online Meetup with ASTWS-China",
+                "result": ""
+            }
+        ]
+    },
+    "key2021824": {
+        "wet": [
+            {
+                "key": "key2021824",
+                "time": "2021.8.24",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "Cas9-2 clean up、nanodrop:220ng/uL,AGE,one-step cloning,transfer into DH5a",
+                "result": "success"
+            },
+            {
+                "key": "key2021824",
+                "time": "2021.8.24",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "expand cultivation",
+                "result": "success"
+            },
+            {
+                "key": "key2021824",
+                "time": "2021.8.24",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "measure fluorescence",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021825": {
+        "wet": [
+            {
+                "key": "key2021825",
+                "time": "2021.8.25",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "actication of culture BW25113+3C strain",
+                "result": "success"
+            },
+            {
+                "key": "key2021825",
+                "time": "2021.8.25",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "electroporation of plasmid",
+                "result": "failure"
+            },
+            {
+                "key": "key2021825",
+                "time": "2021.8.25",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "Colony PCR plasmid Cas9-2",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021826": {
+        "wet": [
+            {
+                "key": "key2021826",
+                "time": "2021.8.26",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "electroporation of plasmid 3C",
+                "result": "failure"
+            },
+            {
+                "key": "key2021826",
+                "time": "2021.8.26",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "expand culture Cas9-2",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021826",
+                "time": "2021.8.26",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Publish a push manuscript of the progress of each group",
+                "result": ""
+            }
+        ]
+    },
+    "key2021827": {
+        "wet": [
+            {
+                "key": "key2021827",
+                "time": "2021.8.27",
+                "name": "Yifan Zheng &Fangqian Huang",
+                "group": "wet",
+                "event": "Coating",
+                "result": "failure"
+            },
+            {
+                "key": "key2021827",
+                "time": "2021.8.27",
+                "name": "Xue Li",
+                "group": "wet",
+                "event": "sequencing analysis",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021828": {
+        "wet": [
+            {
+                "key": "key2021828",
+                "time": "2021.8.28",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "electroporation of plasmid 3C",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021828",
+                "time": "2021.8.28",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Publish a push manuscript",
+                "result": ""
+            },
+            {
+                "key": "key2021828",
+                "time": "2021.8.28",
+                "name": "Mingwei Zhang",
+                "group": "HP",
+                "event": "Publish a VLOG of wet group",
+                "result": ""
+            }
+        ]
+    },
+    "key2021829": {
+        "wet": [
+            {
+                "key": "key2021829",
+                "time": "2021.8.29",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "measure fluorescence",
+                "result": "success"
+            },
+            {
+                "key": "key2021829",
+                "time": "2021.8.29",
+                "name": "Yifan Zheng&Fangqian Huang",
+                "group": "wet",
+                "event": "scribe inoculation",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021829",
+                "time": "2021.8.29",
+                "name": "Mingwei Zhang &Yuxuan Shen",
+                "group": "HP",
+                "event": "Participated in the summer camp activities of the School of Bioengineering for high schools",
+                "result": ""
+            }
+        ]
+    },
+    "key2021830": {
+        "wet": [],
+        "dry": [
+            {
+                "key": "key2021830",
+                "time": "2021.8.30",
+                "name": "Lianjie Sha",
+                "group": "dry",
+                "event": "Contributed to the design of primary detector",
+                "result": ""
+            }
+        ],
+        "hp": [
+            {
+                "key": "key2021830",
+                "time": "2021.8.30",
+                "name": "Mingwei Zhang &Yuxuan Shen&Jia Luo",
+                "group": "HP",
+                "event": "Interviews with kidney transplant patients",
+                "result": ""
+            }
+        ]
+    },
+    "key202191": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202191",
+                "time": "2021.9.1",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Publish the push manuscript of the hospital interview",
+                "result": ""
+            }
+        ]
+    },
+    "key202192": {
+        "wet": [
+            {
+                "key": "key202192",
+                "time": "2021.9.2",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "PCR: amplify the template of igRNA and CXCL9 mRNA",
+                "result": "success"
+            },
+            {
+                "key": "key202192",
+                "time": "2021.9.2",
+                "name": "group members",
+                "group": "wet",
+                "event": "In-depth exchanges with the OUC-China team, a partner of Ocean University of China",
+                "result": ""
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202192",
+                "time": "2021.9.2",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Publish a push manuscript",
+                "result": ""
+            }
+        ]
+    },
+    "key202193": {
+        "wet": [
+            {
+                "key": "key202193",
+                "time": "2021.9.3",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "IVT igRNA and CXCL9 mRNA, then purify them",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202193",
+                "time": "2021.9.3",
+                "name": "Mingwei Zhang&Xiaoqi Wang&Yuxuan Shen",
+                "group": "HP",
+                "event": "Participate in the meeting of later work",
+                "result": ""
+            }
+        ]
+    },
+    "key202194": {
+        "wet": [
+            {
+                "key": "key202194",
+                "time": "2021.9.4",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "IVT igRNA and CXCL9 mRNA again, then purify them",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key202194",
+                "time": "2021.9.4",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Publish the push manuscript of the online exchange meeting with Ocean University of China",
+                "result": ""
+            },
+            {
+                "key": "key202194",
+                "time": "2021.9.4",
+                "name": "Xia Yao&Xiaoqi Wang&Chunyi Yang&Xue Li&Lianjie Sha",
+                "group": "HP",
+                "event": "Attending the records of video used to recruit freshmen",
+                "result": ""
+            }
+        ]
+    },
+    "key202195": {
+        "wet": [
+            {
+                "key": "key202195",
+                "time": "2021.9.5",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "amplify the plasmid T7-gfp and P70-T7 RNAp",
+                "result": "success"
+            },
+            {
+                "key": "key202195",
+                "time": "2021.9.5",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "GRNA678, plasmid extraction, concentration measurement, AGE",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key202195",
+                "time": "2021.9.5",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Design android software",
+                "result": ""
+            }
+        ],
+        "hp": [
+            {
+                "key": "key202195",
+                "time": "2021.9.5",
+                "name": "Mingwei Zhang &Lu Wang&Yuxuan Shen&Yixing Wang&Yetao Zhang",
+                "group": "HP",
+                "event": "Participate in the project team meeting",
+                "result": ""
+            },
+            {
+                "key": "key202195",
+                "time": "2021.9.5",
+                "name": "Xiangyi Ren&Xia Yao&Lianjie Sha",
+                "group": "HP",
+                "event": "Communicate with Genscript's technical consultants",
+                "result": ""
+            }
+        ]
+    },
+    "key202196": {
+        "wet": [
+            {
+                "key": "key202196",
+                "time": "2021.9.6",
+                "name": "Jia Luo",
+                "group": "wet",
+                "event": "GRNA678, plasmid extraction, concentration measurement, AGE",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202197": {
+        "wet": [
+            {
+                "key": "key202197",
+                "time": "2021.9.7",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "running the gel of RNA",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key202198": {
+        "wet": [
+            {
+                "key": "key202198",
+                "time": "2021.9.8",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "verify the function of gRNA with Cas9 protein",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021910": {
+        "wet": [
+            {
+                "key": "key2021910",
+                "time": "2021.9.10",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "IVT igRNA and CXCL9 mRNA, then purify them",
+                "result": "success"
+            }
+        ],
+        "dry": [
+            {
+                "key": "key2021910",
+                "time": "2021.9.10",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Test and debug bluetooth module",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021911": {
+        "wet": [
+            {
+                "key": "key2021911",
+                "time": "2021.9.11",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "verify the function of gRNA with Cas9 protein",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021911",
+                "time": "2021.9.11",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Post a tweet communicating with Genscript",
+                "result": ""
+            }
+        ]
+    },
+    "key2021912": {
+        "wet": [
+            {
+                "key": "key2021912",
+                "time": "2021.9.12",
+                "name": "group members",
+                "group": "wet",
+                "event": "Participated in the CRISPR conference hosted by Tianjin University",
+                "result": ""
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021912",
+                "time": "2021.9.12",
+                "name": "Xia Yao&Xiaoqi Wang&Lianjie Sha&Chunyi Yang&Fangqian Huang&Yifan Zheng&Wenfeng Cai&Xue Li",
+                "group": "HP",
+                "event": "Launched laboratory open day activities for freshmen",
+                "result": ""
+            },
+            {
+                "key": "key2021912",
+                "time": "2021.9.12",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Participated in the CRISPR conference hosted by Tianjin University",
+                "result": ""
+            },
+            {
+                "key": "key2021912",
+                "time": "2021.9.12",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Project principle summary push",
+                "result": ""
+            }
+        ]
+    },
+    "key2021913": {
+        "wet": [
+            {
+                "key": "key2021913",
+                "time": "2021.9.13",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "construct the plasmid gRNA6, gRNA7, gRNA8",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021915": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021915",
+                "time": "2021.9.15",
+                "name": "Lu Wang",
+                "group": "HP",
+                "event": "Release CRISPR conference push",
+                "result": ""
+            }
+        ]
+    },
+    "key2021916": {
+        "wet": [
+            {
+                "key": "key2021916",
+                "time": "2021.9.16",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "EMSA: verify the combination of gRNA and cas9",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021918": {
+        "wet": [
+            {
+                "key": "key2021918",
+                "time": "2021.9.18",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "EMSA: verify the combination of gRNA and cas9 again",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021920": {
+        "wet": [],
+        "dry": [
+            {
+                "key": "key2021920",
+                "time": "2021.9.20",
+                "name": "Weiwei Qian",
+                "group": "dry",
+                "event": "Complete the final version of the description page code",
+                "result": ""
+            },
+            {
+                "key": "key2021920",
+                "time": "2021.9.20",
+                "name": "Xinyuan Ying",
+                "group": "dry",
+                "event": "Test and debug photodiode circuits",
+                "result": ""
+            }
+        ],
+        "hp": []
+    },
+    "key2021921": {
+        "wet": [
+            {
+                "key": "key2021921",
+                "time": "2021.9.21",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "EMSA: verify the combination of gRNA and cas9 again",
+                "result": "failure"
+            }
+        ],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021921",
+                "time": "2021.9.21",
+                "name": "Yixing Wang",
+                "group": "HP",
+                "event": "Edit the video of the hospital interview",
+                "result": ""
+            }
+        ]
+    },
+    "key2021922": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021922",
+                "time": "2021.9.22",
+                "name": "Mingwei Zhang&Yuxuan Shen&Lu Wang",
+                "group": "HP",
+                "event": "Participate in the meeting of Qiushan Primary School with ASTWS-China",
+                "result": ""
+            }
+        ]
+    },
+    "key2021925": {
+        "wet": [
+            {
+                "key": "key2021925",
+                "time": "2021.9.25",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "EMSA: verify the combination of gRNA and cas9 again",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    },
+    "key2021928": {
+        "wet": [],
+        "dry": [],
+        "hp": [
+            {
+                "key": "key2021928",
+                "time": "2021.9.28",
+                "name": "Yetao Zhang&Xue Li&Chunyi Yang&Xiaoqi Wang",
+                "group": "HP",
+                "event": "Participate in the activities of Qiushan Primary School",
+                "result": ""
+            }
+        ]
+    },
+    "key2021103": {
+        "wet": [
+            {
+                "key": "key2021103",
+                "time": "2021.10.3",
+                "name": "Xia Yao",
+                "group": "wet",
+                "event": "prepare for In vitro validation experiment of OUC-China",
+                "result": "success"
+            }
+        ],
+        "dry": [],
+        "hp": []
+    }
+}

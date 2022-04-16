@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Contribution</span>
+                <h2 class="text-littler text-gray view-x-80">During the competition session, we shared some materials
+                    such as information supplement of a part, a handbook about Cell-Free reaction with CRISPR, and an
+                    Instructions for Handheld Illuminator.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="https://2021.igem.org/wiki/images/3/38/T--ZJUT-China--slidedown.svg"
+                        alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <section class="target" id="target-1-1">
+                        <div class="text-big text-green title-big target-title-1">
+                            Wet lab
+                        </div>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2">
+                                Add information to the existing part
+                            </div>
+                            <p class="mg-tb-1 text-little">Wiki of the existing part: <a
+                                    href="http://parts.igem.org/Part:BBa_K2680550">http://parts.igem.org/Part:BBa_K2680550</a>
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2">
+                                The degradation rate of eGFP-ssrA
+                            </div>
+                            <p class="mg-tb-1 text-little">According to the lectures, we learned that the degradation
+                                rate of eGFP-ssrA could be measured. In the Cell-Free system, protein degradation by
+                                ClpXP is described by a zeroth order chemical kinetic.
+                            </p>
+                            <p class="mg-tb-1 text-little">In protein substrates (eGFP), ClpX recognizes ssrA--a
+                                specific C-terminal degradation tag, proceeds to unfold stable tertiary structure in the
+                                protein, and then spools or translocates the unfolded polypeptide chain into a
+                                sequestered proteolytic compartment in ClpP for degradation into small peptide
+                                fragments.
+                            </p>
+                            <p class="mg-tb-1 text-little">As part of iGEM18_William_and_Mary, ZJUT-China assessed the
+                                degradation rate of different eGFP <a
+                                    href="http://parts.igem.org/Part:(BBa_K2680550)">(BBa_K2680550)</a> by adding
+                                different concentrations of
+                                plasmid P70a-ClpXP <a href="http://parts.igem.org/Part:BBa_K2680550">(BBa_K3885203)</a>
+                                based on the reference. We hope this will enhance
+                                further modeling and experiments.
+                            </p>
+                            <h4 class="text-weight-2 mg-tb-1">Methodology</h4>
+                            <p class="mg-tb-1 text-little">In Cell-Free system, protein degradation by ClpXP is
+                                described by a zeroth order chemical kinetic. Accelerated protein degradation can be
+                                achieved by co-expression of P70a-ClpXP, by adding protein to a Cell-Free system
+                                pre-incubated with P70a-ClpXP for an hour or by adding dilutions of pre-expressed ClpXP
+                                (P70a-ClpXP, 3 nM). Different methods can provide different rates of protein
+                                degradation, ranging from 9.3 nM/min to 250 nM/min. By expressing ClpXP, protein
+                                synthesis can be adjusted to an appropriate rate <sup><a class="sourse-order"
+                                        href="#">[1]</a></sup>.
+                            </p>
+                            <h4 class="text-weight-2 mg-tb-1">Result</h4>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/8/8a/T--ZJUT-China--contribution_1.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-4">
+                                <span class="center-block text-center"><strong>Figure 1.</strong> Degradation rate of
+                                    deGFP upon
+                                    different expression methods of ClpXP.</span>
+                            </div>
+                            <p class="mg-tb-1 text-little">The degradation rate of deGFP-ssrA only using the endogenous
+                                ClpXP has been determined by an assay, which is achieved by measuring the kinetics after
+                                adding pure His-GFP-ssrA (5μM) to the Cell-Free system.
+                            </p>
+                            <h4 class="text-weight-2 mg-tb-1">Analysis</h4>
+                            <p class="mg-tb-1 text-little">As shown in Figure 1, the higher the concentration of ClpXP,
+                                the faster the degradation of eGFP-ssrA. Meanwhile, according to the table, when ClpXP
+                                with the same concentration was added, eGFP degradation rate in pre-expression was from
+                                6.5 nM/min to 256 nM/min, while in co-expression, eGFP degradation rate was from 9.3
+                                nM/min to 128 nM/min. It can be concluded that pre-expression is more conducive to eGFP
+                                protein degradation than co-expression.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-3">
+                            <div class="text-small text-green target-title-2">
+                                Cell-Free Handbook(with XJTLU)
+                            </div>
+                            <p class="mg-tb-1 text-little">Our project is being run on the <strong>Cell-Free
+                                    chassis</strong> this year.</p>
+                            <p class="mg-tb-1 text-little">Early in the competition session, we found that teams using
+                                Cell-Free chassis were relatively few. Therefore, there wasn't as much experience with
+                                experimental design or use. </p>
+                            <p class="mg-tb-1 text-little">In the course of communication with other teams, it was
+                                fortunately found that XJTLU-China was also using a Cell-Free system, so extensive
+                                communication was possible and a handbook was written together.</p>
+                            <p class="mg-tb-1 text-little">The Cell-Free system handbook will hopefully help future
+                                teams implementing the Cell-Free system gain some experience and guidance.
+                            </p>
+                            <p class="text-little">Cell-Free system handbook<span
+                                    class="glyphicon glyphicon-file hover-green hover-pointer view-pdf text-primary"
+                                    data-href="https://2021.igem.org/wiki/images/4/41/T--ZJUT-China--cell_free_system_handbook.pdf"></span><a
+                                    href="https://2021.igem.org/wiki/images/4/41/T--ZJUT-China--cell_free_system_handbook.pdf"
+                                    download="" title="Click to download"><span
+                                        class="glyphicon glyphicon-download-alt  hover-green hover-pointer"></span></a>
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-4">
+                            <div class="text-small text-green target-title-2">
+                                CRISPR conferencea
+                            </div>
+                            <p class="mg-tb-1 text-little">CRISPR was discovered and invented in the early 1990s.
+                                Nowadays, CRISPR -related technologies and applications have developed rapidly, becoming
+                                the most popular gene-editing tool in human biology, agriculture and microbiology.</p>
+                            <p class="mg-tb-1 text-little">Through the communication in CCIC and teams in the early
+                                stage, we found many teams encountered various problems with CRISPR technology, such as
+                                plasmid construction of large fragments, gene knockout in yeast, off-target gRNA and so
+                                on. When iGEM Tianjing 2021 decided to launch a CRISPR conference, we jumped at the
+                                chance.</p>
+                            <p class="mg-tb-1 text-little">After collecting the questions and an online CRISPR
+                                discussion conference, all the teams write their questions and solutions from other
+                                teams. Finally, iGEM Tianjing 2021 incorporated all the information and made a "CRISPR
+                                APPLICATION GUIDELINE".</p>
+                            <p class="mg-tb-1 text-little">This year, our project aimed to express CRISPR/Cas9 in
+                                Cell-Free System, so it was necessary to verify the feasibility of CRISPR/Cas9 system in
+                                vitro. We learned all sorts of methods like RNA-RNA Gel shift assay(EMSA), in vitro DNA
+                                digestion with Cas9 Nuclease, and ImageJ used for grayscale analysis.
+                            </p>
+                            <p class="mg-tb-1 text-little">We hope this guideline is a contribution to the following
+                                iGEMers, which can render some solutions for them to solve their problems.
+                            </p>
+                            <div class="row col-md-12">
+                                <div class="col-md-6">
+                                    <img class="img-responsive center-block figure"
+                                        src="https://2021.igem.org/wiki/images/6/6b/T--ZJUT-China--contribution_2.png"
+                                        data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                        alt="figure-4">
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-responsive center-block figure"
+                                        src="https://2021.igem.org/wiki/images/0/0d/T--ZJUT-China--contribution_3.png"
+                                        data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                        alt="figure-4">
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1">
+                            Dry lab
+                        </div>
+                        <section class="target" id="target-2-5">
+                            <div class="text-small text-green target-title-2">
+                                Building Instructions for Handheld Illuminator
+                            </div>
+                            <p class="mg-tb-1 text-little">We made a handheld illuminator for fluorescence
+                                visualization. Consisting of LEDs, light filters and a 3D printed case made of
+                                biodegradable polylactic acid, we believe it to be low-cost, recyclable and portable. By
+                                changing the LEDs and filters, this illuminator is able to visualize different kinds of
+                                fluorescent substances. The assembly instructions and STL files for this illuminator are
+                                listed below.</p>
+                            <p class="text-little">Assembly instructions<span
+                                    class="glyphicon glyphicon-file hover-green hover-pointer view-pdf text-primary"
+                                    data-href="https://2021.igem.org/wiki/images/b/bd/T--ZJUT-China--Illuminator.pdf"></span><a
+                                    href="https://2021.igem.org/wiki/images/b/bd/T--ZJUT-China--Illuminator.pdf"
+                                    download="" title="Click to download"><span
+                                        class="glyphicon glyphicon-download-alt  hover-green hover-pointer"></span></a>
+                            </p>
+                            <p class="text-little">STL files<a
+                                    href="https://2021.igem.org/wiki/images/5/59/T--ZJUT-China--Handheld_Illuminator_STL_Files.zip"
+                                    download="" title="Click to download"><span
+                                        class="glyphicon glyphicon-download-alt  hover-green hover-pointer"></span></a>
+                            </p>
+                        </section>
+                    </section>
+                    <section class="row footer target" id="target-1-3">
+                        <div class="col-md-12 bg-white">
+                            <div class="col-md-12 pd-0">
+                                <div class="reference mg-t-1 mg-b-4 mg-lr-0">
+                                    <div class="text-big title-big mg-b-1 target-title-1">Reference</div>
+                                    <p class="text-little">
+                                        [1]<span class="sourse"> Garamella J, et al. The all E. coli TX-TL toolbox 2.0: a
+                                            platform for Cell-Free synthetic biology[J]. ACS Synthetic Biology, 2016, 5
+                                            (4): 344-355.
+                                            <a class="view" target="_blank"
+                                                href="https://pubmed.ncbi.nlm.nih.gov/26818434/"
+                                                title="Click to read">Link</a>
+                                        </span>
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog modal-lg" aria-hidden="true" role="document"
+                style="top: 50%;transform: translate(0,-50%);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

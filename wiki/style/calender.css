@@ -1,0 +1,105 @@
+.calender {
+    z-index: 1000;
+}
+
+/* .calender td{
+    margin: 1px;
+} */
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.calender td {
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 30px;
+    height: 15px;
+}
+
+.calender_body * {
+    text-align: center;
+    /* padding: 5px; */
+    /* margin: 10px; */
+    cursor: default;
+}
+
+.calender_active {
+    background-color: #6ecbdc !important;
+}
+
+.next,
+.preview {
+    cursor: pointer;
+}
+
+.next:hover,
+.preview:hover {
+    color: #6ecbdc;
+}
+
+.able {
+    color: white;
+    background-color: #b7e4f3;
+}
+
+.slidedown {
+    cursor: pointer;
+}
+
+.curDate {
+    color: #6ecbdc;
+}
+
+.notThis {
+    color: #767676;
+}
+
+
+
+.calender_item {
+    background: #03eeff;
+    border-radius: 10px;
+    width: auto;
+    -webkit-clip-path: circle(10% at 90% 30%);
+    clip-path: circle(6% at 24% 93%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    /* cursor: pointer; */
+}
+
+.calender_item>*{
+    opacity: 0;
+}
+
+.calender_item>span{
+    opacity: 1;
+    margin-left: 21.4%;
+    margin-bottom: 3.5%;
+    color: #fff;
+}
+
+.calender:hover{
+    -webkit-clip-path: circle(75%);
+    clip-path: circle(75%);
+    
+}
+
+.calender:hover .calender_item,
+.calender:hover .calender_item>*{
+    -webkit-clip-path: circle(75%);
+    clip-path: circle(75%);
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.4));
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+.calender:hover .calender_item>span{
+    display: none;
+}

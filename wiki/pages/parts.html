@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Parts</span>
+                <h2 class="text-littler text-gray view-x-80">All parts designed by ZJUT-China  revolved around the
+                    Cell-Free system. We designed a total of 19 basic parts and 23 composite parts for the detection of
+                    RNA biomarkers. You can get more information by accessing basic parts, composite parts and parts
+                    collection.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <p class="mg-tb-1 text-little">Favourite basic part: <a
+                            href="http://parts.igem.org/Part:BBa_K3885124">BBa_K3885124</a></p>
+                    <p class="mg-tb-1 text-little">Favourite composite part: <a
+                            href="http://parts.igem.org/Part:BBa_K3885311">BBa_K3885311</a></p>
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">3</span>
+                            <span class="text-little text-gray">What we know</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Basic Parts
+                        </div>
+                        <p class="mg-tb-1 text-little">A total of 19 basic parts were builded for the Cell-Free system
+                            myTXTL, including 4 promoters, 3 ribosomal binding sites and 12 expressed genes. We selected
+                            σ28 factor, activate P28a promoter (<a
+                                href="http://parts.igem.org/Part:BBa_K3885101">BBa_K3885101</a>) to complex different
+                            ribosomal binding
+                            sites UTR1, UTR2 and UTR3 (<a
+                                href="http://parts.igem.org/Part:BBa_K3885111">BBa_K3885111</a>, <a
+                                href="http://parts.igem.org/Part:BBa_K3885112">BBa_K3885112</a> and <a
+                                href="BBa_K3885113">BBa_K3885113</a>) to better express
+                            the downstream genes. The corresponding gRNA (<a
+                                href="http://parts.igem.org/Part:BBa_K3885172">BBa_K3885172</a>) and igRNA(<a
+                                href="http://parts.igem.org/Part:">BBa_K3885171</a>) were
+                            designed to detect RNA biomarkers.
+                        </p>
+                        <p class="mg-tb-1 text-little">The best part is σ28 (<a
+                                href="http://parts.igem.org/Part:BBa_K3885124">BBa_K3885124</a><span
+                                class="glyphicon glyphicon-heart" style="color: #e81224;"></span>), σ28 is
+                            the most competitive
+                            of the σ factor. Another important feature is σ28 has strong specificity with its promoter
+                            P28a. The leak through the promoter P28 is almost systematically below the detection limit.
+                            So the σ28 unit is the most efficient and the most specific sigma factor unit tested in this
+                            work.
+                        </p>
+                        <p class="mg-tb-1 text-little">You can click on the part number for more detail in the following
+                            table.
+                        </p>
+                        <div class="parts-table"></div>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">4</span>
+                            <span class="text-little text-gray">How we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Composite Parts
+                        </div>
+                        <p class="mg-tb-1 text-little">A total of 23 composite parts were established, including 15
+                            parts with characterization function. We used P70a-UTR1-degfp (<a
+                                href="http://parts.igem.org/Part:">BBa_K3885311</a><span
+                                class="glyphicon glyphicon-heart" style="color: #e81224;"></span>) to
+                            characterize the intensity of complexed expression of P70a and UTR1, we used P70-σ28
+                            (<a href="http://parts.igem.org/Part:BBa_K3885202">BBa_K3885202</a>), P28-tetO-deGFP-ssrA
+                            (<a href="http://parts.igem.org/Part:BBa_K3885352">BBa_K3885352</a>), P28-tetR-ssrA (<a
+                                href="http://parts.igem.org/Part:BBa_K3885212">BBa_K3885212</a>) to
+                            establish our gene line to characterize whether our biomarkers have been detected.
+                        </p>
+                        <p class="mg-tb-1 text-little">The best composite part is P70a-UTR1-deGFP, P70a is an E. coli
+                            cytoplasmic extract, absent any remaining living E. coli cells, provides the
+                            Transcription-Translation (TX-TL) molecular machineries. When P70a is associated with UTR1,
+                            deGFP synthesis can reach up to 2 mg /mL (80μM) in batch mode reaction, comparable to using
+                            the T7 promoter.
+                        </p>
+                        <p class="mg-tb-1 text-little">You can click on the part number for more detail in the following
+                            table.
+                        </p>
+                        <div class="parts-table"></div>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <div class="text-big text-green title-big target-title-1">
+                            Parts Collection
+                        </div>
+                        <p class="mg-tb-1 text-little">Our best collection of parts revolves around the Cell-Free system
+                            myTXTL. By constructing plasmids suitable for expression in the Cell-Free system, we can
+                            more simply and efficiently characterize the content of RNA biomarkers in our samples, so as
+                            to quickly characterize the recovery response of the disease. The corresponding gRNA
+                            (<a href="http://parts.igem.org/Part:BBa_K3885172">BBa_K3885172</a>) and igRNA (<a
+                                href="http://parts.igem.org/Part:BBa_K3885171">BBa_K3885171</a>) were designed to detect
+                            RNA biomarkers in vitro.
+                        </p>
+                        <p class="mg-tb-1 text-little">We also had 21 composite parts expressed in Cell-Free system that
+                            were used to construct our gene lines.we used P70-σ28 (<a
+                                href="http://parts.igem.org/Part:BBa_K3885202">BBa_K3885202</a>), P28-tetO-deGFP-ssrA
+                            (<a href="http://parts.igem.org/Part:BBa_K3885352">BBa_K3885352</a>), P28-tetR-ssrA (<a
+                                href="http://parts.igem.org/Part:BBa_K3885212">BBa_K3885212</a>) to establish our gene
+                            line to characterize
+                            whether our biomarkers have been detected.
+                        </p>
+                        <p class="mg-tb-1 text-little">You can click on the part number for more detail in the following
+                            table.
+                        </p>
+                        <div class="parts-table"></div>
+                    </section>
+                    <section class="row footer target" id="target-1-4">
+                        <div class="col-md-12 bg-white">
+                            <div class="col-md-12 pd-0">
+                                <div class="reference mg-t-1 mg-b-4 mg-lr-0">
+                                    <div class="text-big title-big mg-b-1 target-title-1">Reference</div>
+                                    <p class="text-little">
+                                        [1]<span class="sourse">Galizi R, et al. Engineered RNA-Interacting CRISPR Guide
+                                            RNAs for Genetic Sensing and Diagnostics. CRISPR J. 2020 Oct; 3 (5):
+                                            398-408.
+                                            <a class="view" target="_blank"
+                                                href="https://www.liebertpub.com/doi/10.1089/crispr.2020.0029"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [2]<span class="sourse">Shin J. & Noireaux V. Efficient cell-free expression
+                                            with the endogenous E. Coli RNA polymerase and sigma factor 70. J Biol Eng.
+                                            2010 Jun 24; 4: 8.
+                                            <a class="view" target="_blank"
+                                                href="https://jbioleng.biomedcentral.com/articles/10.1186/1754-1611-4-8"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [3]<span class="sourse">Shin J. & Noireaux V. An E. coli cell-free expression
+                                            toolbox: application to synthetic gene circuits and artificial cells. ACS
+                                            synthetic biology, 2012, 1 (1): 29-41.
+                                            <a class="view" target="_blank"
+                                                href="https://pubmed.ncbi.nlm.nih.gov/23651008/"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../js/parts.js"></script>
+</body>
+
+</html>

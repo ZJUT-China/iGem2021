@@ -1,0 +1,85 @@
+{
+    "pie-1": {
+        "title": "Q1: Do you have an awareness of kidney transplantation?",
+        "data": [{
+            "name": "A.Yes, underwent a kidney transplant before. /Yes, friends or relatives of mine have undergone a kidney transplant in the past.",
+            "y": 0
+        }, {
+            "name": "B.Yes, fully understand its principles and techniques.",
+            "y": 16
+        }, {
+            "name": "C.Yes, only a little.",
+            "y": 71
+        }, {
+            "name": "D.Not at all.",
+            "y": 13
+        }]
+    },
+    "pie-2": {
+        "title": "Q2:How much do you know about the rejection reaction?",
+        "data": [{
+            "name": "A.Completely, and my career is related to it.",
+            "y": 2
+        }, {
+            "name": "B.Very, and I have read relevant literatures.",
+            "y": 11
+        }, {
+            "name": "C.A few, heard from TV programs or books",
+            "y": 58
+        }, {
+            "name": "D.Not much, only know how to spell it.",
+            "y": 21
+        }, {
+            "name": "E.Not at all.",
+            "y": 8
+        }]
+    },
+    "pie-3": {
+        "title": "Q3:What is the major factor that may affect your choice of detection techniques?",
+        "data": [{
+            "name": "A.price",
+            "y": 14
+        }, {
+            "name": "B.convenience",
+            "y": 5
+        }, {
+            "name": "C.accuracy",
+            "y": 81
+        }]
+    },
+    "pie-4": {
+        "title": "Q4: Do you realize how serious the rejection reaction is?",
+        "data": [{
+            "name": "A.Nothing to worry about.",
+            "y": 0
+        }, {
+            "name": "B.It will do some harm to people’s health.",
+            "y": 18
+        }, {
+            "name": "C.It may be truly harmful to patients’ bodies.",
+            "y": 25
+        }, {
+            "name": "D.It can take people’s lives.",
+            "y": 57
+        }]
+    },
+    "pie-5": {
+        "title": "Q5: Are you looking forward to the technology of detecting whether there is rejection reaction from the patient's urine and blood?",
+        "data": [{
+            "name": "A.yes, and I will query relative information frequently and popularize it to others.",
+            "y": 20
+        }, {
+            "name": "B.Yes, and I have an interest in it.",
+            "y": 44
+        }, {
+            "name": "C.Yes, and I am looking forward to its launch.",
+            "y": 32
+        }, {
+            "name": "D.No, nothing changes in my life without it.",
+            "y": 3
+        }, {
+            "name": "E.No, please do not design such products.",
+            "y": 1
+        }]
+    }
+}

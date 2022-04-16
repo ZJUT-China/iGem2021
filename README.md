@@ -3,7 +3,7 @@
 
 - [1.ToDo](#1todo)
   - [1.1 pages](#11-pages)
-  - [1.2 component](#12-component)
+  - [1.2 components](#12-components)
 - [2.file structure](#2file-structure)
 - [3.member list](#3member-list)
 - [4.team norms](#4team-norms)
@@ -24,7 +24,7 @@
 
 ### 1.1 pages
 
-### 1.2 component
+### 1.2 components
 
 - [ ] landing
 - [ ] loading
@@ -33,8 +33,7 @@
 ```
 |-- wiki
     |-- package-lock.json
-    |-- readme.md
-    |-- 团队规范.md
+    |-- README.md
     |-- bootstrap
     |   |-- CHANGELOG.md
     |   |-- Gruntfile.js
@@ -418,15 +417,6 @@
       --boxcolor:skyblue;
   }
   body{
-<<<<<<< HEAD
-      background-color: --bgcolor;
-  }
-  .box1{
-      background-color: --boxcolor;
-  }
-  .box2{
-      background-color: --boxcolor;
-=======
       background-color: var(--bgcolor);
   }
   .box1{
@@ -434,7 +424,6 @@
   }
   .box2{
       background-color: var(--boxcolor);
->>>>>>> bd436fc374fbaf8a3b858fae0fafee2e1b2cbe8b
   }
   ```
   

@@ -1,0 +1,125 @@
+WEBVTT - ZJUT-China
+
+1
+00:03.400 --> 00:05.967
+- For patients who received a kidney transplantation,
+
+2
+00:06.167 --> 00:09.867
+- nearly 30% of them will experience some degree of organ rejection,
+
+3
+00:10.133 --> 00:12.500
+- which needs a biopsy for further examination.
+
+4
+00:13.200 --> 00:17.000
+- However, the risks of a kidney biopsy include bleeding and infection.
+
+5
+00:17.683 --> 00:22.767
+- More importantly, the cost per surgery ranges from $3,000 to $10,000,
+
+6
+00:22.983 --> 00:25.000
+- which is too high for ordinary families.
+
+7
+00:25.700 --> 00:29.733
+- Thus, a simple, safe, low-cost diagnostic method is required.
+
+8
+00:30.417 --> 00:32.600
+- According to literature,
+
+9
+00:32.833 --> 00:35.367
+- various RNA molecules in urine or blood have proven to serve
+
+10
+00:35.367 --> 00:39.283
+- as biomarkers for the diagnosis and prognosis of various diseases.
+
+11
+00:39.967 --> 00:42.500
+- Renal transplant rejection is no exception.
+
+12
+00:42.867 --> 00:45.933
+- Herein, we are developing a cell-free biosensor,
+
+13
+00:46.117 --> 00:48.017
+- which comprises a cell-free system,
+
+14
+00:48.217 --> 00:50.633
+- engineered DNA transcription templates
+
+15
+00:51.633 --> 00:54.833
+- and RNA-responsive CRISPR/Cas9 System.
+
+16
+00:55.517 --> 00:58.317
+- Once the sensor is exposed to specific RNA,
+
+17
+00:58.500 --> 01:02.283
+- hybridization between the RNA with the re-engineered gRNA
+
+18
+01:02.283 --> 01:04.317
+- occurs to releases the targeting region,
+
+19
+01:04.600 --> 01:07.917
+- leading to the binding between gRNA and its DNA target.
+
+20
+01:08.617 --> 01:12.067
+- Eventually, the suppression of deGFP get relieved,
+
+21
+01:12.100 --> 01:14.800
+- following by the increase of fluorescence intensity.
+
+22
+01:15.500 --> 01:18.167
+- All reagents will be mixed in PCR tubes,
+
+23
+01:18.233 --> 01:22.533
+- and visible outputs from deGFP can be produced after 16 hours.
+
+24
+01:23.217 --> 01:27.517
+- With an illuminator, the fluorescence outputs can be visualized by naked eyes.
+
+25
+01:28.217 --> 01:32.017
+- Consisting of LEDs, PCR tube holders, a light filter
+
+26
+01:32.017 --> 01:35.983
+- and a 3D printed case made of biodegradable Polylactic Acid,
+
+27
+01:36.283 --> 01:40.100
+- the illuminator is designed to be low-cost, recyclable and portable.
+
+28
+01:41.800 --> 01:44.933
+- Since the additional sequences of gRNA could be completely reprogrammed,
+
+29
+01:45.233 --> 01:49.600
+- the sensor has potential to detect various RNA biomarkers theoretically,
+
+30
+01:49.783 --> 01:54.183
+- which means other diseases that use RNA as a biomarker can be diagnosed as well. 
+
+31
+01:54.833 --> 01:58.510
+- In conclusion, the application of our project is greatly expanded.  

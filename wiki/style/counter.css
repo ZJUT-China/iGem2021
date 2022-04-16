@@ -1,0 +1,6 @@
+.counter-container{
+    position: relative;
+}
+.counter{
+    display: block;
+}

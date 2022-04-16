@@ -1,0 +1,62 @@
+[
+    {
+        "name": "zhangsan",
+        "message": "A people",
+        "group": "wet",
+        "photourl": "../images/头像1.jpg"
+    },
+    {
+        "name": "lisi",
+        "message": "A people too",
+        "group": "dry",
+        "photourl": "../images/头像2.jpg"
+    },
+    {
+        "name": "xiaoming",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像3.jpg"
+    },
+    {
+        "name": "1",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像4.jpg"
+    },
+    {
+        "name": "2",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像5.jpg"
+    },
+    {
+        "name": "3",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像3.jpg"
+    },
+    {
+        "name": "4",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像3.jpg"
+    },
+    {
+        "name": "5",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像3.jpg"
+    },
+    {
+        "name": "6",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像3.jpg"
+    },
+    {
+        "name": "7",
+        "message": "A people",
+        "group": "hp",
+        "photourl": "../images/头像3.jpg"
+    }
+]

@@ -1,0 +1,14 @@
+.text-animation-object{
+    position: relative;
+}
+.text-animation-leftappear>.char{
+    font-size: 7vw;
+}
+.char{
+    position: relative;
+    opacity: 0;
+}
+.text-animation-slowshow{
+    position: relative;
+    opacity: 0;
+}

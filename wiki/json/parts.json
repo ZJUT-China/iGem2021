@@ -1,0 +1,184 @@
+[
+[{
+            "Part Number": "BBa_K3885101",
+            "Name": "P28a Promoter",
+            "Type": "Regulatory",
+            "Length": 42
+        },
+        {
+            "Part Number": "BBa_K3885102",
+            "Name": "T7p14 Promoter",
+            "Type": "Regulatory",
+            "Length": 20
+        },
+        {
+            "Part Number": "BBa_K3885103",
+            "Name": "P70c Promoter",
+            "Type": "Regulatory",
+            "Length": 61
+        },
+        {
+            "Part Number": "BBa_K3885104",
+            "Name": "P70b Promoter",
+            "Type": "Regulatory",
+            "Length": 61
+        },
+        {
+            "Part Number": "BBa_K3885111",
+            "Name": "UTR1",
+            "Type": "RBS",
+            "Length": 40
+        },
+        {
+            "Part Number": "BBa_K3885112",
+            "Name": "UTR2",
+            "Type": "RBS",
+            "Length": 35
+        },
+        {
+            "Part Number": "BBa_K3885113",
+            "Name": "UTR3",
+            "Type": "RBS",
+            "Length": 35
+        },
+        {
+            "Part Number": "BBa_K3885121",
+            "Name": "T7 RNAp",
+            "Type": "Coding",
+            "Length": 2052
+        },
+        {
+            "Part Number": "BBa_K3885122",
+            "Name": "tetO",
+            "Type": "Coding",
+            "Length": 20
+        },
+        {
+            "Part Number": "BBa_K3885123",
+            "Name": "ClpXP",
+            "Type": "Coding",
+            "Length": 2024
+        },
+        {
+            "Part Number": "BBa_K3885124",
+            "Name": "σ28 (fliA)",
+            "Type": "Coding",
+            "Length": 720
+        },
+        {
+            "Part Number": "BBa_K3885125",
+            "Name": "σ28-ssrA",
+            "Type": "Coding",
+            "Length": 753
+        },
+        {
+            "Part Number": "BBa_K3885126",
+            "Name": "tetR-ssrA",
+            "Type": "Coding",
+            "Length": 654
+        },
+        {
+            "Part Number": "BBa_K3885131",
+            "Name": "tetracycline resistance transcriptional repressor（tetR）",
+            "Type": "Protein_Domain",
+            "Length": 657
+        },
+        {
+            "Part Number": "BBa_K3885142",
+            "Name": "T500",
+            "Type": "Terminator",
+            "Length": 30
+        },
+        {
+            "Part Number": "BBa_K3885151",
+            "Name": "ssrA",
+            "Type": "Tag",
+            "Length": 33
+        },
+        {
+            "Part Number": "BBa_K3885161",
+            "Name": "CXCL9 mRNA",
+            "Type": "DNA",
+            "Length": 200
+        },
+        {
+            "Part Number": "BBa_K3885171",
+            "Name": "Interacting Guide RNA（igRNA）",
+            "Type": "RNA",
+            "Length": 143
+        },
+        {
+            "Part Number": "BBa_K3885172",
+            "Name": "Guide RNA (gRNA) target for tetR",
+            "Type": "RNA",
+            "Length": 100
+        }
+    ],
+[
+        {"Part Number":"BBa_K3885201","Name":"P70-T7 RNAp","Type":"Composite","Length":2713},
+        {"Part Number":"BBa_K3885202","Name":"P70-σ28","Type":"Composite","Length":781},
+        {"Part Number":"BBa_K3885203","Name":"P70-ClpXP","Type":"Composite","Length":2085},
+        {"Part Number":"BBa_K3885211","Name":"P28-tetR","Type":"Composite","Length":705},
+        {"Part Number":"BBa_K3885212","Name":"P28-tetR-ssrA","Type":"Composite","Length":746},
+        {"Part Number":"BBa_K3885221","Name":"J23119-gRNA","Type":"Composite","Length":143},
+        {"Part Number":"BBa_K3885222","Name":"J23119-CXCL9","Type":"Composite","Length":243},
+        {"Part Number":"BBa_K3885223","Name":"J23119-igRNA1","Type":"Composite","Length":186},
+        {"Part Number":"BBa_K3885301","Name":"T7-sfGFP","Type":"Reporter","Length":810},
+        {"Part Number":"BBa_K3885302","Name":"T7-deGFP","Type":"Reporter","Length":742},
+        {"Part Number":"BBa_K3885311","Name":"P70a-UTR1-deGFP","Type":"Reporter","Length":787},
+        {"Part Number":"BBa_K3885312","Name":"P70a-UTR2-deGFP","Type":"Reporter","Length":782},
+        {"Part Number":"BBa_K3885313","Name":"P70a-UTR3-deGFP","Type":"Reporter","Length":782},
+        {"Part Number":"BBa_K3885321","Name":"P70b-UTR1-deGFP","Type":"Reporter","Length":793},
+        {"Part Number":"BBa_K3885322","Name":"P70b-UTR2-deGFP","Type":"Reporter","Length":788},
+        {"Part Number":"BBa_K3885323","Name":"P70b-UTR3-deGFP","Type":"Reporter","Length":788},
+        {"Part Number":"BBa_K3885331","Name":"P70c-UTR1-deGFP","Type":"Reporter","Length":793},
+        {"Part Number":"BBa_K3885332","Name":"P70c-UTR2-deGFP","Type":"Reporter","Length":788},
+        {"Part Number":"BBa_K3885333","Name":"P70c-UTR3-deGFP","Type":"Reporter","Length":788},
+        {"Part Number":"BBa_K3885341","Name":"P70-σ28-P28-deGFP","Type":"Reporter","Length":1515},
+        {"Part Number":"BBa_K3885342","Name":"P70-σ28-P28-tetR","Type":"Composite","Length":1494},
+        {"Part Number":"BBa_K3885351","Name":"P28-tetO-deGFP","Type":"Reporter","Length":754},
+        {"Part Number":"BBa_K3885352","Name":"P28-tetO-deGFP-ssrA","Type":"Reporter","Length":795},
+        {"Part Number":"BBa_K3885353","Name":"P28-tetO-deGFP-MGapt","Type":"Reporter","Length":800}
+        
+        ],
+        [
+            {"Part Number":"BBa_K3885101","Name":"P28a Promoter","Type":"Regulatory","Description":"Promoter of the tar gene (E. coli) specific to σ28","Length":42},
+            {"Part Number":"BBa_K3885102","Name":"T7p14 Promoter","Type":"Regulatory","Description":"Transcription terminator for T7 RNA polymerase","Length":20},
+            {"Part Number":"BBa_K3885103","Name":"P70c Promoter","Type":"Regulatory","Description":"OR2-OR1 promoter (BBa_K2411000) with mutation in Regulatory.","Length":61},
+            {"Part Number":"BBa_K3885104","Name":"P70b Promoter","Type":"Regulatory","Description":"OR2-OR1 promoter (BBa_K2411000) with mutation in Regulatory.","Length":61},
+            {"Part Number":"BBa_K3885111","Name":"UTR1","Type":"RBS","Description":"The untranslated region containing the T7 g10 leader sequence for highly efficient translation initiation","Length":40},
+            {"Part Number":"BBa_K3885112","Name":"UTR2","Type":"RBS","Description":"UTR1 (BBa_K3885111) with mutation in RBS.","Length":35},
+            {"Part Number":"BBa_K3885113","Name":"UTR3","Type":"RBS","Description":"UTR1 (BBa_K3885111) with mutation in RBS.","Length":35},
+            {"Part Number":"BBa_K3885121","Name":"T7 RNAp","Type":"Coding","Description":"T7 bacteriophage RNA polymerase","Length":2052},
+            {"Part Number":"BBa_K3885122","Name":"tetO","Type":"Coding","Description":"Promoter specific to E. coli σ70 and regulated by the tetR gene","Length":20},
+            {"Part Number":"BBa_K3885123","Name":"ClpXP","Type":"Coding","Description":"E. coli clpXP tandem proteins (same operon)","Length":2024},
+            {"Part Number":"BBa_K3885124","Name":"σ28 (fliA)","Type":"Coding","Description":"rpoF (E. coli σ28)","Length":720},
+            {"Part Number":"BBa_K3885125","Name":"σ28-ssrA","Type":"Coding","Description":"rpoF tagged with ssrA","Length":753},
+            {"Part Number":"BBa_K3885126","Name":"tetR-ssrA","Type":"Coding","Description":"Tet operon regulatory gene tagged with ssrA","Length":654},
+            {"Part Number":"BBa_K3885131","Name":"tetracycline resistance transcriptional repressor（tetR）","Type":"Protein_Domain","Description":"Tet operon regulatory gene","Length":657},
+            {"Part Number":"BBa_K3885142","Name":"T500","Type":"Terminator","Description":"Transcription terminator for E. coli RNA polymerase","Length":30},
+            {"Part Number":"BBa_K3885151","Name":"ssrA","Type":"Tag","Description":"SsrA peptide for degradation by AAA+ proteases","Length":33},
+            {"Part Number":"BBa_K3885201","Name":"P70-T7 RNAp","Type":"Composite","Description":"T7 polymerase was synthesized in a Cell-Free system for expression of plasmids with a T7 promoter","Length":2713},
+            {"Part Number":"BBa_K3885202","Name":"P70-σ28","Type":"Composite","Description":"The transcription factor σ28 is expressed by P70 promoter.","Length":781},
+            {"Part Number":"BBa_K3885203","Name":"P70-ClpXP","Type":"Composite","Description":"ClpXP protein can be expressed by P70 promoter.","Length":2085},
+            {"Part Number":"BBa_K3885211","Name":"P28-tetR","Type":"Composite","Description":"The repressor tetR is activated by P28 promoter.","Length":705},
+            {"Part Number":"BBa_K3885212","Name":"P28-tetR-ssrA","Type":"Composite","Description":"The tag ssrA can degrade the tetR repressor activated by P70 promoter.","Length":746},
+            {"Part Number":"BBa_K3885301","Name":"T7-sfGFP","Type":"Reporter","Description":"The expression of sfGFP is motivated by T7 promoter.","Length":810},
+            {"Part Number":"BBa_K3885302","Name":"T7-deGFP","Type":"Reporter","Description":"The expression of deGFP is motivated by T7 promoter.","Length":742},
+            {"Part Number":"BBa_K3885311","Name":"P70a-UTR1-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70a promoter with UTR1.","Length":787},
+            {"Part Number":"BBa_K3885312","Name":"P70a-UTR2-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70a promoter with UTR2.","Length":782},
+            {"Part Number":"BBa_K3885313","Name":"P70a-UTR3-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70a promoter with UTR3.","Length":782},
+            {"Part Number":"BBa_K3885321","Name":"P70b-UTR1-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70b promoter with UTR1.","Length":793},
+            {"Part Number":"BBa_K3885322","Name":"P70b-UTR2-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70b promoter with UTR2.","Length":788},
+            {"Part Number":"BBa_K3885323","Name":"P70b-UTR3-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70b promoter with UTR3.","Length":788},
+            {"Part Number":"BBa_K3885331","Name":"P70c-UTR1-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70c promoter with UTR1.","Length":793},
+            {"Part Number":"BBa_K3885332","Name":"P70c-UTR2-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70c promoter with UTR2.","Length":788},
+            {"Part Number":"BBa_K3885333","Name":"P70c-UTR3-deGFP","Type":"Reporter","Description":"DeGFP can be expressed by P70c promoter with UTR3.","Length":788},
+            {"Part Number":"BBa_K3885341","Name":"P70-σ28-P28-deGFP","Type":"Reporter","Description":"The expression of σ28 activated by P70 promoter motivates the P28 promoter and deGFP expression..","Length":1515},
+            {"Part Number":"BBa_K3885342","Name":"P70-σ28-P28-tetR","Type":"Composite","Description":"The expression of σ28 activated by P70 promoter motivates the P28 promoter and tetR expression..","Length":1494},
+            {"Part Number":"BBa_K3885351","Name":"P28-tetO-deGFP","Type":"Reporter","Description":"P28 promoter with tetO binding site motivated the expression of deGFP.","Length":754},
+            {"Part Number":"BBa_K3885352","Name":"P28-tetO-deGFP-ssrA","Type":"Reporter","Description":"P28 promoter motivated the expression of deGFP, which can be degraded with ssrA tag.","Length":795},
+            {"Part Number":"BBa_K3885353","Name":"P28-tetO-deGFP-MGapt","Type":"Reporter","Description":"The transcriptional rate of deGFP is detected by gene MGapt.","Length":800}
+            
+            ]
+    ]

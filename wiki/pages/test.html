@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="" href="../style/common.css">
+</head>
+<body>
+    <style>
+        div{
+            height:100vh;
+            width: 100vw;
+            background-color: red;
+            filter: hue-rotate(45deg * var(--s));
+        }
+    </style>
+    <div>
+        <a href="#1">1</a>
+        <a href="#2">2</a>
+        <a href="#5">3</a>
+    </div>
+    <div id="1" style="--s:1;"></div>
+    <div id="2" style="--s:2;"></div>
+    <div id="3" style="--s:3;"></div>
+    <div id="4" style="--s:4;"></div>
+    <div id="5" style="--s:5;"></div>
+</body>
+</html>

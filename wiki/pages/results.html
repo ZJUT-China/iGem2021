@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Results</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Results</span>
+                <h2 class="text-littler text-gray view-x-80">The results page involved almost all of achievements in our
+                    experiments. There are many flow diagrams before the detailed procedure. We hope it will improve the
+                    feeling of reading and makes the results more visual.</h2>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">2</span>
+                            <span class="text-little text-gray">Why we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            What did we achieve?
+                        </div>
+                        <p class="mg-tb-1 text-little">1. We constructed <strong>a simplified plasmid of spCas9</strong>
+                            and a plasmid
+                            that can transcribe <strong>CXCL9 mRNA</strong>.
+                        </p>
+                        <p class="mg-tb-1 text-little">2. We designed an <strong>igRNA</strong> based on a gRNA with
+                            high cutting
+                            activity, and carried out an <em>in vitro</em> verification experiment for igRNA and RNA
+                            biomarker.
+                        </p>
+                        <p class="mg-tb-1 text-little">3. We constructed <strong>P70a-σ28-P28-deGFP and
+                                P70a-σ28-P28-tetR</strong>
+                            plasmids to verify the intracellular function of transcription factor <strong>σ28</strong>
+                            and inhibitor
+                            protein <strong>tetR</strong> in gene circuits.</p>
+                        <p class="mg-tb-1 text-little">4. We constructed plasmids with fluorescent genes that remove
+                            ssrA degradation tag to explore <strong>the effect of degradation tag ssrA</strong> on
+                            deGFP.</p>
+                        <p class="mg-tb-1 text-little">5. We successfully constructed the plasmid in the gene circuits
+                            and completed the function verification in <strong>Cell-Free system</strong>.</p>
+
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1">
+                            Plasmid spCas9 construction
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block figure" src="../images/results/results_1.svg"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                            <span class="center-block"><strong>Figure 1.</strong> Schematic of the procedure of
+                                plasmids construction. After colony Polymerase Chain Reaction (PCR), the monoclonal
+                                colonies were cultured and sent to the company for sequencing.</span>
+                        </div>
+                        <p class="mg-tb-1 text-little"> Plasmid spCas9 (Figure 1) was constructed from the original
+                            plasmid spCas9 and the P15A Ori-CmR gene fragment of the synthetic plasmid puc57, which
+                            for <strong>expressing Cas9 protein and complex the corresponding CXCL9 mRNA-igRNA for
+                                cleavage
+                                of target genes in Cell-Free system</strong>. The building process is shown in the
+                            figure above.
+                        </p>
+                        <div>
+                            <img class="img-responsive center-block figure" src="../images/results/results_2.png"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-2">
+                            <span class="center-block"><strong>Figure 2.</strong> Schematic of the plasmid spCas9
+                                construction.<br>
+                                (a) The map of spCas9 from SnapGene.<br>
+                                (b) Gel electrophoresis analysis of PCR products. The marker is 5k (lane 1), the
+                                fragment is spCas9 (lane 3&4), the vector is P15A Ori-CmR (lane 5&6).<br>
+                                (c) Gel electrophoresis analysis of cloning PCR products. The marker is 5k (lane 1)
+                                , the colony PCR fragment is a part of the goal plasmid (lane 2&3).</span>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-3">
+                        <div class="text-big text-green title-big target-title-1">
+                            Plasmid CXCL9 mRNA construction
+                        </div>
+                        <div class="mg-t-1">
+                            <img class="img-responsive center-block figure" src="../images/results/results_3.png"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-3">
+                            <span class="center-block"><strong>Figure 3.</strong> Schematic of the procedure of
+                                plasmid CXCL9 mRNA construction. After cloning PCR, the monoclonal colonies were
+                                cultured and sent to the company for sequencing.</span>
+                        </div>
+                        <p class="mg-tb-1 text-little"> <strong>We constructed a new plasmid which can transcribe
+                                CXCL9 mRNA
+                                by using two existing plasmids(igRNA-CXCL9 and pTargetF, Figure 4 a).</strong> Then
+                            designed
+                            primers CXCL9-F and CXCL9-R to conduct PCR, clean-up, and eliminate templates
+                            experiments (Figure 4 b). Transformed the fragment andvector with one-step cloning
+                            enzyme into <em>E. coli</em> DH5α to make it self-replication. Colony PCR using colonies
+                            grown on
+                            resistant plates. We had fundamental success after agarose gel electrophoresis and a
+                            final success after sequencing.
+                        </p>
+                        <div>
+                            <img class="img-responsive center-block figure" src="../images/results/results_4.png"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-4">
+                            <span class="center-block"><strong>Figure 4.</strong> Schematic of the plasmid
+                                construction.<br>
+                                (a) Maps of plasmid pTargetF-gRNA and CXCL9-igRNA from SnapGene; <br>
+                                (b) On the left is
+                                5k marker, in the middle is CXCL9 segment, on the right is the vector from plasmid
+                                pTargetF reverse PCR;<br>
+                                (c) On the left is 5k marker, on the right is colony PCR verification strip. </span>
+                        </div>
+                    </section>
+                    <section class="target" id="target-1-4">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">3</span>
+                            <span class="text-little text-gray">What we know</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            Construction of plasmid gRNA and screening of cleavage activity
+                        </div>
+                        <div class="row col-md-12">
+                            <div class="col-md-6 col-xs-12 col-sm-6 mg-t-1">
+                                <img class="img-responsive center-block figure" src="../images/results/results_5.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-5">
+                                <span class="center-block"><strong>Figure 5.</strong> Schematic of the design procedure
+                                    of
+                                    the gRNA construction and screening. There are five 20nt sequences to change into
+                                    five
+                                    different gRNAs.</span>
+                            </div>
+                            <p class="mg-tb-1 text-little">In the CRISPR/Cas9 system, <strong>gRNA</strong> can direct
+                                Cas9
+                                protein to cut
+                                dsDNA at the sequence target site. Simultaneously, <strong>a hybridization region of
+                                    igRNA</strong> is adding
+                                additional sequences in the <strong>5'</strong> of sgRNA. Therefore, designing an active
+                                gRNA with high
+                                cleavage ability is important.
+                            </p>
+                            <p class="mg-tb-1 text-little">Based on the target gene(tetR), we chose <strong>CGG and AGG
+                                    as
+                                    PAM</strong>, and
+                                designed 5 gRNAs in the plasmid pTargetF (Figure 5).
+                            </p>
+                        </div>
+
+                        <section class="target row col-md-12" id="target-2-1">
+                            <div class="text-small text-green target-title-2">
+                                <em>In vitro</em> cleavage validation
+                            </div>
+                            <div class="col-md-6 col-xs-12 col-sm-6 pull-right">
+                                <img class="img-responsive center-block figure" src="../images/results/results_6.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-6">
+                                <span class="center-block"><strong>Figure 6.</strong> Gel electrophoresis analysis of in
+                                    vitro cleavage products with different gRNA.Target dsDNA was incubated with the
+                                    following gRNA for 1 h at 37 °C under the condition of <em>in vitro</em> Cas9
+                                    cleavage assay:
+                                    marker (lane 1); gRNA1 (lane 2); gRNA2 (lane 3); gRNA3 (lane 4); gRNA5 (lane
+                                    5).</span>
+                            </div>
+                            <p class="mg-tb-1 text-little">After the plasmid of gRNA was constructed, 5 corresponding
+                                RNAs were transcribed by <em>in vitro</em> transcription. The <strong>gRNA, Cas9 and the
+                                    target
+                                    gene
+                                    fragment were mixed together</strong> for reaction according to the kit handbook.
+                                Then carry out
+                                the agarose gel electrophoresis (Figure 6).
+                            </p>
+
+                            <p class="mg-tb-1 text-little">Subsequently, we analyzed why <strong>the cutting ability of
+                                    different gRNAs</strong> varies greatly. According to some research, we explored
+                                this question
+                                with the professionals from <strong>Genscript</strong> and found an answer from their
+                                official CRISPR
+                                handbook: "The <strong>10 to 12 bp</strong> base of gRNA near PAM, also known as
+                                <strong>the seed sequence</strong>,
+                                determines the specificity of gRNA and target recognition. The results showed that
+                                controlling <strong>GC content</strong> in seed sequence at <strong>40%~60%</strong>
+                                during gRNA sequence design could
+                                significantly improve the specificity of gRNA and target recognition."
+                            </p>
+                            <p class="mg-t-1 text-little">CG content of 5 gRNA sequences designed is:</p>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover text-center">
+                                    <thead>
+                                        <tr>
+                                            <td>gRNA</td>
+                                            <td>sequence</td>
+                                            <td>CG (%)</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>gRNA1</td>
+                                            <td class="text-uppercase">ttagagctgcttaatgaggt</td>
+                                            <td>30-42</td>
+                                        </tr>
+                                        <tr>
+                                            <td>gRNA2</td>
+                                            <td class="text-uppercase">attggcatgtaaaaaataag</td>
+                                            <td>10-17</td>
+                                        </tr>
+                                        <tr>
+                                            <td>gRNA3</td>
+                                            <td class="text-uppercase">caaaagtacatttaggtaca</td>
+                                            <td>30-33</td>
+                                        </tr>
+                                        <tr>
+                                            <td>gRNA4</td>
+                                            <td class="text-uppercase">tagccattgagatgttagat</td>
+                                            <td>30-33</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="mg-tb-1 text-little">Obviously, the CG content of <strong>gRNA1</strong> seed
+                                region with obvious
+                                cutting ability obtained from <em>in vitro</em> validation experiments is
+                                <strong>between
+                                    40%-60%</strong>, but
+                                gRNA4 does not meet this requirement. More strangely, gRNA3 and gRNA4 have the same CG
+                                content, but gRNA3 does not show obvious cutting ability. Therefore, we speculated that
+                                gRNA3 could not guide Cas9 protein to perform the cleavage function because of the
+                                sequence of bases or the easy degradation of RNA transcribed <em>in vitro</em>.
+                            </p>
+                            <p class="mg-tb-1 text-little">After comprehensive consideration, <strong>we chose gRNA1
+                                    with higher
+                                    CG content as the basis of igRNA design</strong>.
+                            </p>
+                        </section>
+                        <section class="target row col-md-12" id="target-2-2">
+                            <div class="text-small text-green target-title-2">
+                                <em>In vitro</em> validation of RNA biomarkers and igRNA
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-responsive center-block figure" data-toggle="modal" data-target="#modal"
+                                    src="../images/results/results_7.png" title="Click to see more clearly"
+                                    alt="figure-7">
+                                <span class="center-block"><strong>Figure 7.</strong> Polyacrylamide gel-shift assay
+                                    analysis of the
+                                    igRNA hybridizating with CXCL9 mRNA.
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little">We selected the <strong>CXCL9 mRNA</strong>, a biomarker
+                                related to rejection
+                                <strong>reaction after kidney transplantation</strong>, and designed the sequence of
+                                igRNA. Please refer
+                                to Enginering Success for the specific design scheme. In order to verify that igRNA can
+                                complement CXCL9 mRNA, we conducted <strong>EMSA experiment</strong> <em>in vitro</em>
+                                (Figure
+                                7).
+                            </p>
+
+                            <p class="mg-tb-1 text-little">In column A, non-igRNA and CXCL9 mRNA could
+                                <strong>not complement
+                                    each other</strong>, and the bands were separated after binding Cas9, and the
+                                migration rate of
+                                the complex was slower as the number of Cas9-binding RNA bases increased. The column D
+                                was CXCL9 mRNA-igRNA-Cas9 complex, and the migration rate was <strong>slower</strong>
+                                than the column A.
+                                <strong>The results indicated that igRNA was successfully combined with CXCL9 mRNA
+                                    <em>in vitro</em>.</strong>
+                            </p>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-5">
+                        <div class="text-big text-green title-big target-title-1">
+                            How to verify that every part is functional in gene circuits?
+                        </div>
+                        <p class="mg-tb-1 text-little">In Cell-Free systems, validation of each component is also
+                            important to ensure proper use of the whole function. Therefore, the <strong>σ28, tetR
+                                repressor</strong> in
+                            the gene circuit was validated in bacteria <strong>prior</strong> to the
+                            <strong>validation</strong> of the Cell-Free system.
+                        </p>
+                        <section class="target row col-md-12" id="target-2-3">
+                            <div class="text-small text-green target-title-2">
+                                Construction of P70a-σ28-P28-deGFP plasmid
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_8.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-8">
+                                <span class="center-block"><strong>Figure 8.</strong> Schematic of the procedure of
+                                    plasmid P70a-σ28-P28-deGFP construction. After colony PCR, the monoclonal colonies
+                                    were cultured and sent to the company for sequencing.</span>
+                            </div>
+                            <p class="mg-tb-1 text-little">The plasmid P70a-σ28-P28-deGFP was constructed from the gene
+                                fragment of the original plasmid P70a-deGFP and the synthetic fragment UTR1-σ28-P28
+                                (Figure 9 a) to verify the normal expression of σ28 and provide the original plasmid for
+                                the synthesis of P70a-σ28-P28-tetR. After PCR, the results of agarose gel eletrophoresis
+                                were as follows, <strong>with correct band sizes</strong> (Figure 9 b).
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_9.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-9">
+                                <span class="center-block"><strong>Figure 9.</strong> Schematic of the plasmid
+                                    construction.<br>
+                                    (a) The map of plasmid P70a-σ28-P28-deGFP from SnapGene;<br>
+                                    (b) On the left is the 5k marker, in the middle is UTR1-σ28-P28 segment, on the
+                                    right is the vector from plasmid P70a-deGFP reverse PCR;<br>
+                                    (c) On the left is the 5k marker, and on the right is colony PCR verification band.
+                                </span>
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_10.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-10">
+                                <span class="center-block"><strong>Figure 10.</strong> Photos of cultured plates. There
+                                    are some colonies with plasmid P70a-σ28-P28-deGFP theroratically on the left plate,
+                                    and the negative control is on the right plate.
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little"> After <strong>recombination and transformation</strong>,
+                                overnight culture,
+                                bacterial colonies grew on ampicillin plates (Figure 10).
+                            </p>
+                            <p class="mg-tb-1 text-little">Through the <strong>colony PCR</strong> verification band,
+                                our agarose gel
+                                eletrophoresis results were consistent with expectations (Figure 9 c), and the plasmid
+                                was <strong>successfully constructed</strong> after sequencing.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-4">
+                            <div class="text-small text-green target-title-2">
+                                Construction of P70a-σ28-P28-tetR plasmid
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_11.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-11">
+                                <span class="center-block"><strong>Figure 11.</strong> Schematic of the procedure of
+                                    plasmid P70a-σ28-P28-tetR construction. After colony PCR, the monoclonal colonies
+                                    were cultured and sent to the company for sequencing.
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little">Plasmids P70a-σ28-P28-tetR were constructed from the gene
+                                fragment of original plasmid puc57 and the gene fragment of P70a-σ28-P28-tetR. After
+                                PCR, the results of agarose gel electrophoresis were as follows, <strong>with correct
+                                    band sizes</strong>
+                                (Figure 12 b).
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_12.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-12">
+                                <span class="center-block"><strong>Figure 12.</strong> Schematic of the plasmid
+                                    P70a-σ28-P28-tetR construction.<br>
+                                    (a) The map of plasmid P70a-σ28-P28-tetR from SnapGene;<br>
+                                    (b) On the left is 5k marker, in the middle is P70a-σ28-P28-tetR segment, on the
+                                    right is the vector from plasmid P70a-σ28-P28-tetR;<br>
+                                    (c) on the left is 5k marker, on the right is colony PCR verification strip.
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little"> After <strong>recombination and transformation</strong>,
+                                overnight culture,
+                                bacterial colonies grew on chloramphenicol plates. Through the <strong>colony
+                                    PCR</strong> verification
+                                band, our gel results were consistent with expectations (Figure 12 c), and the plasmid
+                                was <strong>successfully constructed</strong> after sequencing.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-5">
+                            <div class="text-small text-green target-title-2">
+                                Construction of P28-tetO-deGFP plasmid
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_13.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-13">
+                                <span class="center-block"><strong>Figure 13.</strong> Schematic of the procedure of
+                                    plasmid P28-tetO-deGFP-ssrA construction. After colony PCR, the monoclonal colonies
+                                    were cultured and sent to the company for sequencing.
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little">The original plasmid P28-tetO-deGFP-ssrA was used to
+                                construct a plasmid with ssrA degradation tag removed (Figure 14 a) to <strong>explore
+                                    the
+                                    effect of ssrA degradation tag on deGFP protein</strong>.
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_14.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-14">
+                                <span class="center-block"><strong>Figure 14.</strong> Schematic of the plasmid
+                                    construction.<br>
+                                    (a) The map of plasmid P28-tetO-deGFP-ssrA from SnapGene;<br>
+                                    (b) On the left is 5k marker, in the middle is deGFP fragment, on the right is the
+                                    vector from plasmid P28-tetO-deGFP;<br>
+                                    (c) On the left is 5k marker, on the right is colony PCR verification band.<br>
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little">PCR and Agarose Gel Electrophoresis (AGE) results were shown
+                                in Figure 14 b, and the band was correct.
+                            </p>
+                            <p class="mg-tb-1 text-little">After template removal and purification, the plasmid was
+                                cloned and transformed into <em>E. coli</em> trans1-T1 competent cells for culture.
+                            </p>
+                            <p class="mg-tb-1 text-little">Colonies on resistant plates were selected for colony PCR,
+                                and the results were shown in Figure 14 c with correct bands.
+                            </p>
+                        </section>
+                        <section class="target" id="target-2-6">
+                            <div class="text-small text-green target-title-2">
+                                Validation of σ28
+                            </div>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_15.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-15">
+                                <span class="center-block text-center"><strong>Figure 15.</strong> Schematic of the
+                                    procedure of
+                                    Electroporation-Transformation <em>E. coli</em> BW25113 cells.
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little">To <strong>enhance</strong> the expression intensity of each
+                                component, we use
+                                σ28 as the promoter factor. <strong>σ28</strong> is a special transcriptional factor
+                                concerning the FliA,
+                                which is an alternate sigma factor for the class 3 flagella operons, and it <strong>does
+                                    not
+                                    exist in Cell-free system</strong>. To verify the functional availability of σ28, we
+                                build
+                                P70a-σ28-P28-deGFP plasmid. If the expression of σ28 is normal, it shows fluorescence.
+                                Conversely, there is no fluorescence.
+                            </p>
+                            <p class="mg-tb-1 text-little">To verify the normal expression of σ28, we performed
+                                electroporation experiments with <em>E. coli</em> BW25113 (Table 1).
+                            </p>
+                            <div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <td>group</td>
+                                                <td>set</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Control group</td>
+                                                <td>BW25113</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Experiment group</td>
+                                                <td>BW25113+P70-σ28-P28-deGFP</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <span class="center-block text-center"><strong>Table 1.</strong></span>
+                            </div>
+                            <div class="row col-md-12 mg-b-1">
+                                <div class="col-md-5 mg-t-1">
+                                    <img class="img-responsive center-block figure"
+                                        src="../images/results/results_16.png" data-toggle="modal"
+                                        title="Click to see more clearly" data-target="#modal" alt="figure-16">
+                                </div>
+                                <p class="mg-t-2 text-little">No colony in the control group fluorescenced (Figure 16 a)
+                                    ,
+                                    while the single colony in the experimental group fluorescenced (Figure 16 b) ,
+                                    indicating that P70a-σ28-P28-deGFP was successfully transferred, all gene elements
+                                    on
+                                    the plasmid were functional, and <strong>σ28 was normally expressed</strong>.
+                                </p>
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-7">
+                            <div class="text-small text-green target-title-2">
+                                Validation of tetR
+                            </div>
+                            <p class="mg-tb-1 text-little">Tet Repressor (tetR) is a <strong>repressor protein</strong>
+                                that inhibits
+                                fluorescence and indirectly feedback the sensity of the entire gene circuits. TetR
+                                repressoracts as a guard on gene circuits. Normally, tetR <strong>inhibits the
+                                    expression of
+                                    deGFP</strong>, but when it is cut by Cas9 protein, it will lose its inhibition
+                                effect. And it
+                                sends us a message by means of fluorescence.
+                            </p>
+                            <p class="mg-tb-1 text-little">TetR binds to the tetO site and thus blocks deGFP expression.
+                                Therefore, if P70a-σ28-P28-tetR is normally constructed, fluorescence is present in the
+                                control group and inhibited in the experimental group.
+                            </p>
+                            <p class="mg-tb-1 text-little">To verify the normal expression of tetR, we carried out an
+                                electroporation experiment with <em>E. coli</em> BW25113 (Table 2).
+                            </p>
+                            <div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <td>group</td>
+                                                <td>set</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Control group</td>
+                                                <td>BW25113+P28-tetO-deGFP</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Experiment group</td>
+                                                <td>BW25113+P28-tetO-deGFP+P70-σ28-P28-tetR</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <span class="center-block text-center"><strong>Table 2.</strong></span>
+                            </div>
+                            <p class="mg-tb-1 text-little">The P28-tetO-deGFP plasmid was present in the control group
+                                (BW25113 + P28-tetO-deGFP), the fluorescence was normal (Figure 16 c). The fluorescence
+                                in the experimental group (BW25113+ P28-tetO-deGFP +P70a-σ28-P28-tetR) should not exist
+                                theoretically. DeGFP is theoretically suppressed. However, in fact, there were three
+                                colonies with strong green fluorescence, as shown in Figure 16 d, which may be because
+                                of the failure of transforming P70a-σ28-P28-tetR plasmid during electroporation,
+                                resulting in some colonies with <strong>strong fluorescence</strong>.
+                            </p>
+                            <p class="mg-tb-1 text-little">Some single colonies were selected for culture in the above
+                                three groups and their fluorescence intensity was measured, as shown in Figure 17 and
+                                Table 3.
+                            </p>
+                            <div>
+                                <div class="charts" id="results_charts_1"></div>
+                                <span class="center-block"><strong>Figure 17.</strong> Average ratio-standard deviation
+                                    of fluorescence intensity from <em>E. coli</em> BW25113 cells containing the
+                                    plasmids
+                                    carrying P70a-σ28-P28-deGFP, P28-tetO-deGFP, P70a-σ28-P28-tetR with P28-tetO-deGFP.
+                                </span>
+                            </div>
+                            <div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover text-center">
+                                        <thead>
+                                            <tr>
+                                                <td>Group</td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                                <td>6</td>
+                                                <td>Average</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>BW25113+P70-σ28-P28-deGFP </td>
+                                                <td>33456</td>
+                                                <td>29526</td>
+                                                <td>33285</td>
+                                                <td>30745</td>
+                                                <td>28582</td>
+                                                <td>35611</td>
+                                                <td>31868</td>
+                                            </tr>
+                                            <tr>
+                                                <td>BW25113+P28-tetO-deGFP </td>
+                                                <td>13225</td>
+                                                <td>13112</td>
+                                                <td>14765</td>
+                                                <td>15351</td>
+                                                <td>14796</td>
+                                                <td>14305</td>
+                                                <td>14259</td>
+                                            </tr>
+                                            <tr>
+                                                <td>BW25113+P28-tetO-deGFP+P70-σ28-P28-tetR </td>
+                                                <td>4125</td>
+                                                <td>5736</td>
+                                                <td>5031</td>
+                                                <td>4098</td>
+                                                <td>5421</td>
+                                                <td>4579</td>
+                                                <td>4632</td>
+                                            </tr>
+                                            <tr>
+                                                <td>BW25113</td>
+                                                <td>2467</td>
+                                                <td>3308</td>
+                                                <td>3428</td>
+                                                <td>1980</td>
+                                                <td>2340</td>
+                                                <td>2766</td>
+                                                <td>2715</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <span class="center-block text-center"><strong>Table 3.</strong></span>
+                            </div>
+                            <p class="mg-tb-1 text-little">After transforming plasmids P28-tetO-deGFP and
+                                P70a-σ28-P28-tetR into <em>E. coli</em> BW25113, the fluorescence of BW25113 was
+                                significantly
+                                decreased compared with that of BW25113 and P28-tetO-deGFP, indicating that <strong>tetR
+                                    reprssor could bind tetO site and thus reduce the intensity of deGFP</strong>.
+                            </p>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-6">
+                        <div class="text-big text-green title-big target-title-1">
+                            Gene circuits
+                        </div>
+                        <p class="mg-tb-1 text-little">We aim to use Cell-Free system to detect RNA with CRISPR/Cas9
+                            system. Based on the cleavage of Cas9 protein, we designed special gene circuits.
+                        </p>
+                        <section class="target" id="target-2-8">
+                            <div class="text-small text-green target-title-2">
+                                Plasmid P70a-σ28 Construction
+                            </div>
+                            <p class="mg-tb-1 text-little">Vector: P70a-deGFP (Figure 18 a) segment: puc57-σ28
+                            </p>
+                            <p class="mg-tb-1 text-little">The vector and segment have been amplified by PCR. We
+                                verified all our PCR fragments, the fragment length of σ28 is about 720~750 bp by
+                                agarose gel electrophoresis, the fragment length of vector is about 2500~2550bp by
+                                agarose gel electrophoresis as we expected (Figure 18 b). Then we conducted plasmid
+                                recombination.
+                            </p>
+                            <p class="mg-tb-1 text-little">We verified the recombination plasmid by colony PCR, the
+                                fragment length is about 1000bp by agarose gel electrophoresis as we expected (Figure 18
+                                c).
+                            </p>
+                            <p class="mg-tb-1 text-little"><strong>Plasmid p70a-σ28 was proved to be constructed
+                                    successfully after sequencing.</strong>
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_18.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-18">
+                                <span class="center-block"><strong>Figure 18.</strong>Schematic of the plasmid P70a-σ28
+                                    construction.<br>
+                                    (a) The map of plasmid P70a-σ28 from SnapGene;<br>
+                                    (b) On the left is 5k marker, in the middle is σ28 segment, on the right is the
+                                    vector from plasmid P70a-deGFP reverse PCR;<br>
+                                    (C) On the left is 5k marker, on the right is colony PCR verification strip.</span>
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-9">
+                            <div class="text-small text-green target-title-2">
+                                Plasmid P28-tetR Construction
+                            </div>
+                            <p class="mg-tb-1 text-little">Vector: P28-tetO-deGFP-ssrA (Figure 19 a) segment: puc57-tetR
+                            </p>
+                            <p class="mg-tb-1 text-little">The vector and segment have been amplified by PCR. We
+                                verified all our PCR fragments. The fragment length of tetR is about 720~750 bp by
+                                agarose gel electrophoresis. The fragment length of vector is about 2500~2550bp by
+                                agarose gel electrophoresis as we expected(Figure 19 b). Then we conducted plasmid
+                                recombination.
+                            </p>
+                            <p class="mg-tb-1 text-little">We verified the recombination plasmid by colony PCR, the
+                                fragment length is about 1000bp by agarose gel electrophoresis as we expected (Figure 19
+                                c).
+                            </p>
+                            <p class="mg-tb-1 text-little"><strong>Plasmid P28-tetR was proved to be constructed
+                                    successfully
+                                    after sequencing.</strong>
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_19.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-19">
+                                <span class="center-block"><strong>Figure 19.</strong>Schematic of the plasmid P28-tetR
+                                    construction.<br>
+                                    (a) The map of plasmid P28-tetR from SnapGene;<br>
+                                    (b) On the left is 5k marker, in the middle is tetR segment, on the right is the
+                                    vector from plasmid P28-tetO-deGFP-ssrA reverse PCR;<br>
+                                    (c) On the left is 5k marker, on the right is colony PCR verification strip.
+                                </span>
+                            </div>
+                        </section>
+                        <section class="target" id="target-2-10">
+                            <div class="text-small text-green target-title-2">
+                                Plasmid P28-tetR-ssrA Construction
+                            </div>
+                            <p class="mg-tb-1 text-little">
+                                Vector: P28-tetO-deGFP-ssrA(Figure 20 a) segment: puc57-tetR
+                            </p>
+                            <p class="mg-tb-1 text-little">
+                                The vector and segment have been amplified by PCR. We verified all our PCR fragments,
+                                the fragment length of tetR is about 720~750 bp by agarose gel electrophoresis, the
+                                fragment length of vector is about 2500~2550bp by agarose gel electrophoresis as we
+                                expected (Figure 20 b). Then we conducted plasmid recombination.
+                            </p>
+                            <p class="mg-tb-1 text-little">
+                                We verified the recombination plasmid by colony PCR, the fragment length is about 1000bp
+                                by agarose gel electrophoresis as we expected (Figure 20 c).
+                            </p>
+                            <p class="mg-tb-1 text-little">
+                                <strong>Plasmid P28-tetR-ssrA was proved to be constructed successfully after
+                                    sequencing.</strong>
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure" src="../images/results/results_20.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-20">
+                                <span class="center-block"><strong>Figure 20.</strong>Schematic of the plasmid
+                                    P28-tetR-ssrA construction.<br>
+                                    (a) The map of plasmid P28-tetR-ssrA from SnapGene;<br>
+                                    (b) On the left is 5k marker, in the middle is tetR segment, on the right is the
+                                    vector from plasmid P28-tetO-deGFP-ssrA reverse PCR;<br>
+                                    (c) On the left is 5k marker, on the right is colony PCR verification strip.<br>
+                                </span>
+                            </div>
+                            <p class="mg-tb-1 text-little">
+                                For more details about the verification results of "Gene Circuits", please refer to
+                                <a href="https://2021.igem.org/Team:ZJUT-China/Engineering">Engineering success</a>.
+                            </p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog modal-lg" aria-hidden="true" role="document"
+                style="top: 50%;transform: translate(0,-50%);">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts-more.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/offline-exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/export-data.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/data.js"></script>
+    <script src="../js//mainHighcharts.js"></script>
+    <script src="../js/results.js"></script>
+</body>
+
+</html>

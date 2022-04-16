@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1504.4 183.2" style="enable-background:new 0 0 1504.4 183.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DBDBDA;}
+	.st1{fill:#B2D97D;}
+	.st2{fill:none;stroke:#8896AE;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{fill:#8896AE;}
+	.st5{font-family:'OpenSans-Bold';}
+	.st6{font-size:24px;}
+	.st7{font-family:'OpenSans-Regular';}
+	.st8{fill:none;stroke:#DBDBDA;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:#DBDBDA;stroke:#DBDBDA;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st10{font-size:36px;}
+	.st11{font-size:20px;}
+	.st12{fill:none;stroke:#7F9291;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M542.6,68H237.5c-3.2,0-5.9-2.6-5.9-5.9V32.7c0-3.2,2.6-5.9,5.9-5.9h305.1c3.2,0,5.9,2.6,5.9,5.9v29.4
+	C548.5,65.4,545.9,68,542.6,68z"/>
+<rect x="86.6" y="63.1" transform="matrix(0.7379 0.6749 -0.6749 0.7379 75.1354 -46.2232)" class="st1" width="21" height="21"/>
+<polygon class="st1" points="55.3,80.2 40.9,80.3 33.6,67.9 40.7,55.4 55.1,55.2 62.4,67.6 "/>
+<circle class="st1" cx="72.7" cy="119.3" r="13.7"/>
+<polygon class="st1" points="138.4,108.1 114,103.7 122.3,127.1 "/>
+<rect x="32.2" y="143.4" transform="matrix(0.937 -0.3493 0.3493 0.937 -51.0899 24.6131)" class="st1" width="21" height="21"/>
+<polygon class="st1" points="88,26.7 64,33.1 81.6,50.7 "/>
+<polygon class="st1" points="40.5,40.4 26.1,40.6 18.8,28.2 25.9,15.6 40.3,15.5 47.6,27.9 "/>
+<circle class="st1" cx="126.2" cy="41.8" r="13.7"/>
+<polygon class="st1" points="113.2,163.5 98.8,163.6 91.4,151.2 98.5,138.7 112.9,138.6 120.2,151 "/>
+<polygon class="st1" points="45.2,101.8 21.2,108.3 38.8,125.8 "/>
+<path class="st2" d="M555,367.5"/>
+<rect x="250.9" y="34.3" class="st3" width="263.8" height="26.3"/>
+<text transform="matrix(1 0 0 1 259.0899 54.8549)" class="st4 st5 st6">Recognition Element</text>
+<rect x="232.1" y="76.7" class="st3" width="301.3" height="55.1"/>
+<text transform="matrix(1 0 0 1 294.0293 97.2894)"><tspan x="0" y="0" class="st4 st7 st6">RNA-responsive</tspan><tspan x="-25.7" y="28.8" class="st4 st7 st6">CRISPR/Cas9 System</tspan></text>
+<rect x="583.9" y="76.4" class="st3" width="301.3" height="55.1"/>
+<text transform="matrix(1 0 0 1 660.3086 96.9766)"><tspan x="0" y="0" class="st4 st7 st6">Gene Circuits</tspan><tspan x="-18.1" y="28.8" class="st4 st7 st6">Cell-Free System</tspan></text>
+<rect x="936.2" y="75.2" class="st3" width="301.3" height="58.6"/>
+<text transform="matrix(1 0 0 1 1025.3932 95.7877)"><tspan x="0" y="0" class="st4 st7 st6">Illuminator</tspan><tspan x="12.9" y="28.8" class="st4 st7 st6">Detector</tspan></text>
+<g>
+	<line class="st8" x1="1249.6" y1="136.5" x2="216.2" y2="136.5"/>
+	<polygon class="st9" points="1253.5,136.5 1230.2,127.9 1230.2,145.1 	"/>
+</g>
+<line class="st8" x1="1332" y1="93.5" x2="1280" y2="93.5"/>
+<polygon class="st9" points="1335.9,93.5 1312.5,85 1312.5,102.1 "/>
+<rect x="1344.5" y="73.3" class="st3" width="142.5" height="36.3"/>
+<text transform="matrix(1 0 0 1 1350.2212 104.183)" class="st4 st5 st10">Results</text>
+<path class="st0" d="M887.5,67.7H582.3c-3.2,0-5.9-2.6-5.9-5.9V32.4c0-3.2,2.6-5.9,5.9-5.9h305.1c3.2,0,5.9,2.6,5.9,5.9v29.4
+	C893.3,65.1,890.7,67.7,887.5,67.7z"/>
+<rect x="595.7" y="33.9" class="st3" width="263.8" height="26.3"/>
+<text transform="matrix(1 0 0 1 603.9315 54.5134)" class="st4 st5 st6">Recognition Element</text>
+<path class="st0" d="M1239.4,67.7H934.2c-3.2,0-5.9-2.6-5.9-5.9V32.4c0-3.2,2.6-5.9,5.9-5.9h305.1c3.2,0,5.9,2.6,5.9,5.9v29.4
+	C1245.2,65.1,1242.6,67.7,1239.4,67.7z"/>
+<rect x="954.9" y="33.9" class="st3" width="263.8" height="26.3"/>
+<text transform="matrix(1 0 0 1 963.108 54.5134)" class="st4 st5 st6">Recognition Element</text>
+<rect x="629" y="142" class="st3" width="229.1" height="21.4"/>
+<text transform="matrix(1 0 0 1 657.0975 159.1768)" class="st4 st5 st11">Information Flow</text>
+<path class="st12" d="M204,16.5v17.2c0,0.9-0.8,1.7-1.7,1.7h-34.6c-0.9,0-1.7,0.8-1.7,1.7v4.7c0,0.6,0.3,1.2,0.9,1.5l12.8,6.8
+	c1.2,0.7,1.2,2.5-0.1,3.1l-12.6,5.8c-0.6,0.3-1,0.9-1,1.5v4.5c0,0.9,0.8,1.7,1.7,1.7h34.6c0.9,0,1.7,0.8,1.7,1.7v6.6
+	c0,0.9-0.8,1.7-1.7,1.7h-34.6c-0.9,0-1.7,0.8-1.7,1.7v4.7c0,0.6,0.3,1.2,0.9,1.5l12.8,6.8c1.2,0.7,1.2,2.5-0.1,3.1l-12.6,5.8
+	c-0.6,0.3-1,0.9-1,1.5v4.5c0,0.9,0.8,1.7,1.7,1.7h34.6c0.9,0,1.7,0.8,1.7,1.7v5.4c0,0.9-0.8,1.7-1.7,1.7h-34.6
+	c-0.9,0-1.7,0.8-1.7,1.7v4.7c0,0.6,0.3,1.2,0.9,1.5l12.8,6.8c1.2,0.7,1.2,2.5-0.1,3.1l-12.6,5.8c-0.6,0.3-1,0.9-1,1.5v4.5
+	c0,0.9,0.8,1.7,1.7,1.7h34.6c0.9,0,1.7,0.8,1.7,1.7v16.9c0,2.7,2.2,4.8,4.8,4.8h1052.8c3.3,0,5.9-2.7,5.9-5.9V17.9
+	c0-3.3-2.7-5.9-5.9-5.9H208.5C206,12,204,14,204,16.5z"/>
+</svg>

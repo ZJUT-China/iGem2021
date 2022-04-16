@@ -1,0 +1,45 @@
+*{
+    cursor: none;
+}
+.mouse,
+.center{
+    border: 3px solid black;
+    border-radius: 50%;
+    z-index: 1500;
+    position: absolute;
+}
+.mouse{
+    width: 5vw;
+    height: 5vw;
+    pointer-events: none;
+}
+.center{
+    width: 2.5vw;
+    height: 2.5vw;
+    top: calc(50% - 1.25vw);
+    left: calc(50% - 1.25vw);
+}
+.mouse::after,
+.mouse::before{
+    content: "";
+    height: 130%;
+    position: absolute;
+    width: 3px;
+    background: black;
+    left: calc(50% - 1.5px);
+}
+.mouse::before{
+     top: calc(2.25vw - 65%);
+}
+.mouse::after{
+    transform: rotate(90deg);
+    top: calc(-15% + 1.5px);
+}
+@media (max-width: 992px){
+    *{
+        cursor: initial;
+    }
+    .mouse{
+        display: none;
+    }
+}

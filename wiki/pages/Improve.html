@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="stylesheet" href="../style/description.css">
+    <link rel="stylesheet" href="../style/scroll.css">
+    <link rel="stylesheet" href="../style/nBar.css">
+    <link rel="stylesheet" href="../style/catalogue.css">
+    <title>Description</title>
+</head>
+
+<body>
+    <!-- 导航栏start -->
+    <nav class="nBar">
+        <img class="logo" src="../images/T--ZJUT-China--logo.png" alt="logo" height="20px">
+        <input type="checkbox" id="phnBar">
+        <label for="phnBar" class="phnBarButton"></label>
+        <ul class="Menu">
+            <li>
+                <a class="menu-1">Home</a>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title1">
+                <label class="menu-1" for="title1">Team</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Team</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Attributions</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Collaborations</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title2">
+                <label class="menu-1" for="title2">Project</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Description</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Design</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Engineering</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Models</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Results</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Hardware</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title3">
+                <label class="menu-1" for="title3">Human Practice</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Integrated human practice</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Education &public engagement</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Implementation</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Entrepreneurship</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Inclusion</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title4">
+                <label class="menu-1" for="title4">Lab</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Experiments</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Parts</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Notebook</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Safety</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <input type="radio" name="title" id="title5">
+                <label class="menu-1" for="title5">Awards</label>
+                <ol class="dropDown">
+                    <li>
+                        <a class="menu-2" href="">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="menu-2" href="">Medal criteria</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+    <!-- 导航栏end -->
+    <div class="container-fluid bg-white relative" style="top:-5px;">
+        <section class="row">
+            <div class="head col-md-12 parallax flex-center-xy relative view-y-100 pd-0">
+                <div class="back absolute size-whole" id="back"></div>
+                <!-- <div class="title-small flex relative view-x-50">
+                    <span class="text-little text-white mg-both">1</span>
+                    <span class="text-little text-white">What we do</span>
+                </div> -->
+                <span class="text-larger text-white text-weight-2">Improve</span>
+                <div class="slidedown absolute" data-href="#maincontent">
+                    <img class="block" src="../images/slidedown.svg" alt="slidedown">
+                </div>
+            </div>
+        </section>
+        <section class="row bg-white" id="maincontent">
+            <div class="col-md-12 bg-white pd-t-1" style="height: 100vh;">
+                <div class="catalogue-container col-md-3 col-sm-3 flex mg-t-1" data-spy="affix">
+                    <div class="progress-container">
+                        <div class="progress-item"></div>
+                    </div>
+                    <nav class="catalogue-item mg-l-1" id="catalogue-item"></nav>
+                </div>
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">
+                    <p class="mg-tb-1 text-little">For the gold medal criteria Improved Part, we improved the function
+                        of two different BioBricks (<a href="http://parts.igem.org/Part:BBa_K337028">BBa_K337028</a> and
+                        <a href="http://parts.igem.org/Part:BBa_K2205002"></a>). The improved versions of the parts
+                        can be found here: <a href="http://parts.igem.org/Part:BBa_K3885126">BBa_K3885126</a> and <a
+                            href="http://parts.igem.org/Part:BBa_K3885311">BBa_K3885311</a>.
+                    </p>
+                    <section class="target" id="target-1-1">
+                        <!-- <div class="title-small flex relative">
+                            <span class="text-little text-gray mg-both">2</span>
+                            <span class="text-little text-gray">Why we do</span>
+                        </div> -->
+                        <div class="text-big text-green title-big target-title-1">
+                            The improvement of BBa_K337028:<a
+                                href="http://parts.igem.org/Part:BBa_K3885126">BBa_K3885126</a>
+                        </div>
+                        <p class="mg-tb-1 text-little">To ensure the normal operation of the Cell-Free system, an
+                            adjustable protein degradation mechanism is crucial. It is degraded by ClpXPAAA+ protease in
+                            Escherichia coli <sup><a class="sourse-order" href="#">[1]</a></sup><sup><a
+                                    class="sourse-order" href="#">[2]</a></sup>. The protein must contain a degradation
+                            tag in order to be recognized
+                            by our cell-free system <sup><a class="sourse-order" href="#">[3]</a></sup>.
+                        </p>
+                        <p class="mg-tb-1 text-little">As the improvement of the 10_Heidelberg registered part
+                            (<a href="http://parts.igem.org/Part:BBa_K337028">BBa_K337028</a>: tet Repressor), the
+                            degradation tag ssrA is added to the 3' end of the tetR
+                            (Figure 1) , hence the newly registered part <a
+                                href="http://parts.igem.org/Part:BBa_K3885126">BBa_K3885126</a>.
+                        </p>
+                        <div>
+                            <img class="img-responsive center-block figure"
+                                src="https://2021.igem.org/wiki/images/e/eb/T--ZJUT-China--improve_1.png"
+                                data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                alt="figure-1">
+                            <span class="center-block text-center"><strong>Figure 1.</strong> Schematic of hydrolysis by
+                                ClpXP protein.</span>
+                        </div>
+                        <section class="target" id="target-2-1">
+                            <div class="text-small text-green target-title-2">
+                                Results
+                            </div>
+                            <p class="mg-tb-1 text-little">In the cascade of gene circuits </sup><sup><a
+                                        class="sourse-order" href="#">[4]</a></sup>, we tested the ssrA
+                                degradation tag with ClpXP protein </sup><sup><a class="sourse-order"
+                                        href="#">[3]</a></sup>, to ensure tet Repressor was hydrolyzed (Figure
+                                2).
+                            </p>
+                            <div class="row col-md-12">
+                                <div class="col-md-6">
+                                    <img class="img-responsive center-block figure"
+                                        src="https://2021.igem.org/wiki/images/d/d6/T--ZJUT-China--improve_2.png"
+                                        data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                        alt="figure-1">
+                                </div>
+                                <div class="col-md-6 charts-area"></div>
+                                <span class="center-block"><strong>Figure 2.</strong> Schematic of gene circuits and
+                                    kinetics of tetR inhibition in the Cell-Free system.<br>
+                                    (A) The gene circuits contains three parts, sigma 28 activates promoter P28 to
+                                    express tet repressor with ssrA tag, which inhibits the expression of deGFP. <br>
+                                    (B) The gene circuits contains an additional part P70-ClpXP that makes the tetR
+                                    repressor degrade, and degfp expresses. <br>
+                                    (C) Group 1 carried tetR without ssrA and ClpXP; Group 2 carried tetR with ssrA;
+                                    Group 3 didn't carry tetR as positive control; Group 4 carried tetR with ssrA and
+                                    ClpXP in comparison with Group 1.</span>
+                            </div>
+                            <div class="row col-md-12">
+                                <p class="mg-tb-1 text-little">TetR with ssrA can be degraded by ClpXP, so that the
+                                    flourescence intensity increased as a result of the inhibition released from tet
+                                    Repressor.
+                                </p>
+                                <p class="mg-tb-1 text-little">Therefore, we gave the tetR a new function and improved
+                                    this part.
+                                </p>
+                            </div>
+                        </section>
+                    </section>
+                    <section class="target" id="target-1-2">
+                        <div class="text-big text-green title-big target-title-1">
+                            The improvement of <a href="http://parts.igem.org/Part:BBa_K2205002">BBa_K2205002</a>: <a
+                                href="http://parts.igem.org/Part:BBa_K3885311">BBa_K3885311</a>
+                        </div>
+                        <p class="mg-tb-1 text-little">The deGFP reporter gene is an important component of synthetic
+                            biology, and the expression level of this gene can indicate many interesting characteristics
+                            of an experiment, such as sensitivity, leakage, etc. DeGFP synthesis rate differs for the
+                            same element in different chassis.
+                        </p>
+                        <p class="mg-tb-1 text-little">Our team found the component J23100-deGFP (<a
+                                href="http://parts.igem.org/Part:BBa_K2205002">BBa_K2205002</a>)
+                            registered by iGEM17_Newcastle in the Parts, but the synthesis rate of deGFP in the
+                            cell-free system was less than that in a cell-based system.
+                        </p>
+                        <p class="mg-tb-1 text-little">As a result, according to promoters and RBS suitable for
+                            Cell-Free systems reported in literature <sup><a class="sourse-order"
+                                    href="#">[5]</a></sup>, through experiments and modeling, we found the
+                            combination of promoter and RBS that best expresses deGFP, and we registered it as
+                            <a href="http://parts.igem.org/Part:BBa_K3885311">BBa_K3885311</a>.
+                        </p>
+
+                        <section class="target" id="target-2-2">
+                            <div class="text-small text-green target-title-2">
+                                Improve
+                            </div>
+                            <p class="mg-tb-1 text-little">We improved the component in two methods, one was to replace
+                                the promoter, the other was to replace RBS.
+                            </p>
+                            <section class="target" id="target-3-1">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Change Promoter
+                                </div>
+                                <p class="mg-tb-1 text-little">We changed the promoter and measured the synthesis rate
+                                    of deGFP with the different concentration of the plasmid(Figure 3).
+                                </p>
+                                <p class="mg-tb-1 text-little">P70a: GCATGCTGAGCTAACACCGTGCGTGTTGACAATTTTACCTCTGGCGGTGAT
+                                    AATGGTTGCa
+                                </p>
+                                <p class="mg-tb-1 text-little">P70b: GCATGCTGAGCTAACACCGTGCGTGTTTACAATTTTACCTCTGGCGGTGAT
+                                    AATGGTTGCa
+                                </p>
+                                <p class="mg-tb-1 text-little">P70c:GCATGCTGAGCTAACACCGTGCGTGTTGACAATTTTACCTCTGGCGGTGAT
+                                    AAAGGTTGCa
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block figure"
+                                        src="https://2021.igem.org/wiki/images/f/f3/T--ZJUT-China--improve_4.png"
+                                        data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                        alt="figure-7">
+                                    <span class="center-block"><strong>Figure 3.</strong> Rates of deGFP synthesis in
+                                        the Cell-Free system, compared with model predictions, for reactions containing
+                                        one of 3 plasmids, including the combinations of promoters P70a, P70b and P70c
+                                        with UTRs UTR1, UTR2 and UTR3, at various different plasmid
+                                        concentrations.</span>
+                                </div>
+                                <p class="mg-tb-1 text-little">The figure indicates that the intensity of promoter is
+                                    P70a>P70b>P70c. The relative strength of UTR spans nearly two orders of magnitude.
+                                </p>
+                            </section>
+                            <section class="target" id="target-3-2">
+                                <div class="text-smaller text-black text-weight-1 mg-0 target-title-3">
+                                    Change RBS
+                                </div>
+                                <p class="mg-tb-1 text-little">We changed the RBS and measured the synthesis rate of
+                                    deGFP with different concentration of the plasmid(Figure 4).
+                                </p>
+                                <p class="mg-tb-1 text-little">UTR1: GCTAGCAATAATTTTGTTTAACTTTAAGAAGGAGATATACCATG
+                                </p>
+                                <p class="mg-tb-1 text-little">UTR2: GCTAGCAATAATTTTGTTTAACTTTAAGAAGGATATATACCATG
+                                </p>
+                                <p class="mg-tb-1 text-little">UTR3: GCTAGCAATAATTTTGTTTAACTTTAAGAAGGGGGTATACCATG
+                                </p>
+                                <div>
+                                    <img class="img-responsive center-block figure"
+                                        src="https://2021.igem.org/wiki/images/d/de/T--ZJUT-China--improve_5.png"
+                                        data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                        alt="figure-7">
+                                    <span class="center-block"><strong>Figure 4.</strong> Rates of deGFP synthesis in
+                                        the Cell-Free system, compared with model predictions, for reactions containing
+                                        different UTRs with the same promoter, at various different plasmid
+                                        concentrations.</span>
+                                </div>
+                                <p class="mg-tb-1 text-little">The figure indicates that the intensity of UTR is
+                                    UTR1>UTR2>UTR3. The relative strength of UTR spans nearly two orders of magnitude.
+                                </p>
+                            </section>
+                        </section>
+                        <section class="target" id="target-2-3">
+                            <div class="text-small text-green target-title-2">
+                                Results
+                            </div>
+                            <p class="mg-tb-1 text-little">Finally, the kinetic curves of 9 different combinations of
+                                P70 and UTR were analyzed for 3 hours at a plasmid concentration of 5nM (Figure 5. A).
+                            </p>
+                            <div>
+                                <img class="img-responsive center-block figure"
+                                    src="https://2021.igem.org/wiki/images/d/d6/T--ZJUT-China--improve_6.png"
+                                    data-toggle="modal" title="Click to see more clearly" data-target="#modal"
+                                    alt="figure-1">
+                                <span class="center-block text-center"><strong>Figure 5.</strong> Kinetics of different
+                                    combinations of P70 and UTR plasmids (5nM).</span>
+                            </div>
+                            <p class="mg-tb-1 text-little">The figure above indicates that P70a-UTR1-deGFP is the best
+                                combination for deGFP expression in cell-free systems.
+                            </p>
+                            <p class="mg-tb-1 text-little">Among the 9 combinations, we tested the reaction endpoint of
+                                the plasmid J23100-deGFP and the group of P70a-UTR1-deGFP with the strongest expression
+                                of deGFP, and it was found that the improved element had a fluorescence intensity that
+                                was four times higher than the original element (Figure 5. B).
+                            </p>
+                            <p class="mg-tb-1 text-little">Clearly, the component has improved.
+                            </p>
+                        </section>
+                    </section>
+                    <section class="row footer target" id="target-1-3">
+                        <div class="col-md-12 bg-white">
+                            <div class="col-md-12 pd-0">
+                                <div class="reference mg-t-1 mg-b-4 mg-lr-0">
+                                    <div class="text-big title-big mg-b-1 target-title-1">Reference</div>
+                                    <p class="text-little">
+                                        [1]<span class="sourse">Julia, M. et al. Proteomic discovery of cellular
+                                            substrates of the ClpXP protease reveals five classes of ClpX-Recognition
+                                            signals[J]. Molecular Cell,2003,11(3).
+                                            <a class="view" target="_blank"
+                                                href="https://schlr.cnki.net/en/Detail/index/SJES_03/SJES6E75BE322F864AF1C3072DB8D86A8A89"
+                                                title="Click to read">Link</a>
+                                        </span>
+
+                                    </p>
+                                    <p class="text-little">
+                                        [2]<span class="sourse">Karzbrun, E. et al. Coarse-grained dynamics of protein
+                                            synthesis in a cell-free system.[J]. Physical Review Letters,2011,106(4).
+                                            <a class="view" target="_blank"
+                                                href="https://schlr.cnki.net/en/Detail/index/SJPD_01/SJPD12102000226655"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [3]<span class="sourse">Garamella, J. et al. The All E. coli TX-TL Toolbox 2.0:
+                                            A Platform for Cell-Free Synthetic Biology.[J]. ACS Synthetic
+                                            Biology,2016,5(4).
+                                            <a class="view" target="_blank"
+                                                href="https://schlr.cnki.net/en/Detail/index/SJPD_02/SJPDB8DFB7D0D5EDD3094A427B91D36D9F4F"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [4]<span class="sourse">Marshall, R. et al. Synthetic biology with an all E.
+                                            coli TXTL system: Quantitative characterization of regulatory elements and
+                                            gene circuits. Methods in Molcular Biology, 2018;1772:61-93.
+                                            <a class="view" target="_blank"
+                                                href="https://pubmed.ncbi.nlm.nih.gov/29754223/"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                    <p class="text-little">
+                                        [5]<span class="sourse">Stögbauer, T. et al. Experiment and mathematical
+                                            modeling of gene expression dynamics in a cell-free system. Integr Biol
+                                            (Camb). 2012,4(5):494-501.
+                                            <a class="view" target="_blank"
+                                                href="https://pubmed.ncbi.nlm.nih.gov/22481223/"
+                                                title="Click to read">Link</a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/nBar.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/progress.js"></script>
+    <script src="../particles.js/particles.min.js"></script>
+    <!-- <script type="text/javascript" src="https://2021.igem.org/wiki/index.php?title=Template:ZJUT-
+    China/JS/particles.min.js&action=raw&ctype=text/javascript"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts.js"></script>
+    <script src="../Highcharts-9.1.2/code/highcharts-more.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/offline-exporting.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/export-data.js"></script>
+    <script src="../Highcharts-9.1.2/code/modules/data.js"></script>
+    <script src="../js/mainHighcharts.js"></script>
+    <script src="../js/improve.js"></script>
+</body>
+
+</html>

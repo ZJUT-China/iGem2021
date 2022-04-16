@@ -1,0 +1,221 @@
+html {
+    background: #0171f2;
+}
+
+.landing-container {
+    width: 100vw;
+    /* background: #c1d1e1; */
+    background: #3d98ff;
+    /* background: linear-gradient(60deg,rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
+}
+
+.svg-line {
+    margin: 0;
+    padding: 0;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+a.guide-btn-border {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #e9e9e9;
+    border: 3px solid #e9e9e9;
+}
+
+a.guide-btn-border::after,
+a.guide-btn-border::before {
+    content: "";
+    position: absolute;
+    width: 2vw;
+    height: 3px;
+    /* background: #c1d1e1; */
+    background-clip: text;
+    background: #3d98ff;
+    transform: skew(50deg);
+    transition: all 0.5s;
+}
+
+a.guide-btn-border::before {
+    top: -3px;
+    left: 10%;
+}
+
+a.guide-btn-border::after {
+    bottom: -3px;
+    right: 10%;
+}
+
+a.guide-btn-border:hover {
+    border-color: #a0bedb;
+    color: #a0bedb;
+}
+
+a.guide-btn-border:hover::before {
+    width: 0;
+    left: 80%;
+}
+
+a.guide-btn-border:hover::after {
+    width: 0;
+    right: 80%;
+}
+
+.guide-home-btn {
+    width: 10vw;
+    position: relative;
+    left: calc(50% - 5vw);
+}
+
+.guide-pages {
+    background: #e9e9e9;
+}
+
+.guide-card {
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+    margin: 50px 0;
+    /* backdrop-filter: blur(11px); */
+    border-top: 1px solid rgba(255, 255, 255, .8);
+    border-left: 1px solid rgba(255, 255, 255, .8);
+}
+
+.guide-card-head,
+.guide-card-content {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.guide-card-head {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: url(../images/test.jpg);
+    filter: blur(2px);
+    background-size: cover;
+    background-clip: padding-box;
+    transition: all ease-in 0.8s;
+}
+
+.guide-card-content {
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.4));
+    backdrop-filter: blur(11px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: -20%;
+}
+
+.guide-card-content>span {
+    position: relative;
+    top: 25%;
+    font-size: 1.5vw;
+}
+
+.guide-card:hover .guide-card-head {
+    filter: blur(0px);
+}
+
+a.guide-btn-link {
+    display: block;
+    position: absolute;
+    width: 120px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    /* color: #c1d1e1; */
+    color: #3d98ff;
+    text-align: center;
+    transition: 0.5s linear 0.5s;
+    bottom: 50px;
+    left: calc(50% - 60px);
+}
+
+a.guide-btn-link::after,
+a.guide-btn-link::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    transition: 0.5s linear;
+}
+
+a.guide-btn-link::after {
+    top: 0;
+    left: 0;
+    /* border-top:2px solid #c1d1e1;
+    border-left:2px solid #c1d1e1; */
+    border-top: 2px solid #3d98ff;
+    border-left: 2px solid #3d98ff;
+}
+
+a.guide-btn-link::before {
+    bottom: 0;
+    right: 0;
+    /* border-bottom:2px solid #c1d1e1;
+    border-right:2px solid #c1d1e1; */
+    border-bottom: 2px solid #3d98ff;
+    border-right: 2px solid #3d98ff;
+}
+
+a.guide-btn-link:hover {
+    /* background:#c1d1e1; */
+    background: #3d98ff;
+    color: #e9e9e9;
+    /* box-shadow:0 0 10px #c1d1e1; */
+    box-shadow: 0 0 10px #3d98ff;
+}
+
+a.guide-btn-link:hover::before,
+a.guide-btn-link:hover::after {
+    width: 100%;
+    height: 100%;
+}
